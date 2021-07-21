@@ -1,0 +1,437 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : volt_ctrl.brd                                 )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Tue Jun 15 22:54:18 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          MM
+    FILM-SIZE             2400000 1600000
+    FORMAT                5.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2032
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20320                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+  CIRCLE     0.40640                                  DARK 
+  CIRCLE     0.70000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     4.00000                                  DARK 
+  SQUARE     1.60000                     0.000 NO     DARK 
+  RECTANGLE  0.72490     x 0.95000       0.000 NO     DARK 
+  RECTANGLE  0.72490     x 0.95000      90.000 NO     DARK 
+  RECTANGLE  0.88900     x 0.30480       0.000 NO     DARK 
+  RECTANGLE  0.90000     x 1.35000       0.000 NO     DARK 
+  RECTANGLE  0.90000     x 1.40000      90.000 NO     DARK 
+  RECTANGLE  1.20000     x 2.65000       0.000 NO     DARK 
+  RECTANGLE  1.40000     x 4.20000       0.000 NO     DARK 
+  RECTANGLE  1.57480     x 5.46100       0.000 NO     DARK 
+  RECTANGLE  1.65100     x 2.84480       0.000 NO     DARK 
+  RECTANGLE  1.70000     x 1.90000       0.000 NO     DARK 
+  RECTANGLE  2.20000     x 1.40000      90.000 NO     DARK 
+  OBLONG     1.47500     x 0.45000      90.000 NO     DARK 
+  OBLONG     1.60000     x 0.45000       0.000 NO     DARK 
+  OBLONG     4.40000     x 1.60000       0.000 NO     DARK 
+  OBLONG     4.40000     x 1.60000      90.000 NO     DARK 
+
+     TOP created.
+
+
+================================================================
+     PROCESSING FILM < GND >
+     TO FILE < E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb/GND.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2032
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.02540                                  DARK 
+  CIRCLE     0.70000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     4.00000                                  DARK 
+  OBLONG     4.40000     x 1.60000       0.000 NO     DARK 
+  OBLONG     4.40000     x 1.60000      90.000 NO     DARK 
+
+     GND created.
+
+
+================================================================
+     PROCESSING FILM < PWR >
+     TO FILE < E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb/PWR.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2032
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.70000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     4.00000                                  DARK 
+  OBLONG     4.40000     x 1.60000       0.000 NO     DARK 
+  OBLONG     4.40000     x 1.60000      90.000 NO     DARK 
+
+     PWR created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2032
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20320                                  DARK 
+  CIRCLE     0.40640                                  DARK 
+  CIRCLE     0.70000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     4.00000                                  DARK 
+  SQUARE     1.60000                     0.000 NO     DARK 
+  OBLONG     4.40000     x 1.60000       0.000 NO     DARK 
+  OBLONG     4.40000     x 1.60000      90.000 NO     DARK 
+
+     BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < SILESCREEN_TOP >
+     TO FILE < E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb/SILESCREEN_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2032
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (0.0000 2.0000)
+           ... using undefined line width of 0.2032
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.15240                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.20320                                  DARK 
+  CIRCLE     0.35000                                  DARK 
+
+     SILESCREEN_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_TOP >
+     TO FILE < E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb/SOLDERMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2032
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.2032
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20320                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     4.00000                                  DARK 
+  SQUARE     1.60000                     0.000 NO     DARK 
+  RECTANGLE  0.72490     x 0.95000       0.000 NO     DARK 
+  RECTANGLE  0.72490     x 0.95000      90.000 NO     DARK 
+  RECTANGLE  0.88900     x 0.30480       0.000 NO     DARK 
+  RECTANGLE  0.90000     x 1.35000       0.000 NO     DARK 
+  RECTANGLE  1.10000     x 1.60000      90.000 NO     DARK 
+  RECTANGLE  1.20000     x 2.65000       0.000 NO     DARK 
+  RECTANGLE  1.57480     x 5.46100       0.000 NO     DARK 
+  RECTANGLE  1.60000     x 4.40000       0.000 NO     DARK 
+  RECTANGLE  1.65100     x 2.84480       0.000 NO     DARK 
+  RECTANGLE  1.90000     x 2.10000       0.000 NO     DARK 
+  RECTANGLE  2.40000     x 1.60000      90.000 NO     DARK 
+  OBLONG     1.47500     x 0.45000      90.000 NO     DARK 
+  OBLONG     1.60000     x 0.45000       0.000 NO     DARK 
+  OBLONG     4.45000     x 1.65000       0.000 NO     DARK 
+  OBLONG     4.45000     x 1.65000      90.000 NO     DARK 
+
+     SOLDERMASK_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_BOTTOM >
+     TO FILE < E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb/SOLDERMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2032
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20320                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     4.00000                                  DARK 
+  SQUARE     1.60000                     0.000 NO     DARK 
+  OBLONG     4.45000     x 1.65000       0.000 NO     DARK 
+  OBLONG     4.45000     x 1.65000      90.000 NO     DARK 
+
+     SOLDERMASK_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < PASTEMASK_TOP >
+     TO FILE < E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb/PASTEMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2032
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20320                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  SQUARE     0.02540                     0.000 NO     DARK 
+  SQUARE     1.60000                     0.000 NO     DARK 
+  RECTANGLE  0.72490     x 0.95000       0.000 NO     DARK 
+  RECTANGLE  0.72490     x 0.95000      90.000 NO     DARK 
+  RECTANGLE  0.88900     x 0.30480       0.000 NO     DARK 
+  RECTANGLE  0.90000     x 1.35000       0.000 NO     DARK 
+  RECTANGLE  0.90000     x 1.40000      90.000 NO     DARK 
+  RECTANGLE  1.20000     x 2.65000       0.000 NO     DARK 
+  RECTANGLE  1.40000     x 4.20000       0.000 NO     DARK 
+  RECTANGLE  1.57480     x 5.46100       0.000 NO     DARK 
+  RECTANGLE  1.70000     x 1.90000       0.000 NO     DARK 
+  RECTANGLE  2.20000     x 1.40000      90.000 NO     DARK 
+  OBLONG     1.47500     x 0.45000      90.000 NO     DARK 
+  OBLONG     1.60000     x 0.45000       0.000 NO     DARK 
+  OBLONG     4.40000     x 1.60000       0.000 NO     DARK 
+  OBLONG     4.40000     x 1.60000      90.000 NO     DARK 
+
+     PASTEMASK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < PASTEMASK_BOTTOM >
+     TO FILE < E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb/PASTEMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2032
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20320                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  SQUARE     1.60000                     0.000 NO     DARK 
+  OBLONG     4.40000     x 1.60000       0.000 NO     DARK 
+  OBLONG     4.40000     x 1.60000      90.000 NO     DARK 
+
+     PASTEMASK_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < OUTLINE >
+     TO FILE < E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb/OUTLINE.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2032
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20320                                  DARK 
+
+     OUTLINE created.
+
+
+================================================================
+     PROCESSING FILM < DRILL >
+     TO FILE < E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb/DRILL.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2032
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (230.6173 93.7875)
+           ... using undefined line width of 0.2032
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.2032
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20320                                  DARK 
+
+     DRILL created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created.
+        GND created.
+        PWR created.
+        BOTTOM created.
+        SILESCREEN_TOP created with warnings
+        SOLDERMASK_TOP created with warnings
+        SOLDERMASK_BOTTOM created.
+        PASTEMASK_TOP created.
+        PASTEMASK_BOTTOM created.
+        OUTLINE created.
+        DRILL created with warnings
+
+ ARTWORK had warnings

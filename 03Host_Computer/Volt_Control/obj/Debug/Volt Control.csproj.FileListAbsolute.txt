@@ -1,0 +1,30 @@
+E:\master_WHU\voltage_control\Host_Computer\Volt Control\bin\Debug\Volt Control.exe.config
+E:\master_WHU\voltage_control\Host_Computer\Volt Control\bin\Debug\Volt Control.exe
+E:\master_WHU\voltage_control\Host_Computer\Volt Control\bin\Debug\Volt Control.pdb
+E:\master_WHU\voltage_control\Host_Computer\Volt Control\obj\Debug\Volt Control.csprojAssemblyReference.cache
+E:\master_WHU\voltage_control\Host_Computer\Volt Control\obj\Debug\Volt_Control.Form1.resources
+E:\master_WHU\voltage_control\Host_Computer\Volt Control\obj\Debug\Volt_Control.Properties.Resources.resources
+E:\master_WHU\voltage_control\Host_Computer\Volt Control\obj\Debug\Volt Control.csproj.GenerateResource.cache
+E:\master_WHU\voltage_control\Host_Computer\Volt Control\obj\Debug\Volt Control.csproj.CoreCompileInputs.cache
+E:\master_WHU\voltage_control\Host_Computer\Volt Control\obj\Debug\Volt Control.exe
+E:\master_WHU\voltage_control\Host_Computer\Volt Control\obj\Debug\Volt Control.pdb
+E:\master_WHU\voltage_control\03Host_Computer\Volt Control\bin\Debug\Volt Control.exe.config
+E:\master_WHU\voltage_control\03Host_Computer\Volt Control\bin\Debug\Volt Control.exe
+E:\master_WHU\voltage_control\03Host_Computer\Volt Control\bin\Debug\Volt Control.pdb
+E:\master_WHU\voltage_control\03Host_Computer\Volt Control\obj\Debug\Volt Control.csprojAssemblyReference.cache
+E:\master_WHU\voltage_control\03Host_Computer\Volt Control\obj\Debug\Volt_Control.Form1.resources
+E:\master_WHU\voltage_control\03Host_Computer\Volt Control\obj\Debug\Volt_Control.Properties.Resources.resources
+E:\master_WHU\voltage_control\03Host_Computer\Volt Control\obj\Debug\Volt Control.csproj.GenerateResource.cache
+E:\master_WHU\voltage_control\03Host_Computer\Volt Control\obj\Debug\Volt Control.csproj.CoreCompileInputs.cache
+E:\master_WHU\voltage_control\03Host_Computer\Volt Control\obj\Debug\Volt Control.exe
+E:\master_WHU\voltage_control\03Host_Computer\Volt Control\obj\Debug\Volt Control.pdb
+E:\master_WHU\voltage_control\03Host_Computer\Volt_Control\bin\Debug\Volt Control.exe.config
+E:\master_WHU\voltage_control\03Host_Computer\Volt_Control\bin\Debug\Volt Control.exe
+E:\master_WHU\voltage_control\03Host_Computer\Volt_Control\bin\Debug\Volt Control.pdb
+E:\master_WHU\voltage_control\03Host_Computer\Volt_Control\obj\Debug\Volt Control.csprojAssemblyReference.cache
+E:\master_WHU\voltage_control\03Host_Computer\Volt_Control\obj\Debug\Volt_Control.Form1.resources
+E:\master_WHU\voltage_control\03Host_Computer\Volt_Control\obj\Debug\Volt_Control.Properties.Resources.resources
+E:\master_WHU\voltage_control\03Host_Computer\Volt_Control\obj\Debug\Volt Control.csproj.GenerateResource.cache
+E:\master_WHU\voltage_control\03Host_Computer\Volt_Control\obj\Debug\Volt Control.csproj.CoreCompileInputs.cache
+E:\master_WHU\voltage_control\03Host_Computer\Volt_Control\obj\Debug\Volt Control.exe
+E:\master_WHU\voltage_control\03Host_Computer\Volt_Control\obj\Debug\Volt Control.pdb

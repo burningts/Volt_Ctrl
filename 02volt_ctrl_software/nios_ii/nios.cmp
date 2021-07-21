@@ -1,0 +1,20 @@
+	component nios is
+		port (
+			clk_clk          : in  std_logic                     := 'X'; -- clk
+			epcs_flash_dclk  : out std_logic;                            -- dclk
+			epcs_flash_sce   : out std_logic;                            -- sce
+			epcs_flash_sdo   : out std_logic;                            -- sdo
+			epcs_flash_data0 : in  std_logic                     := 'X'; -- data0
+			ldac_n_export    : out std_logic;                            -- export
+			oe_export        : out std_logic_vector(31 downto 0);        -- export
+			pio_led_export   : out std_logic;                            -- export
+			reset_reset_n    : in  std_logic                     := 'X'; -- reset_n
+			spi_MISO         : in  std_logic                     := 'X'; -- MISO
+			spi_MOSI         : out std_logic;                            -- MOSI
+			spi_SCLK         : out std_logic;                            -- SCLK
+			spi_SS_n         : out std_logic;                            -- SS_n
+			uart_rxd         : in  std_logic                     := 'X'; -- rxd
+			uart_txd         : out std_logic                             -- txd
+		);
+	end component nios;
+

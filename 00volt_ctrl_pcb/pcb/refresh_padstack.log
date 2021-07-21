@@ -1,0 +1,144 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : volt_ctrl.brd                                 )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Sat Jun 12 12:40:25 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Sat Jun 12 12:40:25 2021				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb/volt_ctrl.brd'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  E:/master_WHU/PCB_footprint/myFootprint 
+           E:/master_WHU/PCB_footprint/LIB_Cadence/Allegro/symbols 
+           E:/master_WHU/PCB_footprint/LIB_Cadence/Allegro/pads 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/symbols 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/padstacks 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols 
+           E:/master_WHU/PCB_footprint/myFootprint 
+           E:/master_WHU/PCB_footprint/LIB_Cadence/Allegro/symbols 
+           E:/master_WHU/PCB_footprint/LIB_Cadence/Allegro/pads 
+
+
+------ Pad Stack Refresh Messages ------
+
+'PAD_SMD_REC_1R4X4R2'  pad stack refresh starting.
+
+     'PAD_SMD_REC_1R4X4R2'  pad stack refreshed successfully.
+     
+'VIA0R4D0R7'  pad stack refresh starting.
+
+     'VIA0R4D0R7'  pad stack refreshed successfully.
+     
+'RX62Y215D0T'  pad stack refresh starting.
+
+     'RX62Y215D0T'  pad stack refreshed successfully.
+     
+'VIA_8_16'  pad stack refresh starting.
+
+     'VIA_8_16'  pad stack refreshed successfully.
+     
+'VIA'  pad stack refresh starting.
+
+     'VIA'  pad stack refreshed successfully.
+     
+'C90D160'  pad stack refresh starting.
+
+     'C90D160'  pad stack refreshed successfully.
+     
+'S90D160'  pad stack refresh starting.
+
+     'S90D160'  pad stack refreshed successfully.
+     
+'SLOT3R0H0R8'  pad stack refresh starting.
+
+     'SLOT3R0H0R8'  pad stack refreshed successfully.
+     
+'MEC_HOLE_3R5'  pad stack refresh starting.
+
+     'MEC_HOLE_3R5'  pad stack refreshed successfully.
+     
+'R120_265'  pad stack refresh starting.
+
+     'R120_265'  pad stack refreshed successfully.
+     
+'R90_140'  pad stack refresh starting.
+
+     'R90_140'  pad stack refreshed successfully.
+     
+'R220_140'  pad stack refresh starting.
+
+     'R220_140'  pad stack refreshed successfully.
+     
+'SMD_RECT_5R8X2R5'  pad stack refresh starting.
+
+     'SMD_RECT_5R8X2R5'  pad stack refreshed successfully.
+     
+'R165_284'  pad stack refresh starting.
+
+     'R165_284'  pad stack refreshed successfully.
+     
+'R89_30'  pad stack refresh starting.
+
+     'R89_30'  pad stack refreshed successfully.
+     
+'R183_206'  pad stack refresh starting.
+
+     'R183_206'  pad stack refreshed successfully.
+     
+'R138_28'  pad stack refresh starting.
+
+     'R138_28'  pad stack refreshed successfully.
+     
+'B147_45'  pad stack refresh starting.
+
+     'B147_45'  pad stack refreshed successfully.
+     
+'B160_45'  pad stack refresh starting.
+
+     'B160_45'  pad stack refreshed successfully.
+     
+'PAD_SMD_REC_1R7X1R9'  pad stack refresh starting.
+
+     'PAD_SMD_REC_1R7X1R9'  pad stack refreshed successfully.
+     
+'R90_135'  pad stack refresh starting.
+
+     'R90_135'  pad stack refreshed successfully.
+     
+'PAD_SMD_RECT_4R5X2R1'  pad stack refresh starting.
+
+     'PAD_SMD_RECT_4R5X2R1'  pad stack refreshed successfully.
+     
+'R102_140'  pad stack refresh starting.
+
+     'R102_140'  pad stack refreshed successfully.
+     
+'R72_95'  pad stack refresh starting.
+
+     'R72_95'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

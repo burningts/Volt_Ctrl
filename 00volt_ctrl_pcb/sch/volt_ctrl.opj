@@ -1,0 +1,351 @@
+(ExpressProject "volt_ctrl"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[06/21/21]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\sch_lib\library1.olb"
+        (Type "Schematic Library"))
+      (File "..\sch_lib\lt8362.olb"
+        (Type "Schematic Library"))
+      (File "..\sch_lib\dfls260_7.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59419")
+    (NoModify)
+    (File ".\volt_ctrl.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" ".\allegro\volt_ctrl.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "E:\MASTER_WHU\VOLTAGE_CONTROL\00VOLT_CTRL_PCB\SCH\VOLT_CTRL.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tPCB Footprint")
+    (BOM_Include_File
+       "E:\MASTER_WHU\VOLTAGE_CONTROL\00VOLT_CTRL_PCB\SCH\VOLT_CTRL.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_View_Output_Type "2")
+    (DRC_Preserved_Waived "FALSE")
+    (RUN_Online_Rules "TRUE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Check_Single_Node_Nets_Online "TRUE")
+    (DRC_Check_No_Driving_Source_Online "FALSE")
+    (DRC_Check_Duplicate_NetNames_Online "TRUE")
+    (DRC_Check_Off-Page_Connectors_Online "FALSE")
+    (DRC_Check_Ports_Online "FALSE")
+    (DRC_Check_Unconnected_Nets_Online "FALSE")
+    (DRC_Check_Floating_Pins_Online "FALSE")
+    (DRC_Run_Electrical_Reports "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "FALSE")
+    (DRC_Check_PCB_Footprint_Property_Online "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "TRUE")
+    (DRC_Check_Missing_Pin_Numbers_Online "TRUE")
+    (DRC_Check_Device_With_No_Pins_Online "FALSE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "FALSE")
+    (DRC_Run_Physical_Reports "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (DRC_Report_File
+       "E:\MASTER_WHU\VOLTAGE_CONTROL\00VOLT_CTRL_PCB\SCH\VOLT_CTRL.DRC")
+    (Backannotation_TAB "0")
+    ("Allegro Backannotation Run Genfeed" "TRUE")
+    ("Allegro Backannotation Board File"
+       "E:\master_WHU\voltage_control\00volt_ctrl_pcb\pcb\volt_ctrl.brd")
+    ("Allegro Backannotation Netlist Directory"
+       "E:\master_WHU\voltage_control\00volt_ctrl_pcb\pcb\backannnotate")
+    ("Allegro Backannotation Output File" "allegro\VOLT_CTRL.swp")
+    ("Allegro Backannotation Update Schematic" "TRUE")
+    ("Allegro Backannotation View Output" "FALSE")
+    ("Allegro Setup Output Warnings" "FALSE")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\volt_ctrl.bom"
+      (Type "Report"))
+    (File ".\volt_ctrl.drc"
+      (Type "Report"))
+    (File "..\pcb\backannnotate\pinview.dat"
+      (Type "Report")
+      (DisplayName "pinView.dat"))
+    (File "..\pcb\backannnotate\netview.dat"
+      (Type "Report")
+      (DisplayName "netView.dat"))
+    (File "..\pcb\backannnotate\funcview.dat"
+      (Type "Report")
+      (DisplayName "funcView.dat"))
+    (File "..\pcb\backannnotate\compview.dat"
+      (Type "Report")
+      (DisplayName "compView.dat"))
+    (File "..\pcb\backannnotate\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File "..\pcb\backannnotate\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File "..\pcb\backannnotate\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\allegro\volt_ctrl.swp"
+      (Type "Report")
+      (DisplayName "VOLT_CTRL.swp")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"
+    (File "..\pcb\backannnotate\swp.log"
+      (Type "Log File")
+      (LogFile
+         "E:\master_WHU\voltage_control\00volt_ctrl_pcb\pcb\backannnotate\swp.log")))
+  (PartMRUSelector
+    (DFLS260-7
+      (FullPartName "DFLS260-7.Normal")
+      (LibraryName
+         "E:\MASTER_WHU\VOLTAGE_CONTROL\00VOLT_CTRL_PCB\SCH_LIB\DFLS260_7.OLB")
+      (DeviceIndex "0"))
+    (LT8362
+      (FullPartName "LT8362.Normal")
+      (LibraryName
+         "E:\MASTER_WHU\VOLTAGE_CONTROL\00VOLT_CTRL_PCB\SCH_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("DIODE SCHOTTKY"
+      (FullPartName "DIODE SCHOTTKY.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LT8362EMSEPBF
+      (FullPartName "LT8362EMSEPBF.Normal")
+      (LibraryName
+         "E:\MASTER_WHU\VOLTAGE_CONTROL\00VOLT_CTRL_PCB\SCH_LIB\LT8362.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (74HC245
+      (FullPartName "74HC245.Normal")
+      (LibraryName
+         "E:\MASTER_WHU\VOLTAGE_CONTROL\VOLT_CTRL_PCB\SCH_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("CAPACITOR POL"
+      (FullPartName "CAPACITOR POL.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (AD5504
+      (FullPartName "AD5504.Normal")
+      (LibraryName
+         "E:\MASTER_WHU\VOLTAGE_CONTROL\VOLT_CTRL_PCB\SCH_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 20x2/SM"
+      (FullPartName "HEADER 20x2/SM.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 20x2/M"
+      (FullPartName "HEADER 20x2/M.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 20X2"
+      (FullPartName "HEADER 20X2.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN SOCKET 20x2"
+      (FullPartName "CONN SOCKET 20x2.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (TestPoint
+      (FullPartName "TestPoint.Normal")
+      (LibraryName
+         "E:\MASTER_WHU\VOLTAGE_CONTROL\VOLT_CTRL_PCB\SCH_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND_POWER
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PWR2.5
+      (FullPartName "PWR2.5.Normal")
+      (LibraryName
+         "E:\MASTER_WHU\VOLTAGE_CONTROL\VOLT_CTRL_PCB\SCH_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (LT8338
+      (FullPartName "LT8338.Normal")
+      (LibraryName
+         "E:\MASTER_WHU\VOLTAGE_CONTROL\VOLT_CTRL_PCB\SCH_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "Burning")
+  (LastUsedLibraryBrowseDirectory
+     "E:\master_WHU\voltage_control\00volt_ctrl_pcb\sch_lib")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "e:\master_whu\voltage_control\00volt_ctrl_pcb\sch\volt_ctrl.dsn")
+      (Path "Design Resources"
+         "e:\master_whu\voltage_control\00volt_ctrl_pcb\sch\volt_ctrl.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "e:\master_whu\voltage_control\00volt_ctrl_pcb\sch\volt_ctrl.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "e:\master_whu\voltage_control\00volt_ctrl_pcb\sch_lib\library1.olb")
+      (Path "Design Resources" "Library"
+         "e:\master_whu\voltage_control\00volt_ctrl_pcb\sch_lib\dfls260_7.olb")
+      (Path "Outputs")
+      (Path "Logs")
+      (Select "Design Resources"
+         "e:\master_whu\voltage_control\00volt_ctrl_pcb\sch\volt_ctrl.dsn"
+         "SCHEMATIC1" "06 DAC"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 308 0 844"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1295 28 890")
+        (Scroll "-44 -2")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\MASTER_WHU\VOLTAGE_CONTROL\00VOLT_CTRL_PCB\SCH\VOLT_CTRL.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "06 DAC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1295 28 890")
+        (Scroll "-44 -2")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\MASTER_WHU\VOLTAGE_CONTROL\00VOLT_CTRL_PCB\SCH\VOLT_CTRL.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "07 DAC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1295 28 890")
+        (Scroll "-44 -2")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\MASTER_WHU\VOLTAGE_CONTROL\00VOLT_CTRL_PCB\SCH\VOLT_CTRL.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "05 DAC")))
+  (ISPCBBASICLICENSE "false"))

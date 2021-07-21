@@ -1,0 +1,3230 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.4.0 d001Jun-09-2021 at 22:27:41 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='VOLT_CTRL';
+ POST_TIME='Oct  7 2019 04:16:49';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS93171@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins93171@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins93171@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS9193@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins9193@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page2_ins9193@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C100 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS33287@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins33287@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page17_ins33287@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C101 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS33073@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins33073@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page17_ins33073@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C102 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS33263@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins33263@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page17_ins33263@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C103 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS33097@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins33097@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page17_ins33097@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C104 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS34434@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins34434@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page18_ins34434@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C105 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS34344@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins34344@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page18_ins34344@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C106 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS34392@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins34392@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page18_ins34392@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C107 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS34178@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins34178@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page18_ins34178@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C108 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS34368@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins34368@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page18_ins34368@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C109 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS34202@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins34202@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page18_ins34202@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS9384@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins9384@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page2_ins9384@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C110 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS35539@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins35539@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page19_ins35539@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C111 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS35449@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins35449@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page19_ins35449@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C112 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS35497@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins35497@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page19_ins35497@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C113 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS35283@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins35283@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page19_ins35283@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C114 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS35473@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins35473@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page19_ins35473@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C115 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS35307@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins35307@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page19_ins35307@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C116 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS36644@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins36644@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page20_ins36644@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C117 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS36554@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins36554@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page20_ins36554@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C118 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS36602@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins36602@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page20_ins36602@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C119 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS36388@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins36388@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page20_ins36388@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS9450@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins9450@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page2_ins9450@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C120 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS36578@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins36578@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page20_ins36578@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C121 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS36412@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins36412@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page20_ins36412@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C122 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS37749@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins37749@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page21_ins37749@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C123 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS37659@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins37659@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page21_ins37659@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C124 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS37707@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins37707@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page21_ins37707@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C125 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS37493@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins37493@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page21_ins37493@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C126 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS37683@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins37683@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page21_ins37683@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C127 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS37517@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins37517@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page21_ins37517@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C128 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS38854@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins38854@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page22_ins38854@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C129 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS38764@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins38764@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page22_ins38764@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS9517@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins9517@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page2_ins9517@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C130 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS38812@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins38812@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page22_ins38812@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C131 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS38598@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins38598@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page22_ins38598@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C132 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS38788@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins38788@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page22_ins38788@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C133 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS38622@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins38622@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page22_ins38622@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C134 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS39959@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins39959@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page23_ins39959@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C135 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS39869@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins39869@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page23_ins39869@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C136 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS39917@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins39917@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page23_ins39917@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C137 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS39703@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins39703@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page23_ins39703@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C138 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS39893@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins39893@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page23_ins39893@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C139 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS39727@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins39727@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page23_ins39727@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS16919@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins16919@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page3_ins16919@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C140 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS41064@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins41064@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page24_ins41064@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C141 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS40974@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins40974@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page24_ins40974@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C142 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS41022@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins41022@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page24_ins41022@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C143 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS40808@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins40808@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page24_ins40808@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C144 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS40998@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins40998@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page24_ins40998@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C145 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS40832@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins40832@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page24_ins40832@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C146 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS42169@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins42169@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page25_ins42169@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C147 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS42079@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins42079@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page25_ins42079@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C148 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS42127@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins42127@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page25_ins42127@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C149 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS41913@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins41913@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page25_ins41913@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS16977@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins16977@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page3_ins16977@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C150 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS42103@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins42103@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page25_ins42103@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C151 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS41937@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins41937@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page25_ins41937@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C152 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS43274@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins43274@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page26_ins43274@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C153 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS43184@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins43184@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page26_ins43184@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C154 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS43232@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins43232@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page26_ins43232@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C155 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS43018@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins43018@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page26_ins43018@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C156 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS43208@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins43208@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page26_ins43208@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C157 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS43042@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins43042@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page26_ins43042@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS17159@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins17159@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page3_ins17159@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS17327@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins17327@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page3_ins17327@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C18 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS17507@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins17507@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page3_ins17507@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C19 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS17699@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins17699@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page3_ins17699@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS110188@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins110188@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins110188@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C20 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS18971@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins18971@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page4_ins18971@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C21 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS18677@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins18677@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page4_ins18677@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C22 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS19037@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins19037@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page4_ins19037@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C23 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS18947@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins18947@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page4_ins18947@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C24 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS18815@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins18815@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page4_ins18815@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C25 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS18863@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins18863@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page4_ins18863@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C26 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS20069@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins20069@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page5_ins20069@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C27 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS19979@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins19979@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page5_ins19979@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C28 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS20027@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins20027@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page5_ins20027@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C29 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS19813@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins19813@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page5_ins19813@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS93331@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins93331@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins93331@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C30 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS20003@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins20003@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page5_ins20003@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C31 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS19837@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins19837@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page5_ins19837@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C32 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS21174@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins21174@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page6_ins21174@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C33 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS21084@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins21084@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page6_ins21084@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C34 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS21132@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins21132@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page6_ins21132@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C35 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS20918@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins20918@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page6_ins20918@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C36 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS21108@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins21108@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page6_ins21108@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C37 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS20942@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins20942@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page6_ins20942@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C38 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS22279@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins22279@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page7_ins22279@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C39 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS22189@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins22189@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page7_ins22189@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS109397@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins109397@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins109397@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C40 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS22237@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins22237@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page7_ins22237@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C41 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS22023@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins22023@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page7_ins22023@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C42 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS22213@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins22213@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page7_ins22213@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C43 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS22047@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins22047@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page7_ins22047@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C44 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS23384@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins23384@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page8_ins23384@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C45 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS23294@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins23294@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page8_ins23294@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C46 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS23342@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins23342@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page8_ins23342@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C47 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS23128@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins23128@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page8_ins23128@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C48 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS23318@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins23318@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page8_ins23318@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C49 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS23152@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins23152@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page8_ins23152@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP NP_CAP0603_1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS107019@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins107019@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins107019@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C50 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS24489@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins24489@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page9_ins24489@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C51 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS24399@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins24399@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page9_ins24399@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C52 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS24447@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins24447@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page9_ins24447@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C53 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS24233@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins24233@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page9_ins24233@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C54 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS24423@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins24423@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page9_ins24423@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C55 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS24257@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins24257@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page9_ins24257@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C56 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS25594@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins25594@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page10_ins25594@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C57 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS25504@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins25504@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page10_ins25504@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C58 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS25552@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins25552@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page10_ins25552@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C59 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS25338@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins25338@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page10_ins25338@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP NP_CAP0603_10NF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS107310@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins107310@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins107310@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C60 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS25528@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins25528@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page10_ins25528@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C61 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS25362@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins25362@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page10_ins25362@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C62 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS26699@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins26699@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page11_ins26699@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C63 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS26609@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins26609@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page11_ins26609@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C64 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS26657@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins26657@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page11_ins26657@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C65 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS26443@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins26443@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page11_ins26443@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C66 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS26633@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins26633@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page11_ins26633@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C67 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS26467@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins26467@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page11_ins26467@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C68 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS27804@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins27804@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page12_ins27804@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C69 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS27714@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins27714@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page12_ins27714@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP NP_CAP0603_150PF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS107236@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins107236@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins107236@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C70 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS27762@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins27762@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page12_ins27762@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C71 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS27548@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins27548@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page12_ins27548@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C72 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS27738@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins27738@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page12_ins27738@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C73 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS27572@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins27572@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page12_ins27572@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C74 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS28909@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins28909@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page13_ins28909@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C75 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS28819@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins28819@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page13_ins28819@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C76 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS28867@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins28867@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page13_ins28867@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C77 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS28653@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins28653@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page13_ins28653@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C78 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS28843@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins28843@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page13_ins28843@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C79 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS28677@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins28677@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page13_ins28677@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS8870@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins8870@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page2_ins8870@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C80 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS30014@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins30014@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page14_ins30014@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C81 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS29924@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins29924@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page14_ins29924@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C82 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS29972@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins29972@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page14_ins29972@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C83 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS29758@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins29758@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page14_ins29758@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C84 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS29948@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins29948@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page14_ins29948@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C85 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS29782@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins29782@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page14_ins29782@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C86 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS31119@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins31119@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page15_ins31119@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C87 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS31029@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins31029@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page15_ins31029@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C88 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS31077@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins31077@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page15_ins31077@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C89 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS30863@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins30863@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page15_ins30863@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS8845@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins8845@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page2_ins8845@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C90 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS31053@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins31053@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page15_ins31053@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C91 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS30887@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins30887@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page15_ins30887@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C92 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS32224@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins32224@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page16_ins32224@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C93 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS32134@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins32134@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page16_ins32134@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C94 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS32182@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins32182@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page16_ins32182@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C95 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS31968@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins31968@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page16_ins31968@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C96 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS32158@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins32158@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page16_ins32158@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C97 'CAP NP_CAP1210_4.7UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS31992@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins31992@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page16_ins31992@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C98 'CAPACITOR POL_2220_AVX-M_10UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS33329@DISCRETE.CAPACITOR POL.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins33329@discrete.\capacitor pol.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page17_ins33329@discrete.\capacitor pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C99 'CAP NP_CAP0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS33239@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins33239@discrete.\cap np.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page17_ins33239@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'DIODE SCHOTTKY_DIODE_DFLS260_DFLS260':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS96635@DISCRETE.DIODE SCHOTTKY.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins96635@discrete.\diode schottky.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins96635@discrete.\diode schottky.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_LED0805_LED':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS92695@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins92695@discrete.\led.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins92695@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'PWR2.5_DC-005_5521_PWR2.5':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS96064@LIBRARY1.PWR2.5.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins96064@library1.\pwr2.5.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins96064@library1.\pwr2.5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'HEADER 20X2_SHDR2X20-254_HEADER 20X2':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS93379@CONNECTOR.HEADER 20X2.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins93379@connector.\header 20x2.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins93379@connector.\header 20x2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'HEADER 20X2_SHDR2X20-254_HEADER 20X2':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS92995@CONNECTOR.HEADER 20X2.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins92995@connector.\header 20x2.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins92995@connector.\header 20x2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'HEADER 20X2_SHDR2X20-254_HEADER 20X2':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS93669@CONNECTOR.HEADER 20X2.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins93669@connector.\header 20x2.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins93669@connector.\header 20x2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'HEADER 20X2_SHDR2X20-254_HEADER 20X2':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS92771@CONNECTOR.HEADER 20X2.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins92771@connector.\header 20x2.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins92771@connector.\header 20x2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'INDUCTOR_SWPA5040S6R8MT_6.8UH':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS109992@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins109992@discrete.\inductor.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins109992@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_CAP0603_2.2K':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS93627@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins93627@discrete.\r.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins93627@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_CAP0603_1M':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS96186@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins96186@discrete.\r.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins96186@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_CAP0603_34.8K':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS106520@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins106520@discrete.\r.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins106520@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_CAP0603_20K':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS107370@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins107370@discrete.\r.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins107370@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_CAP0603_57.6K':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS107206@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins107206@discrete.\r.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins107206@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP1 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS93651@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins93651@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins93651@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP10 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS18797@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins18797@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page4_ins18797@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP100 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS43298@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins43298@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page26_ins43298@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP101 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS43256@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins43256@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page26_ins43256@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP11 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS18995@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins18995@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page4_ins18995@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP12 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS18905@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins18905@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page4_ins18905@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP13 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS18887@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins18887@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page4_ins18887@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP14 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS19861@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins19861@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page5_ins19861@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP15 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS20279@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins20279@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page5_ins20279@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP16 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS20093@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins20093@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page5_ins20093@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP17 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS20051@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins20051@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page5_ins20051@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP18 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS20966@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins20966@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page6_ins20966@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP19 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS21384@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins21384@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page6_ins21384@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP2 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS15269@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins15269@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page2_ins15269@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP20 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS21198@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins21198@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page6_ins21198@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP21 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS21156@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins21156@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page6_ins21156@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP22 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS22071@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins22071@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page7_ins22071@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP23 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS22489@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins22489@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page7_ins22489@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP24 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS22303@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins22303@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page7_ins22303@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP25 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS22261@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins22261@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page7_ins22261@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP26 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS23176@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins23176@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page8_ins23176@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP27 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS23594@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins23594@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page8_ins23594@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP28 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS23408@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins23408@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page8_ins23408@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP29 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS23366@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins23366@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page8_ins23366@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP3 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS15499@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins15499@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page2_ins15499@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP30 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS24281@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins24281@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page9_ins24281@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP31 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS24699@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins24699@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page9_ins24699@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP32 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS24513@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins24513@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page9_ins24513@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP33 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS24471@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins24471@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page9_ins24471@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP34 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS25386@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins25386@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page10_ins25386@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP35 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS25804@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins25804@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page10_ins25804@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP36 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS25618@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins25618@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page10_ins25618@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP37 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS25576@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins25576@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page10_ins25576@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP38 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS26491@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins26491@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page11_ins26491@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP39 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS26909@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins26909@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page11_ins26909@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP4 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS15568@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins15568@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page2_ins15568@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP40 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS26723@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins26723@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page11_ins26723@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP41 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS26681@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins26681@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page11_ins26681@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP42 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS27596@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins27596@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page12_ins27596@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP43 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS28014@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins28014@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page12_ins28014@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP44 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS27828@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins27828@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page12_ins27828@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP45 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS27786@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins27786@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page12_ins27786@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP46 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS28701@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins28701@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page13_ins28701@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP47 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS29119@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins29119@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page13_ins29119@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP48 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS28933@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins28933@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page13_ins28933@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP49 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS28891@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins28891@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page13_ins28891@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP5 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS15640@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins15640@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page2_ins15640@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP50 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS29806@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins29806@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page14_ins29806@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP51 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS30224@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins30224@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page14_ins30224@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP52 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS30038@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins30038@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page14_ins30038@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP53 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS29996@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins29996@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page14_ins29996@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP54 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS30911@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins30911@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page15_ins30911@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP55 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS31329@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins31329@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page15_ins31329@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP56 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS31143@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins31143@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page15_ins31143@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP57 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS31101@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins31101@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page15_ins31101@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP58 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS32016@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins32016@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page16_ins32016@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP59 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS32434@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins32434@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page16_ins32434@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP6 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS17049@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins17049@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page3_ins17049@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP60 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS32248@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins32248@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page16_ins32248@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP61 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS32206@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins32206@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page16_ins32206@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP62 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS33121@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins33121@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page17_ins33121@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP63 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS33539@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins33539@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page17_ins33539@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP64 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS33353@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins33353@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page17_ins33353@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP65 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS33311@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins33311@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page17_ins33311@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP66 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS34226@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins34226@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page18_ins34226@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP67 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS34644@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins34644@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page18_ins34644@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP68 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS34458@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins34458@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page18_ins34458@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP69 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS34416@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins34416@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page18_ins34416@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP7 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS17177@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins17177@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page3_ins17177@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP70 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS35331@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins35331@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page19_ins35331@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP71 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS35749@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins35749@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page19_ins35749@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP72 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS35563@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins35563@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page19_ins35563@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP73 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS35521@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins35521@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page19_ins35521@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP74 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS36436@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins36436@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page20_ins36436@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP75 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS36854@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins36854@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page20_ins36854@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP76 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS36668@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins36668@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page20_ins36668@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP77 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS36626@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins36626@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page20_ins36626@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP78 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS37541@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins37541@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page21_ins37541@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP79 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS37959@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins37959@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page21_ins37959@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP8 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS17345@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins17345@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page3_ins17345@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP80 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS37773@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins37773@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page21_ins37773@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP81 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS37731@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins37731@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page21_ins37731@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP82 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS38646@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins38646@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page22_ins38646@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP83 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS39064@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins39064@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page22_ins39064@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP84 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS38878@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins38878@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page22_ins38878@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP85 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS38836@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins38836@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page22_ins38836@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP86 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS39751@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins39751@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page23_ins39751@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP87 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS40169@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins40169@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page23_ins40169@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP88 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS39983@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins39983@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page23_ins39983@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP89 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS39941@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins39941@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page23_ins39941@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP9 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS17531@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins17531@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page3_ins17531@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP90 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS40856@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins40856@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page24_ins40856@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP91 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS41274@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins41274@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page24_ins41274@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP92 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS41088@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins41088@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page24_ins41088@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP93 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS41046@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins41046@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page24_ins41046@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP94 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS41961@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins41961@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page25_ins41961@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP95 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS42379@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins42379@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page25_ins42379@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP96 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS42193@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins42193@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page25_ins42193@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP97 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS42151@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins42151@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page25_ins42151@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP98 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS43066@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins43066@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page26_ins43066@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP99 'TESTPOINT_TESTPOINT_PAD_TESTPOINT':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS43484@LIBRARY1.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins43484@library1.\testpoint.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page26_ins43484@library1.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'LT8362_MSE_16A_ADI_LT8362':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS97366@LIBRARY1.LT8362.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins97366@library1.\lt8362.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page1_ins97366@library1.\lt8362.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U10 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS20984@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins20984@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page6_ins20984@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U11 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS21264@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins21264@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page6_ins21264@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U12 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS22089@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins22089@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page7_ins22089@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U13 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS22369@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins22369@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page7_ins22369@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U14 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS23194@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins23194@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page8_ins23194@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U15 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS23474@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins23474@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page8_ins23474@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U16 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS24299@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins24299@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page9_ins24299@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U17 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS24579@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins24579@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page9_ins24579@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U18 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS25404@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins25404@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page10_ins25404@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U19 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS25684@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins25684@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page10_ins25684@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS8333@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins8333@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page2_ins8333@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U20 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS26509@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins26509@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page11_ins26509@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U21 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS26789@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins26789@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page11_ins26789@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U22 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS27614@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins27614@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page12_ins27614@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U23 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS27894@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins27894@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page12_ins27894@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U24 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS28719@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins28719@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page13_ins28719@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U25 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS28999@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins28999@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page13_ins28999@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U26 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS29824@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins29824@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page14_ins29824@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U27 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS30104@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins30104@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page14_ins30104@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U28 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS30929@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins30929@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page15_ins30929@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U29 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS31209@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins31209@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page15_ins31209@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS10657@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins10657@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page2_ins10657@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U30 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS32034@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins32034@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page16_ins32034@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U31 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS32314@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins32314@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page16_ins32314@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U32 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS33139@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins33139@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page17_ins33139@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U33 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS33419@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins33419@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page17_ins33419@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U34 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS34244@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins34244@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page18_ins34244@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U35 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS34524@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins34524@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page18_ins34524@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U36 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS35349@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins35349@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page19_ins35349@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U37 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS35629@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins35629@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page19_ins35629@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U38 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS36454@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins36454@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page20_ins36454@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U39 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS36734@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins36734@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page20_ins36734@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS17191@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins17191@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page3_ins17191@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U40 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS37559@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins37559@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page21_ins37559@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U41 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS37839@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins37839@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page21_ins37839@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U42 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS38664@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins38664@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page22_ins38664@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U43 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS38944@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins38944@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page22_ins38944@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U44 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS39769@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins39769@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page23_ins39769@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U45 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS40049@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins40049@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page23_ins40049@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U46 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS40874@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins40874@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page24_ins40874@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U47 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS41154@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins41154@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page24_ins41154@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U48 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS41979@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins41979@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page25_ins41979@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U49 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS42259@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins42259@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page25_ins42259@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U5 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS17453@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins17453@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page3_ins17453@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U50 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS43084@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins43084@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page26_ins43084@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U51 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS43364@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins43364@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page26_ins43364@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U6 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS18553@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins18553@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page4_ins18553@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U7 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS18701@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins18701@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page4_ins18701@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U8 'AD5504_TSSOP-16N_AD5504':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS19879@LIBRARY1.AD5504.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins19879@library1.\ad5504.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page5_ins19879@library1.\ad5504.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U9 '74HC245_TSSOP-20N_74HC245':;
+
+SECTION_NUMBER 1
+ '@VOLT_CTRL.SCHEMATIC1(SCH_1):INS20159@LIBRARY1.74HC245.NORMAL(CHIPS)':
+ C_PATH='@volt_ctrl.schematic1(sch_1):ins20159@library1.\74hc245.normal\(chips)',
+ P_PATH='@volt_ctrl.schematic1(sch_1):page5_ins20159@library1.\74hc245.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Silkscreen Audit Log File                                        )
+(                                                                     )
+(    Drawing          : volt_ctrl.brd                                 )
+(    Software Version : 17.4P001                                      )
+(    Date/Time        : Fri Jun 11 15:41:56 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Auditing silkscreen for the top of the board.
+
+Element to Pad clearance is 0.0000
+
+     ----- Top Silkscreen Audit -----
+
+
+Audit Errors: 0
+
+
+Total Audit Errors: 0
+
+Log End
+

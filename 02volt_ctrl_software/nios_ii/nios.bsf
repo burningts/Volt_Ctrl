@@ -1,0 +1,181 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 288 496)
+	(text "nios" (rect 133 -1 148 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 480 20 492)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 46 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 112 72)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "epcs_flash_data0" (rect 0 0 70 12)(font "Arial" (font_size 8)))
+		(text "epcs_flash_data0" (rect 4 149 100 160)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 112 160)(line_width 1))
+	)
+	(port
+		(pt 0 320)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 309 82 320)(font "Arial" (font_size 8)))
+		(line (pt 0 320)(pt 112 320)(line_width 1))
+	)
+	(port
+		(pt 0 360)
+		(input)
+		(text "spi_MISO" (rect 0 0 40 12)(font "Arial" (font_size 8)))
+		(text "spi_MISO" (rect 4 349 52 360)(font "Arial" (font_size 8)))
+		(line (pt 0 360)(pt 112 360)(line_width 1))
+	)
+	(port
+		(pt 0 448)
+		(input)
+		(text "uart_rxd" (rect 0 0 34 12)(font "Arial" (font_size 8)))
+		(text "uart_rxd" (rect 4 437 52 448)(font "Arial" (font_size 8)))
+		(line (pt 0 448)(pt 112 448)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(output)
+		(text "epcs_flash_dclk" (rect 0 0 64 12)(font "Arial" (font_size 8)))
+		(text "epcs_flash_dclk" (rect 4 101 94 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 112 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(output)
+		(text "epcs_flash_sce" (rect 0 0 63 12)(font "Arial" (font_size 8)))
+		(text "epcs_flash_sce" (rect 4 117 88 128)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 112 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(output)
+		(text "epcs_flash_sdo" (rect 0 0 63 12)(font "Arial" (font_size 8)))
+		(text "epcs_flash_sdo" (rect 4 133 88 144)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 112 144)(line_width 1))
+	)
+	(port
+		(pt 0 200)
+		(output)
+		(text "ldac_n_export" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "ldac_n_export" (rect 4 189 82 200)(font "Arial" (font_size 8)))
+		(line (pt 0 200)(pt 112 200)(line_width 1))
+	)
+	(port
+		(pt 0 240)
+		(output)
+		(text "oe_export[31..0]" (rect 0 0 63 12)(font "Arial" (font_size 8)))
+		(text "oe_export[31..0]" (rect 4 229 100 240)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 112 240)(line_width 3))
+	)
+	(port
+		(pt 0 280)
+		(output)
+		(text "pio_led_export" (rect 0 0 57 12)(font "Arial" (font_size 8)))
+		(text "pio_led_export" (rect 4 269 88 280)(font "Arial" (font_size 8)))
+		(line (pt 0 280)(pt 112 280)(line_width 1))
+	)
+	(port
+		(pt 0 376)
+		(output)
+		(text "spi_MOSI" (rect 0 0 40 12)(font "Arial" (font_size 8)))
+		(text "spi_MOSI" (rect 4 365 52 376)(font "Arial" (font_size 8)))
+		(line (pt 0 376)(pt 112 376)(line_width 1))
+	)
+	(port
+		(pt 0 392)
+		(output)
+		(text "spi_SCLK" (rect 0 0 42 12)(font "Arial" (font_size 8)))
+		(text "spi_SCLK" (rect 4 381 52 392)(font "Arial" (font_size 8)))
+		(line (pt 0 392)(pt 112 392)(line_width 1))
+	)
+	(port
+		(pt 0 408)
+		(output)
+		(text "spi_SS_n" (rect 0 0 38 12)(font "Arial" (font_size 8)))
+		(text "spi_SS_n" (rect 4 397 52 408)(font "Arial" (font_size 8)))
+		(line (pt 0 408)(pt 112 408)(line_width 1))
+	)
+	(port
+		(pt 0 464)
+		(output)
+		(text "uart_txd" (rect 0 0 33 12)(font "Arial" (font_size 8)))
+		(text "uart_txd" (rect 4 453 52 464)(font "Arial" (font_size 8)))
+		(line (pt 0 464)(pt 112 464)(line_width 1))
+	)
+	(drawing
+		(text "clk" (rect 97 43 212 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 117 67 252 144)(font "Arial" (color 0 0 0)))
+		(text "epcs_flash" (rect 49 83 158 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "dclk" (rect 117 107 258 224)(font "Arial" (color 0 0 0)))
+		(text "sce" (rect 117 123 252 256)(font "Arial" (color 0 0 0)))
+		(text "sdo" (rect 117 139 252 288)(font "Arial" (color 0 0 0)))
+		(text "data0" (rect 117 155 264 320)(font "Arial" (color 0 0 0)))
+		(text "ldac_n" (rect 75 171 186 355)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 117 195 270 400)(font "Arial" (color 0 0 0)))
+		(text "oe" (rect 99 211 210 435)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 117 235 270 480)(font "Arial" (color 0 0 0)))
+		(text "pio_led" (rect 71 251 184 515)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 117 275 270 560)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 83 291 196 595)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 117 315 276 640)(font "Arial" (color 0 0 0)))
+		(text "spi" (rect 96 331 210 675)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "MISO" (rect 117 355 258 720)(font "Arial" (color 0 0 0)))
+		(text "MOSI" (rect 117 371 258 752)(font "Arial" (color 0 0 0)))
+		(text "SCLK" (rect 117 387 258 784)(font "Arial" (color 0 0 0)))
+		(text "SS_n" (rect 117 403 258 816)(font "Arial" (color 0 0 0)))
+		(text "uart" (rect 90 419 204 851)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "rxd" (rect 117 443 252 896)(font "Arial" (color 0 0 0)))
+		(text "txd" (rect 117 459 252 928)(font "Arial" (color 0 0 0)))
+		(text " nios " (rect 268 480 572 970)(font "Arial" ))
+		(line (pt 112 32)(pt 176 32)(line_width 1))
+		(line (pt 176 32)(pt 176 480)(line_width 1))
+		(line (pt 112 480)(pt 176 480)(line_width 1))
+		(line (pt 112 32)(pt 112 480)(line_width 1))
+		(line (pt 113 52)(pt 113 76)(line_width 1))
+		(line (pt 114 52)(pt 114 76)(line_width 1))
+		(line (pt 113 92)(pt 113 164)(line_width 1))
+		(line (pt 114 92)(pt 114 164)(line_width 1))
+		(line (pt 113 180)(pt 113 204)(line_width 1))
+		(line (pt 114 180)(pt 114 204)(line_width 1))
+		(line (pt 113 220)(pt 113 244)(line_width 1))
+		(line (pt 114 220)(pt 114 244)(line_width 1))
+		(line (pt 113 260)(pt 113 284)(line_width 1))
+		(line (pt 114 260)(pt 114 284)(line_width 1))
+		(line (pt 113 300)(pt 113 324)(line_width 1))
+		(line (pt 114 300)(pt 114 324)(line_width 1))
+		(line (pt 113 340)(pt 113 412)(line_width 1))
+		(line (pt 114 340)(pt 114 412)(line_width 1))
+		(line (pt 113 428)(pt 113 468)(line_width 1))
+		(line (pt 114 428)(pt 114 468)(line_width 1))
+		(line (pt 0 0)(pt 288 0)(line_width 1))
+		(line (pt 288 0)(pt 288 496)(line_width 1))
+		(line (pt 0 496)(pt 288 496)(line_width 1))
+		(line (pt 0 0)(pt 0 496)(line_width 1))
+	)
+)

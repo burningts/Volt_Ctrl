@@ -1,0 +1,33 @@
+G04 ================== begin FILE IDENTIFICATION RECORD ==================*
+G04 Layout Name:  E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb/volt_ctrl.brd*
+G04 Film Name:    OUTLINE*
+G04 File Format:  Gerber RS274X*
+G04 File Origin:  Cadence Allegro -unreleased*
+G04 Origin Date:  Wed Jun 16 10:42:02 2021*
+G04 *
+G04 Layer:  BOARD GEOMETRY/OUTLINE*
+G04 *
+G04 Offset:    (0.0000 0.0000)*
+G04 Mirror:    No*
+G04 Mode:      Positive*
+G04 Rotation:  0*
+G04 FullContactRelief:  No*
+G04 UndefLineWidth:     0.2032*
+G04 ================== end FILE IDENTIFICATION RECORD ====================*
+%FSLAX55Y55*MOMM*%
+%IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
+%ADD10C,.2032*%
+G75*
+%LPD*%
+G75*
+G54D10*
+G01X0Y200000D02*
+Y14800000D01*
+G02X200000Y15000000I200000J0D01*
+G01X20800000D01*
+G02X21000000Y14800000I0J-200000D01*
+G01Y200000D01*
+G02X20800000Y0I-200000J0D01*
+G01X200000D01*
+G02X0Y200000I0J200000D01*
+M02*

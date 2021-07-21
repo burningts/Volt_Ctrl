@@ -1,0 +1,81 @@
+Fri Jun 11 10:53:59 2021				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Fri Jun 11 10:53:59 2021
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : volt_ctrl.brd                                 )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Fri Jun 11 10:54:00 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Fri Jun 11 10:54:00 2021				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb/volt_ctrl.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'NO'
+Update shape/flash symbols             = 'NO'
+Update symbol padstacks                = 'NO'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+Symbol list file                       = 'C:/Users/Burning/AppData/Local/Temp/#Taaaaar13372.tmp'
+
+
+------ Library Paths ------
+PSMPATH =  E:/master_WHU/PCB_footprint/myFootprint 
+           E:/master_WHU/PCB_footprint/LIB_Cadence/Allegro/symbols 
+           E:/master_WHU/PCB_footprint/LIB_Cadence/Allegro/pads 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/symbols 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/padstacks 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols 
+           E:/master_WHU/PCB_footprint/myFootprint 
+           E:/master_WHU/PCB_footprint/LIB_Cadence/Allegro/symbols 
+           E:/master_WHU/PCB_footprint/LIB_Cadence/Allegro/pads 
+
+
+------ Symbol Refresh Messages ------
+
+'DIODE_DFLS260'  symbol refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 1 out 1
+    Design updated.
+

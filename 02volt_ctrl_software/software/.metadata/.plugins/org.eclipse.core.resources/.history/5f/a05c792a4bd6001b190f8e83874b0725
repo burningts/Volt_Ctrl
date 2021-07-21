@@ -1,0 +1,129 @@
+#include "alt_types.h"
+#include "sys/alt_stdio.h"
+#include "io.h"
+#include "system.h"
+#include "sys/alt_cache.h"
+#include "altera_avalon_spi.h"
+#include "altera_avalon_spi_regs.h"
+#include "sys/alt_irq.h"
+#include "altera_avalon_pio_regs.h" //pio ¼Ä´æÆ÷Í·ÎÄ¼þ
+
+#define WR_AD5504_CTRL_ALL_POWERUP_H 0x70
+#define WR_AD5504_CTRL_ALL_POWERUP_L 0X3C
+#define WR_AD5504_CTRL_SET_ALLDAC_H 0X0101
+
+#define OE_MSK_1 0X01FFFFFE
+#define OE_MSK_2 0X01FFFFFD
+#define OE_MSK_3 0X01FFFFFB
+#define OE_MSK_4 0X01FFFFF7
+#define OE_MSK_5 0X01FFFFEF
+#define OE_MSK_6 0X01FFFFDF
+#define OE_MSK_7 0X01FFFFBF
+#define OE_MSK_8 0X01FFFF7F
+#define OE_MSK_9 0X01FFFEFF
+#define OE_MSK_10 0X01FFFDFF
+#define OE_MSK_11 0X01FFFBFF
+#define OE_MSK_12 0X01FFF7FF
+#define OE_MSK_13 0X01FFEFFF
+#define OE_MSK_14 0X01FFDFFF
+#define OE_MSK_15 0X01FFBFFF
+#define OE_MSK_16 0X01FF7FFF
+#define OE_MSK_17 0X01FEFFFF
+#define OE_MSK_18 0X01FDFFFF
+#define OE_MSK_19 0X01FBFFFF
+#define OE_MSK_20 0X01F7FFFF
+#define OE_MSK_21 0X01EFFFFF
+#define OE_MSK_22 0X01DFFFFF
+#define OE_MSK_23 0X01BFFFFF
+#define OE_MSK_24 0X017FFFFF
+#define OE_MSK_25 0X00FFFFFF
+
+//This is the ISR that runs when the SPI Slave receives data
+
+static void spi_rx_isr(void *isr_context)
+{
+
+    alt_printf("ISR :) %x \n", IORD_ALTERA_AVALON_SPI_RXDATA(SPI_BASE));
+
+    //This resets the IRQ flag. Otherwise the IRQ will continuously run.
+    IOWR_ALTERA_AVALON_SPI_STATUS(SPI_BASE, 0x0);
+}
+
+int main()
+{
+    alt_printf("Hello from Nios II!\n");
+
+    int return_code;
+    int ret;
+    alt_u8 spi_command_string_tx[80];
+    alt_u32 oe_msk[25] = {OE_MSK_1, OE_MSK_2, OE_MSK_3, OE_MSK_4, OE_MSK_5,
+                          OE_MSK_6, OE_MSK_7, OE_MSK_8, OE_MSK_9, OE_MSK_10,
+                          OE_MSK_11, OE_MSK_12, OE_MSK_13, OE_MSK_14, OE_MSK_15,
+                          OE_MSK_16, OE_MSK_17, OE_MSK_18, OE_MSK_19, OE_MSK_20,
+                          OE_MSK_21, OE_MSK_22, OE_MSK_23, OE_MSK_24, OE_MSK_25};
+
+    alt_u8 spi_command_string_rx[10] = "1HELLOABC*";
+
+    // DAC register
+    // WR_AD5504_CTRL_SET_ALLDAC_H 0X5 + 12bit data
+    // WR_AD5504_CTRL_SET_DAC_A_H 0X1 + 12bit data
+    // WR_AD5504_CTRL_SET_DAC_B_H 0X2 + 12bit data
+    // WR_AD5504_CTRL_SET_DAC_C_H 0X3 + 12bit data
+    // WR_AD5504_CTRL_SET_DAC_D_H 0X4 + 12bit data
+
+    // DAC init
+    spi_command_string_tx[0] = WR_AD5504_CTRL_ALL_POWERUP_H;
+    spi_command_string_tx[1] = WR_AD5504_CTRL_ALL_POWERUP_L;
+
+    //DAC data
+    spi_command_string_tx[22] = 0x58; //OE11
+    spi_command_string_tx[23] = 0x00;
+    spi_command_string_tx[24] = 0x58; //OE12
+    spi_command_string_tx[25] = 0x59;
+
+    //This registers the Slave IRQ with NIOS
+    ret = alt_ic_isr_register(SPI_IRQ_INTERRUPT_CONTROLLER_ID, SPI_IRQ, spi_rx_isr, (void *)spi_command_string_tx, 0x0);
+    alt_printf("IRQ register return %x \n", ret);
+
+    //You need to enable the IRQ in the IP core control register as well.
+    IOWR_ALTERA_AVALON_SPI_CONTROL(SPI_BASE, ALTERA_AVALON_SPI_CONTROL_SSO_MSK | ALTERA_AVALON_SPI_CONTROL_IRRDY_MSK);
+
+    //Just calling the ISR to see if the function is OK.
+    spi_rx_isr(NULL);
+
+    //flag = 0,ss_n turns to 1 when transmit is down
+    //flag = ALT_AVALON_SPI_COMMAND_MERGE,ss_n always keep 0.
+
+    return_code = alt_avalon_spi_command(SPI_BASE, 0,
+                                         2, spi_command_string_tx,
+                                         0, spi_command_string_rx,
+                                         0);
+
+    for (int i = 22; i < 24; i = i + 2)
+    {
+        IOWR_ALTERA_AVALON_PIO_DATA(PIO_BASE, oe_msk[i/2-1]);
+        return_code = alt_avalon_spi_command(SPI_BASE, 0,
+                                             2, &(spi_command_string_tx[i]),
+                                             0, &spi_command_string_rx[1],
+                                             0);
+    }
+
+    // return_code = alt_avalon_spi_command(SPI_BASE, 0,
+    //                                      1, &spi_command_string_tx[2],
+    //                                      0, &spi_command_string_rx[2],
+    //                                      0);
+
+    // return_code = alt_avalon_spi_command(SPI_BASE, 0,
+    //                                      1, &spi_command_string_tx[3],
+    //                                      0, &spi_command_string_rx[3],
+    //                                      0);
+
+    if (return_code < 0)
+        alt_printf("ERROR SPI TX RET = %x \n", return_code);
+
+    alt_printf("Transmit done. RET = %x spi_rx %x\n", return_code, spi_command_string_rx);
+
+    //RX is done via interrupts.
+    alt_printf("Rx done \n");
+    return 0;
+}

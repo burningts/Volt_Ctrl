@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Jul 14 19:09:18 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : volt_ctrl
+Top-level Entity Name : volt_ctrl
+Family : Cyclone IV E
+Total logic elements : 5,195
+    Total combinational functions : 4,068
+    Dedicated logic registers : 3,010
+Total registers : 3010
+Total pins : 49
+Total virtual pins : 0
+Total memory bits : 292,736
+Embedded Multiplier 9-bit elements : 6
+Total PLLs : 1

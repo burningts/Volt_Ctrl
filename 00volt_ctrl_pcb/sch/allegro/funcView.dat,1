@@ -1,0 +1,324 @@
+A!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!REFDES!FUNC_PRIM_FILE!COMP_PARENT_PPT!COMP_PARENT_PPT_PART!COMP_PARENT_PART_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!FUNC_GROUP!FUNC_ROOM!FUNC_TERM_IDENT!FUNC_CDS_FSP_INSTANCE_ID!FUNC_CDS_FSP_IS_FPGA!FUNC_CDS_FSP_UID!
+J!E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb/volt_ctrl.brd!Wed Jun  9 22:23:02 2021!-100.0000!-300.0000!700.0000!500.0000!0.0001!millimeters!VOLT_CTRL!28.800000 mil!4!UP TO DATE!
+S!@volt_ctrl.schematic1(sch_1):ins96635@discrete.\diode schottky.normal\(chips)!DIODE SCHOTTKY_DIODE_DFLS260_DFLS260!D1!.\pstchip.dat!!!!!!F164!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins109992@discrete.\inductor.normal\(chips)!INDUCTOR_SWPA5040S6R8MT_6.8UH!L1!.\pstchip.dat!!!!!!F157!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins93171@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C157!.\pstchip.dat!!!!!!F321!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins34434@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C107!.\pstchip.dat!!!!!!F320!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins35539@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C108!.\pstchip.dat!!!!!!F319!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins36644@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C57!.\pstchip.dat!!!!!!F318!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins37749@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C104!.\pstchip.dat!!!!!!F317!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins38854@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C2!.\pstchip.dat!!!!!!F316!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins39959@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C3!.\pstchip.dat!!!!!!F315!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins16919@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C5!.\pstchip.dat!!!!!!F314!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins41064@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C1!.\pstchip.dat!!!!!!F313!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins42169@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C58!.\pstchip.dat!!!!!!F312!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins43274@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C103!.\pstchip.dat!!!!!!F311!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins18971@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C6!.\pstchip.dat!!!!!!F310!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins20069@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C55!.\pstchip.dat!!!!!!F309!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins21174@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C59!.\pstchip.dat!!!!!!F308!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins22279@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C56!.\pstchip.dat!!!!!!F307!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins23384@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C105!.\pstchip.dat!!!!!!F306!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins24489@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C106!.\pstchip.dat!!!!!!F305!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins25594@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C109!.\pstchip.dat!!!!!!F304!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins26699@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C110!.\pstchip.dat!!!!!!F303!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins27804@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C7!.\pstchip.dat!!!!!!F302!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins28909@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C8!.\pstchip.dat!!!!!!F301!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins8870@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C4!.\pstchip.dat!!!!!!F300!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins30014@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C9!.\pstchip.dat!!!!!!F299!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins31119@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C61!.\pstchip.dat!!!!!!F298!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins32224@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C62!.\pstchip.dat!!!!!!F297!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins33329@discrete.\capacitor pol.normal\(chips)!CAPACITOR POL_2220_AVX-M_10UF!C60!.\pstchip.dat!!!!!!F296!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins9193@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C22!.\pstchip.dat!!!!!!F295!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins33287@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C73!.\pstchip.dat!!!!!!F294!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins33073@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C81!.\pstchip.dat!!!!!!F293!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins33263@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C87!.\pstchip.dat!!!!!!F292!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins33097@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C95!.\pstchip.dat!!!!!!F291!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins34392@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C121!.\pstchip.dat!!!!!!F290!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins34178@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C130!.\pstchip.dat!!!!!!F289!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins34368@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C139!.\pstchip.dat!!!!!!F288!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins34202@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C146!.\pstchip.dat!!!!!!F287!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins9384@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C28!.\pstchip.dat!!!!!!F286!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins35497@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C122!.\pstchip.dat!!!!!!F285!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins35283@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C131!.\pstchip.dat!!!!!!F284!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins35473@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C140!.\pstchip.dat!!!!!!F283!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins35307@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C147!.\pstchip.dat!!!!!!F282!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins36602@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C71!.\pstchip.dat!!!!!!F281!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins36388@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C79!.\pstchip.dat!!!!!!F280!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins9450@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C37!.\pstchip.dat!!!!!!F279!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins36578@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C89!.\pstchip.dat!!!!!!F278!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins36412@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C101!.\pstchip.dat!!!!!!F277!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins37707@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C120!.\pstchip.dat!!!!!!F276!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins37493@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C128!.\pstchip.dat!!!!!!F275!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins37683@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C137!.\pstchip.dat!!!!!!F274!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins37517@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C145!.\pstchip.dat!!!!!!F273!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins9517@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C46!.\pstchip.dat!!!!!!F272!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins38812@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C19!.\pstchip.dat!!!!!!F271!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins38598@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C29!.\pstchip.dat!!!!!!F270!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins38788@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C38!.\pstchip.dat!!!!!!F269!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins38622@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C50!.\pstchip.dat!!!!!!F268!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins39917@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C20!.\pstchip.dat!!!!!!F267!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins39703@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C30!.\pstchip.dat!!!!!!F266!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins39893@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C41!.\pstchip.dat!!!!!!F265!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins39727@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C51!.\pstchip.dat!!!!!!F264!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins41022@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C21!.\pstchip.dat!!!!!!F263!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins40808@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C31!.\pstchip.dat!!!!!!F262!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins40998@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C42!.\pstchip.dat!!!!!!F261!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins40832@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C52!.\pstchip.dat!!!!!!F260!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins42127@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C72!.\pstchip.dat!!!!!!F259!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins41913@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C80!.\pstchip.dat!!!!!!F258!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins42103@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C90!.\pstchip.dat!!!!!!F257!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins41937@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C102!.\pstchip.dat!!!!!!F256!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins43232@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C119!.\pstchip.dat!!!!!!F255!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins43018@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C127!.\pstchip.dat!!!!!!F254!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins43208@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C135!.\pstchip.dat!!!!!!F253!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins43042@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C144!.\pstchip.dat!!!!!!F252!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins17159@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C26!.\pstchip.dat!!!!!!F251!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins17327@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C35!.\pstchip.dat!!!!!!F250!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins17507@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C44!.\pstchip.dat!!!!!!F249!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins17699@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C53!.\pstchip.dat!!!!!!F248!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins110188@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C151!.\pstchip.dat!!!!!!F247!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins19037@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C27!.\pstchip.dat!!!!!!F246!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins18947@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C36!.\pstchip.dat!!!!!!F245!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins18815@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C45!.\pstchip.dat!!!!!!F244!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins18863@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C54!.\pstchip.dat!!!!!!F243!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins20027@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C76!.\pstchip.dat!!!!!!F242!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins19813@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C84!.\pstchip.dat!!!!!!F241!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins20003@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C92!.\pstchip.dat!!!!!!F240!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins19837@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C98!.\pstchip.dat!!!!!!F239!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins21132@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C78!.\pstchip.dat!!!!!!F238!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins20918@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C86!.\pstchip.dat!!!!!!F237!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins21108@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C94!.\pstchip.dat!!!!!!F236!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins20942@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C100!.\pstchip.dat!!!!!!F235!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins109397@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C152!.\pstchip.dat!!!!!!F234!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins22237@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C77!.\pstchip.dat!!!!!!F233!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins22023@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C85!.\pstchip.dat!!!!!!F232!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins22213@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C93!.\pstchip.dat!!!!!!F231!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins22047@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C99!.\pstchip.dat!!!!!!F230!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins23342@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C125!.\pstchip.dat!!!!!!F229!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins23128@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C133!.\pstchip.dat!!!!!!F228!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins23318@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C141!.\pstchip.dat!!!!!!F227!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins23152@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C148!.\pstchip.dat!!!!!!F226!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins24447@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C126!.\pstchip.dat!!!!!!F225!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins24233@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C134!.\pstchip.dat!!!!!!F224!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins24423@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C142!.\pstchip.dat!!!!!!F223!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins24257@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C150!.\pstchip.dat!!!!!!F222!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins25552@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C123!.\pstchip.dat!!!!!!F221!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins25338@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C129!.\pstchip.dat!!!!!!F220!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins25528@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C136!.\pstchip.dat!!!!!!F219!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins25362@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C143!.\pstchip.dat!!!!!!F218!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins26657@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C124!.\pstchip.dat!!!!!!F217!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins26443@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C132!.\pstchip.dat!!!!!!F216!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins26633@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C138!.\pstchip.dat!!!!!!F215!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins26467@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C149!.\pstchip.dat!!!!!!F214!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins27762@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C23!.\pstchip.dat!!!!!!F213!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins27548@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C32!.\pstchip.dat!!!!!!F212!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins27738@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C43!.\pstchip.dat!!!!!!F211!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins27572@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C49!.\pstchip.dat!!!!!!F210!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins28867@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C24!.\pstchip.dat!!!!!!F209!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins28653@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C33!.\pstchip.dat!!!!!!F208!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins28843@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C39!.\pstchip.dat!!!!!!F207!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins28677@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C47!.\pstchip.dat!!!!!!F206!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins29972@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C25!.\pstchip.dat!!!!!!F205!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins29758@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C34!.\pstchip.dat!!!!!!F204!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins29948@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C40!.\pstchip.dat!!!!!!F203!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins29782@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C48!.\pstchip.dat!!!!!!F202!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins31077@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C74!.\pstchip.dat!!!!!!F201!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins30863@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C82!.\pstchip.dat!!!!!!F200!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins31053@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C88!.\pstchip.dat!!!!!!F199!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins30887@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C96!.\pstchip.dat!!!!!!F198!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins32182@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C75!.\pstchip.dat!!!!!!F197!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins31968@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C83!.\pstchip.dat!!!!!!F196!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins32158@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C91!.\pstchip.dat!!!!!!F195!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins31992@discrete.\cap np.normal\(chips)!CAP NP_CAP1210_4.7UF!C97!.\pstchip.dat!!!!!!F194!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins107019@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_1UF!C153!.\pstchip.dat!!!!!!F167!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins107310@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_10NF!C155!.\pstchip.dat!!!!!!F166!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins107236@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_150PF!C156!.\pstchip.dat!!!!!!F165!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins106520@discrete.\r.normal\(chips)!R_CAP0603_34.8K!R3!.\pstchip.dat!!!!!!F154!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins107370@discrete.\r.normal\(chips)!R_CAP0603_20K!R2!.\pstchip.dat!!!!!!F153!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins107206@discrete.\r.normal\(chips)!R_CAP0603_57.6K!R1!.\pstchip.dat!!!!!!F152!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins97366@library1.\lt8362.normal\(chips)!LT8362_MSE_16A_ADI_LT8362!U51!.\pstchip.dat!!!!!!F50!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins35449@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C118!.\pstchip.dat!!!!!!F192!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins36554@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C68!.\pstchip.dat!!!!!!F191!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins37659@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C116!.\pstchip.dat!!!!!!F190!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins39869@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C18!.\pstchip.dat!!!!!!F188!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins40974@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C14!.\pstchip.dat!!!!!!F187!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins42079@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C70!.\pstchip.dat!!!!!!F186!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins16977@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C10!.\pstchip.dat!!!!!!F185!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins18677@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C12!.\pstchip.dat!!!!!!F183!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins19979@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C64!.\pstchip.dat!!!!!!F182!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins93331@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C154!.\pstchip.dat!!!!!!F181!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins22189@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C63!.\pstchip.dat!!!!!!F179!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins23294@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C111!.\pstchip.dat!!!!!!F178!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins24399@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C115!.\pstchip.dat!!!!!!F177!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins26609@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C114!.\pstchip.dat!!!!!!F175!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins27714@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C15!.\pstchip.dat!!!!!!F174!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins28819@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C17!.\pstchip.dat!!!!!!F173!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins31029@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C67!.\pstchip.dat!!!!!!F171!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins32134@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C69!.\pstchip.dat!!!!!!F169!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins33239@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C66!.\pstchip.dat!!!!!!F168!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins34344@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C117!.\pstchip.dat!!!!!!F193!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins38764@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C16!.\pstchip.dat!!!!!!F189!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins43184@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C112!.\pstchip.dat!!!!!!F184!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins21084@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C65!.\pstchip.dat!!!!!!F180!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins25504@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C113!.\pstchip.dat!!!!!!F176!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins29924@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C13!.\pstchip.dat!!!!!!F172!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins8845@discrete.\cap np.normal\(chips)!CAP NP_CAP0603_0.1UF!C11!.\pstchip.dat!!!!!!F170!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins92695@discrete.\led.normal\(chips)!LED_LED0805_LED!D2!.\pstchip.dat!!!!!!F163!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins96064@library1.\pwr2.5.normal\(chips)!PWR2.5_DC-005_5521_PWR2.5!J4!.\pstchip.dat!!!!!!F162!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins93379@connector.\header 20x2.normal\(chips)!HEADER 20X2_SHDR2X20-254_HEADER 20X2!J5!.\pstchip.dat!!!!!!F161!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins92995@connector.\header 20x2.normal\(chips)!HEADER 20X2_SHDR2X20-254_HEADER 20X2!J1!.\pstchip.dat!!!!!!F160!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins93669@connector.\header 20x2.normal\(chips)!HEADER 20X2_SHDR2X20-254_HEADER 20X2!J2!.\pstchip.dat!!!!!!F159!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins92771@connector.\header 20x2.normal\(chips)!HEADER 20X2_SHDR2X20-254_HEADER 20X2!J3!.\pstchip.dat!!!!!!F158!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins93627@discrete.\r.normal\(chips)!R_CAP0603_2.2K!R4!.\pstchip.dat!!!!!!F156!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins96186@discrete.\r.normal\(chips)!R_CAP0603_1M!R5!.\pstchip.dat!!!!!!F155!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins93651@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP101!.\pstchip.dat!!!!!!F151!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins18797@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP9!.\pstchip.dat!!!!!!F150!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins43298@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP87!.\pstchip.dat!!!!!!F149!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins43256@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP95!.\pstchip.dat!!!!!!F148!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins18995@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP18!.\pstchip.dat!!!!!!F147!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins18905@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP27!.\pstchip.dat!!!!!!F146!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins18887@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP36!.\pstchip.dat!!!!!!F145!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins19861@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP41!.\pstchip.dat!!!!!!F144!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins20279@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP50!.\pstchip.dat!!!!!!F143!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins20093@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP58!.\pstchip.dat!!!!!!F142!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins20051@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP68!.\pstchip.dat!!!!!!F141!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins20966@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP44!.\pstchip.dat!!!!!!F140!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins21384@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP52!.\pstchip.dat!!!!!!F139!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins15269@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP1!.\pstchip.dat!!!!!!F138!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins21198@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP60!.\pstchip.dat!!!!!!F137!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins21156@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP64!.\pstchip.dat!!!!!!F136!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins22071@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP43!.\pstchip.dat!!!!!!F135!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins22489@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP51!.\pstchip.dat!!!!!!F134!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins22303@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP59!.\pstchip.dat!!!!!!F133!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins22261@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP67!.\pstchip.dat!!!!!!F132!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins23176@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP76!.\pstchip.dat!!!!!!F131!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins23594@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP84!.\pstchip.dat!!!!!!F130!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins23408@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP91!.\pstchip.dat!!!!!!F129!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins23366@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP99!.\pstchip.dat!!!!!!F128!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins15499@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP10!.\pstchip.dat!!!!!!F127!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins24281@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP75!.\pstchip.dat!!!!!!F126!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins24699@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP83!.\pstchip.dat!!!!!!F125!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins24513@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP92!.\pstchip.dat!!!!!!F124!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins24471@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP100!.\pstchip.dat!!!!!!F123!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins25386@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP71!.\pstchip.dat!!!!!!F122!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins25804@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP79!.\pstchip.dat!!!!!!F121!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins25618@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP86!.\pstchip.dat!!!!!!F120!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins25576@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP93!.\pstchip.dat!!!!!!F119!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins26491@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP72!.\pstchip.dat!!!!!!F118!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins26909@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP78!.\pstchip.dat!!!!!!F117!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins15568@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP19!.\pstchip.dat!!!!!!F116!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins26723@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP85!.\pstchip.dat!!!!!!F115!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins26681@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP94!.\pstchip.dat!!!!!!F114!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins27596@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP5!.\pstchip.dat!!!!!!F113!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins28014@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP14!.\pstchip.dat!!!!!!F112!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins27828@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP25!.\pstchip.dat!!!!!!F111!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins27786@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP31!.\pstchip.dat!!!!!!F110!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins28701@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP6!.\pstchip.dat!!!!!!F109!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins29119@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP15!.\pstchip.dat!!!!!!F108!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins28933@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP21!.\pstchip.dat!!!!!!F107!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins28891@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP29!.\pstchip.dat!!!!!!F106!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins15640@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP28!.\pstchip.dat!!!!!!F105!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins29806@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP7!.\pstchip.dat!!!!!!F104!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins30224@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP16!.\pstchip.dat!!!!!!F103!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins30038@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP22!.\pstchip.dat!!!!!!F102!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins29996@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP30!.\pstchip.dat!!!!!!F101!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins30911@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP40!.\pstchip.dat!!!!!!F100!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins31329@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP46!.\pstchip.dat!!!!!!F99!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins31143@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP54!.\pstchip.dat!!!!!!F98!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins31101@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP62!.\pstchip.dat!!!!!!F97!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins32016@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP42!.\pstchip.dat!!!!!!F96!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins32434@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP49!.\pstchip.dat!!!!!!F95!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins17049@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP8!.\pstchip.dat!!!!!!F94!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins32248@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP55!.\pstchip.dat!!!!!!F93!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins32206@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP63!.\pstchip.dat!!!!!!F92!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins33121@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP39!.\pstchip.dat!!!!!!F91!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins33539@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP45!.\pstchip.dat!!!!!!F90!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins33353@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP53!.\pstchip.dat!!!!!!F89!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins33311@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP61!.\pstchip.dat!!!!!!F88!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins34226@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP73!.\pstchip.dat!!!!!!F87!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins34644@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP81!.\pstchip.dat!!!!!!F86!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins34458@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP89!.\pstchip.dat!!!!!!F85!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins34416@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP97!.\pstchip.dat!!!!!!F84!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins17177@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP17!.\pstchip.dat!!!!!!F83!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins35331@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP74!.\pstchip.dat!!!!!!F82!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins35749@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP82!.\pstchip.dat!!!!!!F81!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins35563@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP90!.\pstchip.dat!!!!!!F80!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins35521@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP98!.\pstchip.dat!!!!!!F79!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins36436@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP37!.\pstchip.dat!!!!!!F78!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins36854@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP47!.\pstchip.dat!!!!!!F77!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins36668@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP56!.\pstchip.dat!!!!!!F76!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins36626@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP65!.\pstchip.dat!!!!!!F75!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins37541@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP70!.\pstchip.dat!!!!!!F74!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins37959@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP80!.\pstchip.dat!!!!!!F73!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins17345@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP26!.\pstchip.dat!!!!!!F72!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins37773@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP88!.\pstchip.dat!!!!!!F71!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins37731@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP96!.\pstchip.dat!!!!!!F70!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins38646@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP2!.\pstchip.dat!!!!!!F69!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins39064@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP11!.\pstchip.dat!!!!!!F68!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins38878@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP20!.\pstchip.dat!!!!!!F67!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins38836@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP32!.\pstchip.dat!!!!!!F66!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins39751@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP3!.\pstchip.dat!!!!!!F65!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins40169@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP12!.\pstchip.dat!!!!!!F64!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins39983@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP23!.\pstchip.dat!!!!!!F63!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins39941@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP33!.\pstchip.dat!!!!!!F62!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins17531@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP35!.\pstchip.dat!!!!!!F61!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins40856@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP4!.\pstchip.dat!!!!!!F60!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins41274@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP13!.\pstchip.dat!!!!!!F59!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins41088@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP24!.\pstchip.dat!!!!!!F58!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins41046@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP34!.\pstchip.dat!!!!!!F57!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins41961@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP38!.\pstchip.dat!!!!!!F56!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins42379@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP48!.\pstchip.dat!!!!!!F55!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins42193@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP57!.\pstchip.dat!!!!!!F54!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins42151@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP66!.\pstchip.dat!!!!!!F53!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins43066@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP69!.\pstchip.dat!!!!!!F52!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins43484@library1.\testpoint.normal\(chips)!TESTPOINT_TESTPOINT_PAD_TESTPOINT!TP77!.\pstchip.dat!!!!!!F51!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins20984@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U21!.\pstchip.dat!!!!!!F49!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins22089@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U20!.\pstchip.dat!!!!!!F48!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins23194@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U35!.\pstchip.dat!!!!!!F47!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins24299@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U39!.\pstchip.dat!!!!!!F46!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins25404@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U36!.\pstchip.dat!!!!!!F45!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins8333@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U1!.\pstchip.dat!!!!!!F44!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins26509@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U37!.\pstchip.dat!!!!!!F43!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins27614@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U4!.\pstchip.dat!!!!!!F42!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins28719@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U5!.\pstchip.dat!!!!!!F41!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins29824@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U6!.\pstchip.dat!!!!!!F40!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins30929@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U23!.\pstchip.dat!!!!!!F39!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins32034@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U24!.\pstchip.dat!!!!!!F38!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins33139@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U22!.\pstchip.dat!!!!!!F37!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins34244@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U41!.\pstchip.dat!!!!!!F36!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins35349@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U42!.\pstchip.dat!!!!!!F35!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins36454@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U25!.\pstchip.dat!!!!!!F34!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins17191@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U2!.\pstchip.dat!!!!!!F33!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins37559@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U40!.\pstchip.dat!!!!!!F32!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins38664@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U7!.\pstchip.dat!!!!!!F31!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins39769@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U8!.\pstchip.dat!!!!!!F30!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins40874@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U9!.\pstchip.dat!!!!!!F29!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins41979@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U26!.\pstchip.dat!!!!!!F28!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins43084@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U38!.\pstchip.dat!!!!!!F27!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins18553@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U3!.\pstchip.dat!!!!!!F26!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins19879@library1.\ad5504.normal\(chips)!AD5504_TSSOP-16N_AD5504!U19!.\pstchip.dat!!!!!!F25!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins21264@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U29!.\pstchip.dat!!!!!!F24!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins22369@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U28!.\pstchip.dat!!!!!!F23!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins23474@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U43!.\pstchip.dat!!!!!!F22!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins24579@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U45!.\pstchip.dat!!!!!!F21!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins25684@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U47!.\pstchip.dat!!!!!!F20!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins26789@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U48!.\pstchip.dat!!!!!!F19!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins27894@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U16!.\pstchip.dat!!!!!!F18!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins28999@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U17!.\pstchip.dat!!!!!!F17!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins30104@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U18!.\pstchip.dat!!!!!!F16!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins31209@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U32!.\pstchip.dat!!!!!!F15!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins10657@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U10!.\pstchip.dat!!!!!!F14!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins32314@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U34!.\pstchip.dat!!!!!!F13!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins33419@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U31!.\pstchip.dat!!!!!!F12!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins34524@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U49!.\pstchip.dat!!!!!!F11!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins35629@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U50!.\pstchip.dat!!!!!!F10!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins36734@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U30!.\pstchip.dat!!!!!!F9!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins37839@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U46!.\pstchip.dat!!!!!!F8!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins38944@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U13!.\pstchip.dat!!!!!!F7!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins40049@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U14!.\pstchip.dat!!!!!!F6!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins41154@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U15!.\pstchip.dat!!!!!!F5!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins42259@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U33!.\pstchip.dat!!!!!!F4!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins17453@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U11!.\pstchip.dat!!!!!!F3!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins43364@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U44!.\pstchip.dat!!!!!!F2!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins18701@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U12!.\pstchip.dat!!!!!!F1!!!!!!!
+S!@volt_ctrl.schematic1(sch_1):ins20159@library1.\74hc245.normal\(chips)!74HC245_TSSOP-20N_74HC245!U27!.\pstchip.dat!!!!!!F0!!!!!!!

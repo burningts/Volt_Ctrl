@@ -1,0 +1,77 @@
+20:57:31 **** Build of configuration Nios II for project volt_ctrl ****
+make all 
+Info: Building ../volt_ctrl_bsp/
+D:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../volt_ctrl_bsp/
+makefile:526: Warning: BSP Settings File ../volt_ctrl/settings_ram.bsp could not be found.
+[BSP build complete]
+Info: Compiling src/spi.c to obj/default/src/spi.o
+nios2-elf-gcc -xc -MP -MMD -c -I../volt_ctrl_bsp//HAL/inc -I../volt_ctrl_bsp/ -I../volt_ctrl_bsp//drivers/inc -I../volt_ctrl_bsp -I../volt_ctrl_bsp/.settings -I../volt_ctrl_bsp/HAL -I../volt_ctrl_bsp/HAL/inc -I../volt_ctrl_bsp/HAL/inc/os -I../volt_ctrl_bsp/HAL/inc/priv -I../volt_ctrl_bsp/HAL/inc/sys -I../volt_ctrl_bsp/HAL/src -I../volt_ctrl_bsp/drivers -I../volt_ctrl_bsp/drivers/inc -I../volt_ctrl_bsp/drivers/src -Iinc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -D__DEBUG__ -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/src/spi.o src/spi.c
+src/spi.c: In function 'main':
+src/spi.c:42:45: warning: pointer targets in passing argument 4 of 'alt_avalon_spi_command' differ in signedness [-Wpointer-sign]
+                                          1, spi_command_string_tx,
+                                             ^
+In file included from src/spi.c:6:0:
+../volt_ctrl_bsp//drivers/inc/altera_avalon_spi.h:67:5: note: expected 'const alt_u8 * {aka const unsigned char *}' but argument is of type 'char *'
+ int alt_avalon_spi_command(alt_u32 base, alt_u32 slave,
+     ^
+src/spi.c:43:45: warning: pointer targets in passing argument 6 of 'alt_avalon_spi_command' differ in signedness [-Wpointer-sign]
+                                          0, spi_command_string_rx,
+                                             ^
+In file included from src/spi.c:6:0:
+../volt_ctrl_bsp//drivers/inc/altera_avalon_spi.h:67:5: note: expected 'alt_u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int alt_avalon_spi_command(alt_u32 base, alt_u32 slave,
+     ^
+src/spi.c:47:45: warning: pointer targets in passing argument 4 of 'alt_avalon_spi_command' differ in signedness [-Wpointer-sign]
+                                          1, &spi_command_string_tx[1],
+                                             ^
+In file included from src/spi.c:6:0:
+../volt_ctrl_bsp//drivers/inc/altera_avalon_spi.h:67:5: note: expected 'const alt_u8 * {aka const unsigned char *}' but argument is of type 'char *'
+ int alt_avalon_spi_command(alt_u32 base, alt_u32 slave,
+     ^
+src/spi.c:48:45: warning: pointer targets in passing argument 6 of 'alt_avalon_spi_command' differ in signedness [-Wpointer-sign]
+                                          0, spi_command_string_rx,
+                                             ^
+In file included from src/spi.c:6:0:
+../volt_ctrl_bsp//drivers/inc/altera_avalon_spi.h:67:5: note: expected 'alt_u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int alt_avalon_spi_command(alt_u32 base, alt_u32 slave,
+     ^
+src/spi.c:52:45: warning: pointer targets in passing argument 4 of 'alt_avalon_spi_command' differ in signedness [-Wpointer-sign]
+                                          1, &spi_command_string_tx[2],
+                                             ^
+In file included from src/spi.c:6:0:
+../volt_ctrl_bsp//drivers/inc/altera_avalon_spi.h:67:5: note: expected 'const alt_u8 * {aka const unsigned char *}' but argument is of type 'char *'
+ int alt_avalon_spi_command(alt_u32 base, alt_u32 slave,
+     ^
+src/spi.c:53:45: warning: pointer targets in passing argument 6 of 'alt_avalon_spi_command' differ in signedness [-Wpointer-sign]
+                                          0, spi_command_string_rx,
+                                             ^
+In file included from src/spi.c:6:0:
+../volt_ctrl_bsp//drivers/inc/altera_avalon_spi.h:67:5: note: expected 'alt_u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int alt_avalon_spi_command(alt_u32 base, alt_u32 slave,
+     ^
+src/spi.c:57:45: warning: pointer targets in passing argument 4 of 'alt_avalon_spi_command' differ in signedness [-Wpointer-sign]
+                                          1, &spi_command_string_tx[3],
+                                             ^
+In file included from src/spi.c:6:0:
+../volt_ctrl_bsp//drivers/inc/altera_avalon_spi.h:67:5: note: expected 'const alt_u8 * {aka const unsigned char *}' but argument is of type 'char *'
+ int alt_avalon_spi_command(alt_u32 base, alt_u32 slave,
+     ^
+src/spi.c:58:45: warning: pointer targets in passing argument 6 of 'alt_avalon_spi_command' differ in signedness [-Wpointer-sign]
+                                          0, spi_command_string_rx,
+                                             ^
+In file included from src/spi.c:6:0:
+../volt_ctrl_bsp//drivers/inc/altera_avalon_spi.h:67:5: note: expected 'alt_u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int alt_avalon_spi_command(alt_u32 base, alt_u32 slave,
+     ^
+src/spi.c:25:22: warning: unused variable 'ret' [-Wunused-variable]
+     int return_code, ret;
+                      ^
+Info: Linking volt_ctrl_ram.elf
+nios2-elf-g++  -T'../volt_ctrl_bsp//linker.x' -msys-crt0='../volt_ctrl_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../volt_ctrl_bsp/   -Wl,-Map=volt_ctrl_ram.map   -O0 -g -Wall  -D__DEBUG__ -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o volt_ctrl_ram.elf obj/default/src/spi.o -lm -msys-lib=m
+nios2-elf-insert volt_ctrl_ram.elf --thread_model hal --cpu_name nios --qsys true --simulation_enabled false --id 0 --sidp 0x31020 --timestamp 1624366237 --stderr_dev jtag --stdin_dev jtag --stdout_dev jtag --sopc_system_name nios --quartus_project_dir "e:/master_WHU/voltage_control/02volt_ctrl_software/prj" --jdi E:\master_WHU\voltage_control\02volt_ctrl_software\prj/output_files/volt_ctrl.jdi --sopcinfo E:/master_WHU/voltage_control/02volt_ctrl_software/nios_ii/nios.sopcinfo
+InvocationTargetException: null
+make: *** [volt_ctrl_ram.elf] Error 1
+make: *** Deleting file `volt_ctrl_ram.elf'
+
+20:57:34 Build Finished (took 3s.42ms)
+

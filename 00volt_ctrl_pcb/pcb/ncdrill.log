@@ -1,0 +1,69 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : volt_ctrl.brd                                 )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Wed Jun 16 10:36:54 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		5.5
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (mm)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		METRIC
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		NO
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		YES
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	YES
+ ENHANCED_EXCELLON	YES
+ SCALE			1.000000
+
+ WARNING(SPMHMF-365): This design contains 3 slot holes that cannot be drilled.
+ WARNING(SPMHMF-366): They can be processed by NC routing instead.
+ WARNING(SPMHMF-368): Cannot find NC Drill tool file 'nc_tools.txt'
+ WARNING(SPMHMF-369): ... will auto-generate tool file 'nc_tools_auto.txt'.
+
+
+     Auto-generating tool file 'nc_tools_auto.txt' ...
+
+           Size  Plating  Tool        + Tolerance  - Tolerance
+
+         0.4000  P        T01            0.000000     0.000000
+         0.9000  P        T02            0.000000     0.000000
+         3.1000  P        T03            0.000000     0.000000
+
+
+Drill files being output to directory 'E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb' ...
+
+
+
+     'volt_ctrl-1-4.drl' created for holes connecting TOP and BOTTOM
+     ---------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.4000    0.0000/  0.0000      PLATED        666
+     T02    2.   0.9000    0.0000/  0.0000      PLATED        160
+     T03    3.   3.1000    0.0000/  0.0000      PLATED          4
+
+     ---- Total holes:                                        830
+
+     ---- Total head travel:              15.83 feet (4.82 meters)
+

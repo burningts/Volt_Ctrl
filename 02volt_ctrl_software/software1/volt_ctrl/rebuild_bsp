@@ -1,0 +1,165 @@
+#!/bin/bash
+#use nios ii command
+#ROOT_DIR="../../../../FPGA/C10_A2"
+PROJECT_DIR="E:\master_WHU\voltage_control\02volt_ctrl_software\prj"
+SOPC_INFO="E:\master_WHU\voltage_control\02volt_ctrl_software\nios_ii"
+cp "${SOPC_INFO}/nios.sopcinfo" ../../ #&& \
+#cp "${PROJECT_DIR}/output_files/c10_main.sof" ./system
+
+if [ $? -ne 0 ]; then
+	echo "copy files failed"
+	exit -1
+fi
+
+PROJECT_NAME=volt_ctrl
+BSP_DIR=../volt_ctrl_bsp
+QUARTUS_PROJECT_DIR=${PROJECT_DIR}
+INC_DIR=./inc
+INC_DIRS="--inc-rdir ./inc  --inc-rdir ../volt_ctrl_bsp   --inc-rdir ../volt_ctrl_bsp/drivers --inc-rdir ../volt_ctrl_bsp/HAL"
+SRC_DIR=./src
+ELF_FOR_FLASH=false
+HOSTS_CORES=8
+
+#skip make
+SKIP_MAKE=false
+DEBUG=true
+
+if [[ "${ELF_FOR_FLASH}" == "true" ]]
+then
+	ELF_NAME=${PROJECT_NAME}_flash.elf
+	BSP_SETTINGS=settings_flash.bsp
+else
+	ELF_NAME=${PROJECT_NAME}_ram.elf
+	BSP_SETTINGS=settings_ram.bsp
+fi
+
+#add suffix for WSL
+uname=$(uname -r)
+uname=$(echo ${uname} | tr 'A-Z' 'a-z')
+
+if [[ "${uname}" =~ "microsoft" ]]
+then
+	_IS_WSL=1
+	windows_exe=.exe
+fi
+
+
+if [[ "$DEBUG" == "true" ]]; then
+	echo "[rebuild_bsp] --Enable debug mode"
+	NIOS2_APP_GEN_ARGS="--elf-name ${ELF_NAME} --set OBJDUMP_INCLUDE_SOURCE 1 ${INC_DIRS} --src-rdir ${SRC_DIR} --set ALT_CFLAGS -D__DEBUG__"
+else
+	NIOS2_APP_GEN_ARGS="--elf-name ${ELF_NAME} --set OBJDUMP_INCLUDE_SOURCE 1 ${INC_DIRS} --src-rdir ${SRC_DIR}"
+fi
+
+# If script is launched from Windows through Windows Subsystem for Linux (WSL).  
+# The adjust-path macro converts absolute windows 
+# paths into unix style paths (Example: c:/dir -> /c/dir). This will ensure
+# paths are readable.
+
+adjust_path() {
+    if [ "${_IS_WSL}" = "1" ] && [[ ! $1 =~ ^\/mnt\/* ]]; then
+        echo "$(wslpath -u "$1")"
+	else
+		echo "$1"
+	fi
+}
+
+# First, check to see if $SOPC_KIT_NIOS2 environmental variable is set.
+# This variable is required for the command line tools to execute correctly.
+if [ -z "${SOPC_KIT_NIOS2}" ]
+then
+    echo Required \$SOPC_KIT_NIOS2 Environmental Variable is not set!
+    exit 1
+fi
+
+chmod -R 755 . || {
+        echo "failed during changing file permissions"
+        exit 1
+}
+# Also make sure that the APP has not been created already.  Check for
+# existence of Makefile in the app directory
+if [ -f ./Makefile ]
+then
+    echo Application has already been created!  Delete Makefile.
+    # Delete Makefile in the app directory
+	cmd="rm -f ./Makefile"
+	$cmd
+fi
+
+if [ -f ${BSP_DIR}/settings.bsp ]; then
+	rm -r -f ${BSP_DIR}/settings.bsp
+fi
+
+if [ -f ${BSP_DIR}/Makefile ]; then
+	rm -r -f ${BSP_DIR}/Makefile
+	rm -r -f ${BSP_DIR}/HAL
+	rm -r -f ${BSP_DIR}/drivers
+	rm -r -f ${BSP_DIR}/obj
+	rm -f -f ${BSP_DIR}/*.h
+	rm -f -f ${BSP_DIR}/*.c
+	rm -f -f ${BSP_DIR}/*.mk
+	rm -f -f ${BSP_DIR}/*.x
+	rm -f -f ${BSP_DIR}/*.gdb
+	rm -f -f ${BSP_DIR}/*.a
+fi
+
+
+cmd="nios2-bsp-generate-files$windows_exe --settings ${BSP_SETTINGS} --bsp-dir ${BSP_DIR}"
+echo "[rebuild_bsp] --Running \"${cmd}\""
+$cmd || { 
+		echo Generate BSP failed!	
+		exit 1
+}
+
+cmd="nios2-app-generate-makefile$windows_exe --bsp-dir ${BSP_DIR} --set QUARTUS_PROJECT_DIR=${QUARTUS_PROJECT_DIR} ${NIOS2_APP_GEN_ARGS}"
+echo "[rebuild_bsp] --Running \"${cmd}\""
+$cmd || {
+    echo "nios2-app-generate-makefile$windows_exe failed"
+    exit 1
+}
+
+# fix f**king idiotic bug of makefile
+sed -i "s/^APP_LDFLAGS += -msys-lib=\$(call adjust-path-mixed\,\$(SYS_LIB)).*/APP_LDFLAGS += -msys-lib=\$(SYS_LIB)/g" Makefile
+if [ -f ../a2_c10_bsp/newlib-build-tmp/build-newlib-stage-wrapper ]; then
+	sed -i "s/eval \$ORIGINAL_ARGS.* \$CUSTOM.*/eval \$ORIGINAL_ARGS$windows_exe \$CUSTOM/g" ../a2_c10_bsp/newlib-build-tmp/build-newlib-stage-wrapper
+fi
+
+if [[ "${SKIP_MAKE}" == "false" ]]; then
+		
+		cmd="make bsp -j$HOSTS_CORES -s"
+        echo "[rebuild_bsp] --Running \"$cmd\""
+        $cmd || {
+        echo "make failed"
+            exit 1
+        }
+		
+		cmd="make app -j$HOSTS_CORES -s"
+        echo "[rebuild_bsp] --Running \"$cmd\""
+        $cmd || {
+        echo "make failed"
+            exit 1
+        }
+        
+        #cmd="make  mem_init_generate -j$HOSTS_CORES"
+        #echo "[rebuild_bsp] --Running \"$cmd\""
+        #$cmd >> /dev/null|| {
+        #echo "generate mem_init files failed"
+            #exit 1
+        #}
+else
+	echo "    Run 'make' to recompile this project."
+	echo
+fi
+
+echo
+echo "To download and run the application:"
+echo "    1. Make sure the board is connected to the system."
+echo "    2. Run 'download_os' to configure the FPGA with the hardware design."
+echo
+echo "To debug the application:"
+echo "    Import the project into Nios II Software Build Tools for Eclipse."
+echo "    Refer to Nios II Software Build Tools for Eclipse Documentation for more information."
+echo
+echo -e ""
+
+exit 0

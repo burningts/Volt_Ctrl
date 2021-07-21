@@ -1,0 +1,10 @@
+E:\master_WHU\voltage_control\03Host_Computer\BinaryWrite\binaryWrite\bin\Debug\binaryWrite.exe.config
+E:\master_WHU\voltage_control\03Host_Computer\BinaryWrite\binaryWrite\bin\Debug\binaryWrite.exe
+E:\master_WHU\voltage_control\03Host_Computer\BinaryWrite\binaryWrite\bin\Debug\binaryWrite.pdb
+E:\master_WHU\voltage_control\03Host_Computer\BinaryWrite\binaryWrite\obj\Debug\binaryWrite.csprojAssemblyReference.cache
+E:\master_WHU\voltage_control\03Host_Computer\BinaryWrite\binaryWrite\obj\Debug\binaryWrite.Form1.resources
+E:\master_WHU\voltage_control\03Host_Computer\BinaryWrite\binaryWrite\obj\Debug\binaryWrite.Properties.Resources.resources
+E:\master_WHU\voltage_control\03Host_Computer\BinaryWrite\binaryWrite\obj\Debug\binaryWrite.csproj.GenerateResource.cache
+E:\master_WHU\voltage_control\03Host_Computer\BinaryWrite\binaryWrite\obj\Debug\binaryWrite.csproj.CoreCompileInputs.cache
+E:\master_WHU\voltage_control\03Host_Computer\BinaryWrite\binaryWrite\obj\Debug\binaryWrite.exe
+E:\master_WHU\voltage_control\03Host_Computer\BinaryWrite\binaryWrite\obj\Debug\binaryWrite.pdb

@@ -1,0 +1,65 @@
+\t (00:00:00) sigxp 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Thu Jun 10 10:22:19 2021
+\t (00:00:00)         Host=LAPTOP-97T26JEF User=Burning Pid=9924 CPUs=12
+\t (00:00:00) CmdLine= sigxp -spawn -p E:\master_WHU\voltage_control\00volt_ctrl_pcb\pcb C:/Users/Burning/AppData/Local/Temp/#Taaaacw01656.tmp
+\t (00:00:00) 
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 690
+\i (00:00:00) trapsize 677
+\i (00:00:00) trapsize 692
+\i (00:00:00) trapsize 715
+\i (00:00:02) trapsize 5273
+\i (00:00:02) trapsize 1055
+\t (00:00:02) Starting new design...
+\i (00:00:03) trapsize 5273
+\i (00:00:03) trapsize 5273
+\i (00:00:03) trapsize 5273
+   (00:00:03) Loading signal.cxt 
+   (00:00:03) Loading sigxp.cxt 
+   (00:00:03) Loading sxutil.cxt 
+   (00:00:03) Loading axlcore.cxt 
+   (00:00:03) Loading fputil.cxt 
+   (00:00:03) Beginning Autoplacement
+   (00:00:03) Finished Autoplacement
+\i (00:00:05) trapsize 126
+   (00:00:05) Loading skillExt.cxt 
+\i (00:00:06) sigxp background 
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow sigxp
+\i (00:00:07) zoom out 5623.96 4331.95
+\i (00:00:07) trapsize 251
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow sigxp
+\i (00:00:08) zoom in 5483.17 4242.45
+\i (00:00:08) trapsize 126
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow sigxp
+\i (00:00:08) zoom in 5492.48 4237.17
+\i (00:00:08) trapsize 63
+\i (00:00:12) prefs 
+\i (00:00:14) setwindow form.sxparam
+\i (00:00:14) FORM sxparam cancel  
+\i (00:00:14) setwindow sigxp
+\i (00:00:14) sigxp background 
+\i (00:01:17) zoom in 1 
+\i (00:01:17) setwindow sigxp
+\i (00:01:17) zoom in 5537.49 4232.90
+\i (00:01:17) trapsize 31
+\i (00:01:17) zoom in 1 
+\i (00:01:17) setwindow sigxp
+\i (00:01:17) zoom in 5537.49 4232.90
+\i (00:01:17) trapsize 16
+\i (00:01:21) zoom out 1 
+\i (00:01:21) setwindow sigxp
+\i (00:01:21) zoom out 5539.37 4241.99
+\i (00:01:21) trapsize 31
+\i (00:01:26) zoom out 1 
+\i (00:01:26) setwindow sigxp
+\i (00:01:26) zoom out 5533.72 4240.42
+\i (00:01:26) trapsize 63
+\i (00:01:26) zoom in 1 
+\i (00:01:26) setwindow sigxp
+\i (00:01:26) zoom in 5528.95 4248.59
+\i (00:01:26) trapsize 31
+\i (00:01:44) exit 
+\t (00:01:44)     Journal end - Thu Jun 10 10:24:03 2021

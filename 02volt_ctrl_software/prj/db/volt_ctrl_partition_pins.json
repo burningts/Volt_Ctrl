@@ -1,0 +1,221 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "spi_MOSI",
+					"strict" : false
+				},
+				{
+					"name" : "spi_SS_n",
+					"strict" : false
+				},
+				{
+					"name" : "spi_SCLK",
+					"strict" : false
+				},
+				{
+					"name" : "ldac_n",
+					"strict" : false
+				},
+				{
+					"name" : "clr_n",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[0]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[1]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[2]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[3]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[4]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[5]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[6]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[7]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[8]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[9]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[10]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[11]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[12]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[13]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[14]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[15]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[16]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[17]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[18]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[19]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[20]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[21]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[22]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[23]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[24]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[25]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[26]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[27]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[28]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[29]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[30]",
+					"strict" : false
+				},
+				{
+					"name" : "oe_n[31]",
+					"strict" : false
+				},
+				{
+					"name" : "uart_txd",
+					"strict" : false
+				},
+				{
+					"name" : "pio_led",
+					"strict" : false
+				},
+				{
+					"name" : "epcs_flash_dclk",
+					"strict" : false
+				},
+				{
+					"name" : "epcs_flash_sce",
+					"strict" : false
+				},
+				{
+					"name" : "epcs_flash_sdo",
+					"strict" : false
+				},
+				{
+					"name" : "led",
+					"strict" : false
+				},
+				{
+					"name" : "sys_clk_50m",
+					"strict" : false
+				},
+				{
+					"name" : "sys_rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "key",
+					"strict" : false
+				},
+				{
+					"name" : "spi_MISO",
+					"strict" : false
+				},
+				{
+					"name" : "epcs_flash_data0",
+					"strict" : false
+				},
+				{
+					"name" : "uart_rxd",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst nios.sysid -pg 1 -lvl 3 -y 530
+preplace inst nios.jtag -pg 1 -lvl 3 -y 430
+preplace inst nios -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst nios.nios.cpu -pg 1
+preplace inst nios.nios -pg 1 -lvl 2 -y 360
+preplace inst nios.rom -pg 1 -lvl 3 -y 110
+preplace inst nios.ram -pg 1 -lvl 3 -y 30
+preplace inst nios.pio_oe -pg 1 -lvl 3 -y 610
+preplace inst nios.pio_led -pg 1 -lvl 3 -y 810
+preplace inst nios.clk_0 -pg 1 -lvl 1 -y 300
+preplace inst nios.uart -pg 1 -lvl 3 -y 310
+preplace inst nios.nios.clock_bridge -pg 1
+preplace inst nios.spi -pg 1 -lvl 3 -y 190
+preplace inst nios.pio_ldac_n -pg 1 -lvl 3 -y 710
+preplace inst nios.nios.reset_bridge -pg 1
+preplace netloc EXPORT<net_container>nios</net_container>(SLAVE)spi.external,(SLAVE)nios.spi) 1 0 3 NJ 220 NJ 220 NJ
+preplace netloc EXPORT<net_container>nios</net_container>(SLAVE)pio_oe.external_connection,(SLAVE)nios.oe) 1 0 3 NJ 640 NJ 640 NJ
+preplace netloc INTERCONNECT<net_container>nios</net_container>(MASTER)nios.data_master,(SLAVE)ram.s1,(SLAVE)pio_ldac_n.s1,(SLAVE)pio_led.s1,(SLAVE)uart.s1,(MASTER)nios.instruction_master,(SLAVE)spi.spi_control_port,(SLAVE)sysid.control_slave,(SLAVE)pio_oe.s1,(SLAVE)nios.debug_mem_slave,(SLAVE)jtag.avalon_jtag_slave,(SLAVE)rom.s1) 1 1 2 310 500 690
+preplace netloc EXPORT<net_container>nios</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)nios.reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>nios</net_container>(SLAVE)nios.ldac_n,(SLAVE)pio_ldac_n.external_connection) 1 0 3 NJ 740 NJ 740 NJ
+preplace netloc EXPORT<net_container>nios</net_container>(SLAVE)pio_led.external_connection,(SLAVE)nios.pio_led) 1 0 3 NJ 840 NJ 840 NJ
+preplace netloc EXPORT<net_container>nios</net_container>(SLAVE)clk_0.clk_in,(SLAVE)nios.clk) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>nios</net_container>(MASTER)nios.irq,(SLAVE)uart.irq,(SLAVE)spi.irq,(SLAVE)jtag.irq) 1 2 1 670
+preplace netloc FAN_OUT<net_container>nios</net_container>(MASTER)clk_0.clk,(SLAVE)nios.clk,(SLAVE)uart.clk,(SLAVE)rom.clk1,(SLAVE)spi.clk,(SLAVE)pio_ldac_n.clk,(SLAVE)sysid.clk,(SLAVE)jtag.clk,(SLAVE)pio_oe.clk,(SLAVE)ram.clk1,(SLAVE)pio_led.clk) 1 1 2 270 300 750
+preplace netloc INTERCONNECT<net_container>nios</net_container>(SLAVE)pio_oe.reset,(SLAVE)jtag.reset,(SLAVE)ram.reset1,(MASTER)clk_0.clk_reset,(SLAVE)spi.reset,(SLAVE)pio_ldac_n.reset,(SLAVE)sysid.reset,(MASTER)nios.debug_reset_request,(SLAVE)pio_led.reset,(SLAVE)nios.reset,(SLAVE)rom.reset1,(SLAVE)uart.reset) 1 1 2 290 320 730
+preplace netloc EXPORT<net_container>nios</net_container>(SLAVE)uart.external_connection,(SLAVE)nios.uart) 1 0 3 NJ 260 NJ 260 NJ
+levelinfo -pg 1 0 60 940
+levelinfo -hier nios 70 100 430 780 930

@@ -1,0 +1,8 @@
+\t (00:00:01) padstack_editor 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Thu Jul 15 09:57:24 2021
+\t (00:00:01)         Host=LAPTOP-97T26JEF User=Burning Pid=16620 CPUs=12
+\t (00:00:01) CmdLine= padstack_editor -mpssession Burning -file C:/Users/Burning/AppData/Local/Temp/#Taaaaau33144.tmp -pname MEC_HOLE_3R5 -data C:/Users/Burning/AppData/Local/Temp/#Taaaaax33144.tmp
+\t (00:00:01) 
+\d (00:00:12) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:00:13) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\t (00:00:16)     Journal end - Thu Jul 15 09:57:40 2021

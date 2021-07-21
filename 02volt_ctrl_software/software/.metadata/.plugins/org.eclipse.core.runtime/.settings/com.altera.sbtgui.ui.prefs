@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=E\:\\master_WHU\\voltage_control\\02volt_ctrl_software\\software\\volt_ctrl
+newSoftwareExampleWizardPage.sopcinfoFile=E\:\\master_WHU\\voltage_control\\02volt_ctrl_software\\nios_ii\\nios.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=E\:\\master_WHU\\voltage_control\\02volt_ctrl_software\\software\\volt_ctrl_bsp
