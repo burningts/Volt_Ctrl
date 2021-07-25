@@ -1,0 +1,19 @@
+\t (00:00:01) padstack_editor 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Sat Jun 12 10:45:02 2021
+\t (00:00:01)         Host=LAPTOP-97T26JEF User=Burning Pid=12828 CPUs=12
+\t (00:00:01) CmdLine= padstack_editor -mpssession Burning -file C:/Users/Burning/AppData/Local/Temp/#Taaaabw02928.tmp -pname MEC_HOLE_3R5 -data C:/Users/Burning/AppData/Local/Temp/#Taaaabz02928.tmp
+\t (00:00:01) 
+\d (00:00:04) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:06) QtSignal GuidedMaskLayersTab LayersTable cellClicked 0 Pad 0 1
+\d (00:00:08) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:09) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:12) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:01:05) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:01:06) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:01:07) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:01:08) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:01:08) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:01:11) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:01:12) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:01:14) QtFillin No
+\t (00:01:14)     Journal end - Sat Jun 12 10:46:15 2021

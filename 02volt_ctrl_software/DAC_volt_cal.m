@@ -1,10 +1,10 @@
 Range = 30;
 
 %Unit £ºV
-Vout1 = 6.78; 
+Vout1 = 7.78; 
 Vout2 = 3.78; 
-Vout3 = 4.78;
-Vout4 = 5.78;
+Vout3 = 5.78;
+Vout4 = 7.78;
 
 
 DAC_data1 = (Vout1 / Range) * 4096;

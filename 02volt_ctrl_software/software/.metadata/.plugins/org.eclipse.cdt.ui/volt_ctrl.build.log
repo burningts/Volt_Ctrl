@@ -1,21 +1,9 @@
-19:50:29 **** Incremental Build of configuration Nios II for project volt_ctrl ****
+16:47:11 **** Incremental Build of configuration Nios II for project volt_ctrl ****
 make all 
 Info: Building E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/
 D:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/
 [BSP build complete]
-Info: Compiling src/spi.c to obj/default/src/spi.o
-nios2-elf-gcc -xc -MP -MMD -c -IE:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp//HAL/inc -IE:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/ -IE:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/src/spi.o src/spi.c
-src/spi.c:77:13: warning: 'spi_rx_isr' defined but not used [-Wunused-function]
- static void spi_rx_isr(void *isr_context)
-             ^
-Info: Linking volt_ctrl.elf
-nios2-elf-g++  -T'E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp//linker.x' -msys-crt0='E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -LE:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/  -msmallc  -Wl,-Map=volt_ctrl.map   -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o volt_ctrl.elf obj/default/src/spi.o -lm -msys-lib=m
-nios2-elf-insert volt_ctrl.elf --thread_model hal --cpu_name nios --qsys true --simulation_enabled false --id 0 --sidp 0x12070 --timestamp 1626260838 --stderr_dev jtag --stdin_dev jtag --stdout_dev jtag --sopc_system_name nios --quartus_project_dir "e:/master_WHU/voltage_control/02volt_ctrl_software/nios_ii" --sopcinfo E:/master_WHU/voltage_control/02volt_ctrl_software/nios_ii/nios.sopcinfo
-Info: (volt_ctrl.elf) 12 KBytes program size (code + initialized data).
-Info:                 3212 Bytes free for stack + heap.
-Info: Creating volt_ctrl.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source volt_ctrl.elf >volt_ctrl.objdump
 [volt_ctrl build complete]
 
-19:50:32 Build Finished (took 2s.926ms)
+16:47:13 Build Finished (took 1s.648ms)
 

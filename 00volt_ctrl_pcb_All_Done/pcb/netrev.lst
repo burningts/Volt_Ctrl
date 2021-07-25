@@ -1,0 +1,96 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : volt_ctrl.brd                                 )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Wed Jun  9 17:00:54 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'E:/master_WHU/voltage_control/00volt_ctrl_pcb/sch/allegro'
+Design Directory:            'E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb'
+Old design name:             'E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb/volt_ctrl.brd'
+New design name:             'E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb/volt_ctrl.brd'
+
+CmdLine: netrev -$ -i E:/master_WHU/voltage_control/00volt_ctrl_pcb/sch/allegro -y 1 -h -q netrev_constraint_report.xml E:/master_WHU/voltage_control/00volt_ctrl_pcb/pcb/#Taaaacb15776.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read E:/master_WHU/voltage_control/00volt_ctrl_pcb/sch/allegro/pstchip.dat 
+   Finished reading E:/master_WHU/voltage_control/00volt_ctrl_pcb/sch/allegro/pstchip.dat (00:00:00.02)
+Starting to read E:/master_WHU/voltage_control/00volt_ctrl_pcb/sch/allegro/pstxprt.dat 
+   Finished reading E:/master_WHU/voltage_control/00volt_ctrl_pcb/sch/allegro/pstxprt.dat (00:00:00.00)
+Starting to read E:/master_WHU/voltage_control/00volt_ctrl_pcb/sch/allegro/pstxnet.dat 
+   Finished reading E:/master_WHU/voltage_control/00volt_ctrl_pcb/sch/allegro/pstxnet.dat (00:00:00.01)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/modules 
+
+PSMPATH =  E:/master_WHU/PCB_footprint/myFootprint 
+           E:/master_WHU/PCB_footprint/LIB_Cadence/Allegro/symbols 
+           E:/master_WHU/PCB_footprint/LIB_Cadence/Allegro/pads 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/symbols 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/padstacks 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols 
+           D:/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols 
+           E:/master_WHU/PCB_footprint/myFootprint 
+           E:/master_WHU/PCB_footprint/LIB_Cadence/Allegro/symbols 
+           E:/master_WHU/PCB_footprint/LIB_Cadence/Allegro/pads 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jun 9 17:00:54 2021
+   DESIGN NAME : 'VOLT_CTRL'
+   PACKAGING ON Oct  7 2019 04:16:49
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:03:37
+elapsed time  0:00:02
+

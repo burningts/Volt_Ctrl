@@ -1,0 +1,61 @@
+INFO: Loaded existing device file 'E:\master_WHU\voltage_control\00volt_ctrl_pcb\pcb\devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing interconnect file 'E:\master_WHU\voltage_control\00volt_ctrl_pcb\pcb\interconn.iml'
+INFO: Loaded existing interconnect file 'D:\Cadence\Cadence_SPB_17.4-2019\share\pcb\signal\cds_interconn.iml'
+INFO: Finished loading SigNoise interconnect libraries
+INFO: Field Solver bem2d for STL_0S_1R_8
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaacs02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_9
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaact02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_10
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaacu02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_11
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaacv02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_12
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaacw02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_13
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaacx02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_14
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaacy02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_15
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaacz02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_16
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaada02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_17
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaadb02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_18
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaadc02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_19
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaadd02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_20
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaade02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_21
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaadf02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_22
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaadg02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_23
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaadh02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_24
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaadi02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_25
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaadj02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_26
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaadk02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_27
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaadl02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_28
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaadm02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_29
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaadn02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_30
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaado02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_31
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaadp02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_32
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaadq02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_33
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaadr02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_34
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaads02928.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_35
+INFO: Executing command: bem2d 0 "C:/Users/Burning/AppData/Local/Temp/#Taaaadt02928.in" 0.00127

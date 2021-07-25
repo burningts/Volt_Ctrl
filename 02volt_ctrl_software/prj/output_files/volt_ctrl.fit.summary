@@ -1,12 +1,12 @@
-Fitter Status : Successful - Wed Jul 14 19:09:33 2021
+Fitter Status : Successful - Sun Jul 25 16:26:31 2021
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : volt_ctrl
 Top-level Entity Name : volt_ctrl
 Family : Cyclone IV E
 Device : EP4CE10F17C8
 Timing Models : Final
-Total logic elements : 4,807 / 10,320 ( 47 % )
-    Total combinational functions : 4,075 / 10,320 ( 39 % )
+Total logic elements : 4,779 / 10,320 ( 46 % )
+    Total combinational functions : 4,071 / 10,320 ( 39 % )
     Dedicated logic registers : 2,936 / 10,320 ( 28 % )
 Total registers : 2936
 Total pins : 49 / 180 ( 27 % )

@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE10) Path("E:/master_WHU/voltage_control/02volt_ctrl_software/myoutput_files/") File("output_file.jic") MfrSpec(OpMask(1) SEC_Device(EPCS16) Child_OpMask(1 1));
+		Device PartName(EP4CE10) Path("E:/master_WHU/voltage_control/02volt_ctrl_software/prj/output_files/") File("output_file.jic") MfrSpec(OpMask(1) SEC_Device(EPCS16) Child_OpMask(1 3));
 
 ChainEnd;
 

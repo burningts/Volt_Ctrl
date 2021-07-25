@@ -145,4 +145,16 @@
   <data name="WHU4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sssssw.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="deg0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\幻灯片1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deg30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\幻灯片2.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deg45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\幻灯片3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deg60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\幻灯片4.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

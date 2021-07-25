@@ -107,5 +107,17 @@
   <ItemGroup>
     <None Include="Resources\sssssw.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\幻灯片1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\幻灯片2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\幻灯片3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\幻灯片4.JPG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

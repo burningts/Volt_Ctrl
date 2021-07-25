@@ -179,7 +179,7 @@ LOAD d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-el
                 0x0000000000004244                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
                 0x0000000000004020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
 
-.text           0x0000000000004244     0x2bac
+.text           0x0000000000004244     0x2c48
                 [!provide]                        PROVIDE (stext, ABSOLUTE (.))
  *(.interp)
  *(.hash)
@@ -226,98 +226,98 @@ LOAD d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-el
  *(.text .stub .text.* .gnu.linkonce.t.*)
  .text          0x0000000000004244       0x4c E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp//obj/HAL/src/crt0.o
                 0x0000000000004244                _start
- .text          0x0000000000004290     0x11c4 obj/default/src/spi.o
+ .text          0x0000000000004290     0x1260 obj/default/src/spi.o
                 0x00000000000042c4                main
-                0x0000000000004748                IRQ_init
-                0x00000000000047bc                IRQ_UART_Interrupts
-                0x0000000000004834                WriteFileData
- .text          0x0000000000005454      0x1b0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic.o)
-                0x0000000000005454                alt_ic_isr_register
-                0x00000000000054a4                alt_ic_irq_enable
-                0x000000000000552c                alt_ic_irq_disable
-                0x00000000000055b8                alt_ic_irq_enabled
- .text          0x0000000000005604       0xf0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
-                0x0000000000005604                alt_iic_isr_register
- .text          0x00000000000056f4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_entry.o)
- .text          0x00000000000056f4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_handler.o)
- .text          0x00000000000056f4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_vars.o)
- .text          0x00000000000056f4       0xec E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_load.o)
-                0x000000000000575c                alt_load
- .text          0x00000000000057e0       0x6c E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_main.o)
-                0x00000000000057e0                alt_main
- .text          0x000000000000584c       0x30 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_usleep.o)
-                0x000000000000584c                usleep
- .text          0x000000000000587c       0xb8 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_sys_init.o)
-                0x00000000000058b0                alt_irq_init
-                0x00000000000058e8                alt_sys_init
- .text          0x0000000000005934       0xc0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
-                0x0000000000005934                altera_avalon_jtag_uart_read_fd
-                0x0000000000005994                altera_avalon_jtag_uart_write_fd
- .text          0x00000000000059f4       0xec E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
-                0x00000000000059f4                altera_avalon_jtag_uart_read
- .text          0x0000000000005ae0       0x94 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
-                0x0000000000005ae0                altera_avalon_jtag_uart_write
- .text          0x0000000000005b74      0x1fc E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_spi.o)
-                0x0000000000005b74                alt_avalon_spi_command
- .text          0x0000000000005d70       0xc0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
-                0x0000000000005d70                altera_avalon_uart_read_fd
-                0x0000000000005dd0                altera_avalon_uart_write_fd
- .text          0x0000000000005e30      0x100 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
-                0x0000000000005e6c                altera_avalon_uart_read
- .text          0x0000000000005f30      0x11c E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
-                0x0000000000005f6c                altera_avalon_uart_write
- .text          0x000000000000604c      0x158 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_busy_sleep.o)
-                0x000000000000604c                alt_busy_sleep
- .text          0x00000000000061a4      0x10c E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_close.o)
-                0x00000000000061e0                close
- .text          0x00000000000062b0       0x48 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
-                0x00000000000062b0                alt_dcache_flush_all
- .text          0x00000000000062f8       0x2c E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev.o)
- .text          0x0000000000006324       0xe0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
-                0x0000000000006360                alt_dev_llist_insert
- .text          0x0000000000006404        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_errno.o)
- .text          0x0000000000006404        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exception_entry.o)
- .text          0x0000000000006404       0x34 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exit.o)
-                0x0000000000006404                _exit
- .text          0x0000000000006438       0x34 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
-                0x0000000000006438                alt_icache_flush_all
- .text          0x000000000000646c       0x9c E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
-                0x000000000000646c                alt_exception_cause_generated_bad_addr
- .text          0x0000000000006508      0x140 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_io_redirect.o)
-                0x00000000000065cc                alt_io_redirect
- .text          0x0000000000006648      0x254 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_open.o)
-                0x0000000000006748                open
- .text          0x000000000000689c       0x64 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_release_fd.o)
-                0x000000000000689c                alt_release_fd
- .text          0x0000000000006900       0x24 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
-                0x0000000000006900                altera_nios2_gen2_irq_init
- .text          0x0000000000006924       0x90 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_dev.o)
-                0x0000000000006924                alt_find_dev
- .text          0x00000000000069b4      0x108 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_file.o)
-                0x00000000000069b4                alt_find_file
- .text          0x0000000000006abc       0xa4 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_get_fd.o)
-                0x0000000000006abc                alt_get_fd
- .text          0x0000000000006b60       0x90 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush.o)
-                0x0000000000006b60                alt_icache_flush
- .text          0x0000000000006bf0        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
- .text          0x0000000000006bf0        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
- .text.memcmp   0x0000000000006bf0       0x30 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
-                0x0000000000006bf0                memcmp
- .text          0x0000000000006c20        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
- .text.strlen   0x0000000000006c20       0x1c d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
-                0x0000000000006c20                strlen
- .text          0x0000000000006c3c      0x1b4 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
-                0x0000000000006c3c                __divsi3
-                0x0000000000006cc0                __modsi3
-                0x0000000000006d34                __udivsi3
-                0x0000000000006d98                __umodsi3
+                0x0000000000004724                IRQ_init
+                0x0000000000004798                IRQ_UART_Interrupts
+                0x0000000000004810                WriteFileData
+ .text          0x00000000000054f0      0x1b0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic.o)
+                0x00000000000054f0                alt_ic_isr_register
+                0x0000000000005540                alt_ic_irq_enable
+                0x00000000000055c8                alt_ic_irq_disable
+                0x0000000000005654                alt_ic_irq_enabled
+ .text          0x00000000000056a0       0xf0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                0x00000000000056a0                alt_iic_isr_register
+ .text          0x0000000000005790        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x0000000000005790        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x0000000000005790        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x0000000000005790       0xec E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_load.o)
+                0x00000000000057f8                alt_load
+ .text          0x000000000000587c       0x6c E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_main.o)
+                0x000000000000587c                alt_main
+ .text          0x00000000000058e8       0x30 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_usleep.o)
+                0x00000000000058e8                usleep
+ .text          0x0000000000005918       0xb8 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x000000000000594c                alt_irq_init
+                0x0000000000005984                alt_sys_init
+ .text          0x00000000000059d0       0xc0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x00000000000059d0                altera_avalon_jtag_uart_read_fd
+                0x0000000000005a30                altera_avalon_jtag_uart_write_fd
+ .text          0x0000000000005a90       0xec E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x0000000000005a90                altera_avalon_jtag_uart_read
+ .text          0x0000000000005b7c       0x94 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x0000000000005b7c                altera_avalon_jtag_uart_write
+ .text          0x0000000000005c10      0x1fc E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+                0x0000000000005c10                alt_avalon_spi_command
+ .text          0x0000000000005e0c       0xc0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+                0x0000000000005e0c                altera_avalon_uart_read_fd
+                0x0000000000005e6c                altera_avalon_uart_write_fd
+ .text          0x0000000000005ecc      0x100 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+                0x0000000000005f08                altera_avalon_uart_read
+ .text          0x0000000000005fcc      0x11c E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+                0x0000000000006008                altera_avalon_uart_write
+ .text          0x00000000000060e8      0x158 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x00000000000060e8                alt_busy_sleep
+ .text          0x0000000000006240      0x10c E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_close.o)
+                0x000000000000627c                close
+ .text          0x000000000000634c       0x48 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x000000000000634c                alt_dcache_flush_all
+ .text          0x0000000000006394       0x2c E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x00000000000063c0       0xe0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x00000000000063fc                alt_dev_llist_insert
+ .text          0x00000000000064a0        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x00000000000064a0        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x00000000000064a0       0x34 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exit.o)
+                0x00000000000064a0                _exit
+ .text          0x00000000000064d4       0x34 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00000000000064d4                alt_icache_flush_all
+ .text          0x0000000000006508       0x9c E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000000000006508                alt_exception_cause_generated_bad_addr
+ .text          0x00000000000065a4      0x140 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                0x0000000000006668                alt_io_redirect
+ .text          0x00000000000066e4      0x254 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_open.o)
+                0x00000000000067e4                open
+ .text          0x0000000000006938       0x64 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x0000000000006938                alt_release_fd
+ .text          0x000000000000699c       0x24 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x000000000000699c                altera_nios2_gen2_irq_init
+ .text          0x00000000000069c0       0x90 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x00000000000069c0                alt_find_dev
+ .text          0x0000000000006a50      0x108 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_file.o)
+                0x0000000000006a50                alt_find_file
+ .text          0x0000000000006b58       0xa4 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_get_fd.o)
+                0x0000000000006b58                alt_get_fd
+ .text          0x0000000000006bfc       0x90 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                0x0000000000006bfc                alt_icache_flush
+ .text          0x0000000000006c8c        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .text          0x0000000000006c8c        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
+ .text.memcmp   0x0000000000006c8c       0x30 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
+                0x0000000000006c8c                memcmp
+ .text          0x0000000000006cbc        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .text.strlen   0x0000000000006cbc       0x1c d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+                0x0000000000006cbc                strlen
+ .text          0x0000000000006cd8      0x1b4 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+                0x0000000000006cd8                __divsi3
+                0x0000000000006d5c                __modsi3
+                0x0000000000006dd0                __udivsi3
+                0x0000000000006e34                __umodsi3
  *(.gnu.warning.*)
  *(.fini)
                 [!provide]                        PROVIDE (__etext, ABSOLUTE (.))
                 [!provide]                        PROVIDE (_etext, ABSOLUTE (.))
                 [!provide]                        PROVIDE (etext, ABSOLUTE (.))
  *(.eh_frame_hdr)
-                0x0000000000006df0                . = ALIGN (0x4)
+                0x0000000000006e8c                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__preinit_array_start, ABSOLUTE (.))
  *(.preinit_array)
                 [!provide]                        PROVIDE (__preinit_array_end, ABSOLUTE (.))
@@ -339,186 +339,186 @@ LOAD d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-el
  *(SORT(.dtors.*))
                 [!provide]                        PROVIDE (__DTOR_END__, ABSOLUTE (.))
  *(.jcr)
-                0x0000000000006df0                . = ALIGN (0x4)
+                0x0000000000006e8c                . = ALIGN (0x4)
 
-.rodata         0x0000000000006df0       0x30
-                0x0000000000006df0                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
-                0x0000000000006df0                . = ALIGN (0x4)
+.rodata         0x0000000000006e8c       0x30
+                0x0000000000006e8c                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x0000000000006e8c                . = ALIGN (0x4)
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata        0x0000000000006df0        0xa E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_main.o)
- *fill*         0x0000000000006dfa        0x2 
- .rodata        0x0000000000006dfc       0x16 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_sys_init.o)
- *fill*         0x0000000000006e12        0x2 
- .rodata        0x0000000000006e14        0xa E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev.o)
+ .rodata        0x0000000000006e8c        0xa E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_main.o)
+ *fill*         0x0000000000006e96        0x2 
+ .rodata        0x0000000000006e98       0x16 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_sys_init.o)
+ *fill*         0x0000000000006eae        0x2 
+ .rodata        0x0000000000006eb0        0xa E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev.o)
  *(.rodata1)
-                0x0000000000006e20                . = ALIGN (0x4)
- *fill*         0x0000000000006e1e        0x2 
-                0x0000000000006e20                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
-                0x0000000000006df0                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+                0x0000000000006ebc                . = ALIGN (0x4)
+ *fill*         0x0000000000006eba        0x2 
+                0x0000000000006ebc                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x0000000000006e8c                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
 
-.rwdata         0x0000000000006e20      0x290
-                0x0000000000006e20                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
-                0x0000000000006e20                . = ALIGN (0x4)
+.rwdata         0x0000000000006ebc      0x290
+                0x0000000000006ebc                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x0000000000006ebc                . = ALIGN (0x4)
  *(.got.plt)
  *(.got)
  *(.data1)
  *(.data .data.* .gnu.linkonce.d.*)
- .data          0x0000000000006e20        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp//obj/HAL/src/crt0.o
- .data          0x0000000000006e20       0x6e obj/default/src/spi.o
-                0x0000000000006e20                oe_msk
-                0x0000000000006e84                spi_command_string_rx
- .data          0x0000000000006e8e        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic.o)
- .data          0x0000000000006e8e        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
- .data          0x0000000000006e8e        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_entry.o)
- .data          0x0000000000006e8e        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_handler.o)
- .data          0x0000000000006e8e        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_vars.o)
- .data          0x0000000000006e8e        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_load.o)
- .data          0x0000000000006e8e        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_main.o)
- .data          0x0000000000006e8e        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_usleep.o)
- *fill*         0x0000000000006e8e        0x2 
- .data          0x0000000000006e90       0x58 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_sys_init.o)
- .data          0x0000000000006ee8        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
- .data          0x0000000000006ee8        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
- .data          0x0000000000006ee8        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
- .data          0x0000000000006ee8        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_spi.o)
- .data          0x0000000000006ee8        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
- .data          0x0000000000006ee8        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
- .data          0x0000000000006ee8        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
- .data          0x0000000000006ee8        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_busy_sleep.o)
- .data          0x0000000000006ee8        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_close.o)
- .data          0x0000000000006ee8        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
- .data          0x0000000000006ee8      0x1a8 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev.o)
-                0x0000000000006ee8                alt_dev_null
-                0x0000000000006f10                alt_fd_list
- .data          0x0000000000007090        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
- .data          0x0000000000007090        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_errno.o)
- .data          0x0000000000007090        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exception_entry.o)
- .data          0x0000000000007090        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exit.o)
- .data          0x0000000000007090        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
- .data          0x0000000000007090        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
- .data          0x0000000000007090        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_io_redirect.o)
- .data          0x0000000000007090        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_open.o)
- .data          0x0000000000007090        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_release_fd.o)
- .data          0x0000000000007090        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
- .data          0x0000000000007090        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_dev.o)
- .data          0x0000000000007090        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_file.o)
- .data          0x0000000000007090        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_get_fd.o)
- .data          0x0000000000007090        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush.o)
- .data          0x0000000000007090        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
- .data          0x0000000000007090        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
- .data          0x0000000000007090        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
- .data          0x0000000000007090        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
-                0x000000000000f090                _gp = ABSOLUTE ((. + 0x8000))
+ .data          0x0000000000006ebc        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp//obj/HAL/src/crt0.o
+ .data          0x0000000000006ebc       0x6e obj/default/src/spi.o
+                0x0000000000006ebc                oe_msk
+                0x0000000000006f20                spi_command_string_rx
+ .data          0x0000000000006f2a        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic.o)
+ .data          0x0000000000006f2a        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x0000000000006f2a        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x0000000000006f2a        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x0000000000006f2a        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x0000000000006f2a        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x0000000000006f2a        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x0000000000006f2a        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_usleep.o)
+ *fill*         0x0000000000006f2a        0x2 
+ .data          0x0000000000006f2c       0x58 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x0000000000006f84        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x0000000000006f84        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x0000000000006f84        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x0000000000006f84        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .data          0x0000000000006f84        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+ .data          0x0000000000006f84        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+ .data          0x0000000000006f84        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+ .data          0x0000000000006f84        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .data          0x0000000000006f84        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x0000000000006f84        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000000000006f84      0x1a8 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev.o)
+                0x0000000000006f84                alt_dev_null
+                0x0000000000006fac                alt_fd_list
+ .data          0x000000000000712c        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x000000000000712c        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x000000000000712c        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x000000000000712c        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exit.o)
+ .data          0x000000000000712c        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x000000000000712c        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .data          0x000000000000712c        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .data          0x000000000000712c        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_open.o)
+ .data          0x000000000000712c        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x000000000000712c        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x000000000000712c        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x000000000000712c        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_file.o)
+ .data          0x000000000000712c        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .data          0x000000000000712c        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .data          0x000000000000712c        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .data          0x000000000000712c        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
+ .data          0x000000000000712c        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .data          0x000000000000712c        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+                0x000000000000f12c                _gp = ABSOLUTE ((. + 0x8000))
                 [!provide]                        PROVIDE (gp, _gp)
  *(.rwdata .rwdata.*)
  *(.sdata .sdata.* .gnu.linkonce.s.*)
- .sdata         0x0000000000007090        0x4 obj/default/src/spi.o
-                0x0000000000007090                IsSettingInfo
- .sdata         0x0000000000007094        0x4 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_vars.o)
-                0x0000000000007094                alt_priority_mask
- .sdata         0x0000000000007098       0x14 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev.o)
-                0x0000000000007098                alt_fs_list
-                0x00000000000070a0                alt_dev_list
-                0x00000000000070a8                alt_max_fd
- .sdata         0x00000000000070ac        0x4 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_errno.o)
-                0x00000000000070ac                alt_errno
+ .sdata         0x000000000000712c        0x4 obj/default/src/spi.o
+                0x000000000000712c                IsSettingInfo
+ .sdata         0x0000000000007130        0x4 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x0000000000007130                alt_priority_mask
+ .sdata         0x0000000000007134       0x14 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev.o)
+                0x0000000000007134                alt_fs_list
+                0x000000000000713c                alt_dev_list
+                0x0000000000007144                alt_max_fd
+ .sdata         0x0000000000007148        0x4 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_errno.o)
+                0x0000000000007148                alt_errno
  *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
-                0x00000000000070b0                . = ALIGN (0x4)
-                0x00000000000070b0                _edata = ABSOLUTE (.)
+                0x000000000000714c                . = ALIGN (0x4)
+                0x000000000000714c                _edata = ABSOLUTE (.)
                 [!provide]                        PROVIDE (edata, ABSOLUTE (.))
-                0x00000000000070b0                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
-                0x0000000000006e20                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+                0x000000000000714c                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x0000000000006ebc                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
 
-.bss            0x00000000000070b0      0x2c4
-                0x00000000000070b0                __bss_start = ABSOLUTE (.)
+.bss            0x000000000000714c      0x2c4
+                0x000000000000714c                __bss_start = ABSOLUTE (.)
                 [!provide]                        PROVIDE (__sbss_start, ABSOLUTE (.))
                 [!provide]                        PROVIDE (___sbss_start, ABSOLUTE (.))
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
- .sbss          0x00000000000070b0       0x14 obj/default/src/spi.o
-                0x00000000000070b0                UartReceiveCnt
-                0x00000000000070b1                txdata
-                0x00000000000070b2                Datalength
-                0x00000000000070b4                oe_cnt
-                0x00000000000070b8                oe_cnt1
-                0x00000000000070bc                oe_cnt2
-                0x00000000000070c0                out_delay
- .sbss          0x00000000000070c4        0x8 obj/default/src/spi.o
-                0x00000000000070c4                return_code
-                0x00000000000070c8                ret
- .sbss          0x00000000000070cc        0x4 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_vars.o)
-                0x00000000000070cc                alt_irq_active
- .sbss          0x00000000000070d0        0xc E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_main.o)
-                0x00000000000070d0                alt_argc
-                0x00000000000070d4                alt_argv
-                0x00000000000070d8                alt_envp
- .sbss          0x00000000000070dc        0x4 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
-                0x00000000000070dc                alt_instruction_exception_handler
- .sbss          0x00000000000070e0        0x4 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
-                0x00000000000070e0                errno
+ .sbss          0x000000000000714c       0x14 obj/default/src/spi.o
+                0x000000000000714c                UartReceiveCnt
+                0x000000000000714d                txdata
+                0x000000000000714e                Datalength
+                0x0000000000007150                oe_cnt
+                0x0000000000007154                oe_cnt1
+                0x0000000000007158                oe_cnt2
+                0x000000000000715c                out_delay
+ .sbss          0x0000000000007160        0x8 obj/default/src/spi.o
+                0x0000000000007160                return_code
+                0x0000000000007164                ret
+ .sbss          0x0000000000007168        0x4 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x0000000000007168                alt_irq_active
+ .sbss          0x000000000000716c        0xc E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_main.o)
+                0x000000000000716c                alt_argc
+                0x0000000000007170                alt_argv
+                0x0000000000007174                alt_envp
+ .sbss          0x0000000000007178        0x4 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000000000007178                alt_instruction_exception_handler
+ .sbss          0x000000000000717c        0x4 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+                0x000000000000717c                errno
  *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
  *(.scommon)
                 [!provide]                        PROVIDE (__sbss_end, ABSOLUTE (.))
                 [!provide]                        PROVIDE (___sbss_end, ABSOLUTE (.))
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp//obj/HAL/src/crt0.o
- .bss           0x00000000000070e4        0x0 obj/default/src/spi.o
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_entry.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_handler.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_vars.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_load.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_main.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_usleep.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_sys_init.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_spi.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_busy_sleep.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_close.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_errno.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exception_entry.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exit.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_io_redirect.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_open.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_release_fd.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_dev.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_file.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_get_fd.o)
- .bss           0x00000000000070e4        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush.o)
- .bss           0x00000000000070e4        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
- .bss           0x00000000000070e4        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
- .bss           0x00000000000070e4        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
- .bss           0x00000000000070e4        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp//obj/HAL/src/crt0.o
+ .bss           0x0000000000007180        0x0 obj/default/src/spi.o
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_usleep.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exit.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_open.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_file.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .bss           0x0000000000007180        0x0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x0000000000007180        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .bss           0x0000000000007180        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
+ .bss           0x0000000000007180        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .bss           0x0000000000007180        0x0 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
  *(COMMON)
- COMMON         0x00000000000070e4      0x190 obj/default/src/spi.o
-                0x00000000000070e4                rxdata
-                0x00000000000071ac                spi_command_string_tx
- COMMON         0x0000000000007274      0x100 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_handler.o)
-                0x0000000000007274                alt_irq
-                0x0000000000007374                . = ALIGN (0x4)
-                0x0000000000007374                __bss_end = ABSOLUTE (.)
+ COMMON         0x0000000000007180      0x190 obj/default/src/spi.o
+                0x0000000000007180                rxdata
+                0x0000000000007248                spi_command_string_tx
+ COMMON         0x0000000000007310      0x100 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x0000000000007310                alt_irq
+                0x0000000000007410                . = ALIGN (0x4)
+                0x0000000000007410                __bss_end = ABSOLUTE (.)
 
-.ram            0x0000000000007374        0x0
+.ram            0x0000000000007410        0x0
                 [!provide]                        PROVIDE (_alt_partition_ram_start, ABSOLUTE (.))
  *(.ram .ram. ram.*)
-                0x0000000000007374                . = ALIGN (0x4)
+                0x0000000000007410                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (_alt_partition_ram_end, ABSOLUTE (.))
-                0x0000000000007374                _end = ABSOLUTE (.)
-                0x0000000000007374                end = ABSOLUTE (.)
-                0x0000000000007374                __alt_stack_base = ABSOLUTE (.)
+                0x0000000000007410                _end = ABSOLUTE (.)
+                0x0000000000007410                end = ABSOLUTE (.)
+                0x0000000000007410                __alt_stack_base = ABSOLUTE (.)
                 [!provide]                        PROVIDE (_alt_partition_ram_load_addr, LOADADDR (.ram))
 
 .rom            0x000000000000c000        0x0
@@ -692,48 +692,48 @@ LOAD d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-el
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000     0x4ba6
+.debug_info     0x0000000000000000     0x4b8c
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000       0x82 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp//obj/HAL/src/crt0.o
- .debug_info    0x0000000000000082      0x2aa obj/default/src/spi.o
- .debug_info    0x000000000000032c      0x350 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic.o)
- .debug_info    0x000000000000067c      0x1ef E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
- .debug_info    0x000000000000086b       0x87 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_entry.o)
- .debug_info    0x00000000000008f2      0x187 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_handler.o)
- .debug_info    0x0000000000000a79       0x88 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_vars.o)
- .debug_info    0x0000000000000b01      0x145 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_load.o)
- .debug_info    0x0000000000000c46      0x131 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_main.o)
- .debug_info    0x0000000000000d77       0xb0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_usleep.o)
- .debug_info    0x0000000000000e27      0x439 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_sys_init.o)
- .debug_info    0x0000000000001260      0x3a7 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
- .debug_info    0x0000000000001607      0x1b2 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
- .debug_info    0x00000000000017b9      0x195 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
- .debug_info    0x000000000000194e      0x18d E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_spi.o)
- .debug_info    0x0000000000001adb      0x388 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
- .debug_info    0x0000000000001e63      0x1a6 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
- .debug_info    0x0000000000002009      0x1b9 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
- .debug_info    0x00000000000021c2       0xd7 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_busy_sleep.o)
- .debug_info    0x0000000000002299      0x321 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_close.o)
- .debug_info    0x00000000000025ba       0xa5 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
- .debug_info    0x000000000000265f      0x49c E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev.o)
- .debug_info    0x0000000000002afb      0x1a9 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
- .debug_info    0x0000000000002ca4       0xa6 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_errno.o)
- .debug_info    0x0000000000002d4a       0x8d E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exception_entry.o)
- .debug_info    0x0000000000002dd7       0xec E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exit.o)
- .debug_info    0x0000000000002ec3       0x92 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
- .debug_info    0x0000000000002f55      0x1e7 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
- .debug_info    0x000000000000313c      0x4a5 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_io_redirect.o)
- .debug_info    0x00000000000035e1      0x3bb E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_open.o)
- .debug_info    0x000000000000399c      0x2b0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_release_fd.o)
- .debug_info    0x0000000000003c4c       0x92 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
- .debug_info    0x0000000000003cde      0x2e9 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_dev.o)
- .debug_info    0x0000000000003fc7      0x2e6 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_file.o)
- .debug_info    0x00000000000042ad      0x310 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_get_fd.o)
- .debug_info    0x00000000000045bd       0xdc E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush.o)
- .debug_info    0x0000000000004699       0x8a d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
- .debug_info    0x0000000000004723       0xf4 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
- .debug_info    0x0000000000004817       0xc9 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
- .debug_info    0x00000000000048e0      0x2c6 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_info    0x0000000000000082      0x290 obj/default/src/spi.o
+ .debug_info    0x0000000000000312      0x350 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x0000000000000662      0x1ef E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x0000000000000851       0x87 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x00000000000008d8      0x187 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x0000000000000a5f       0x88 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x0000000000000ae7      0x145 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000000000000c2c      0x131 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000000000000d5d       0xb0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_info    0x0000000000000e0d      0x439 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000000000001246      0x3a7 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x00000000000015ed      0x1b2 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x000000000000179f      0x195 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x0000000000001934      0x18d E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_info    0x0000000000001ac1      0x388 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+ .debug_info    0x0000000000001e49      0x1a6 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+ .debug_info    0x0000000000001fef      0x1b9 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+ .debug_info    0x00000000000021a8       0xd7 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_info    0x000000000000227f      0x321 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x00000000000025a0       0xa5 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x0000000000002645      0x49c E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x0000000000002ae1      0x1a9 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x0000000000002c8a       0xa6 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x0000000000002d30       0x8d E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x0000000000002dbd       0xec E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exit.o)
+ .debug_info    0x0000000000002ea9       0x92 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x0000000000002f3b      0x1e7 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_info    0x0000000000003122      0x4a5 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x00000000000035c7      0x3bb E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_info    0x0000000000003982      0x2b0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x0000000000003c32       0x92 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x0000000000003cc4      0x2e9 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x0000000000003fad      0x2e6 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x0000000000004293      0x310 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x00000000000045a3       0xdc E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x000000000000467f       0x8a d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x0000000000004709       0xf4 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
+ .debug_info    0x00000000000047fd       0xc9 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_info    0x00000000000048c6      0x2c6 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
 
 .debug_abbrev   0x0000000000000000     0x1da1
  *(.debug_abbrev)
@@ -778,48 +778,48 @@ LOAD d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-el
  .debug_abbrev  0x0000000000001c14       0x7f d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
  .debug_abbrev  0x0000000000001c93      0x10e d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
 
-.debug_line     0x0000000000000000     0x2153
+.debug_line     0x0000000000000000     0x2156
  *(.debug_line)
  .debug_line    0x0000000000000000       0x5a E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp//obj/HAL/src/crt0.o
- .debug_line    0x000000000000005a      0x311 obj/default/src/spi.o
- .debug_line    0x000000000000036b       0xeb E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic.o)
- .debug_line    0x0000000000000456       0xdb E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
- .debug_line    0x0000000000000531       0x6b E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_entry.o)
- .debug_line    0x000000000000059c       0xaa E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_handler.o)
- .debug_line    0x0000000000000646       0x50 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_vars.o)
- .debug_line    0x0000000000000696       0x8e E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_load.o)
- .debug_line    0x0000000000000724       0x9e E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_main.o)
- .debug_line    0x00000000000007c2       0xa8 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_usleep.o)
- .debug_line    0x000000000000086a      0x170 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_sys_init.o)
- .debug_line    0x00000000000009da      0x112 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
- .debug_line    0x0000000000000aec       0xfd E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
- .debug_line    0x0000000000000be9       0xf4 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
- .debug_line    0x0000000000000cdd       0xb7 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_spi.o)
- .debug_line    0x0000000000000d94       0xe5 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
- .debug_line    0x0000000000000e79       0xf6 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
- .debug_line    0x0000000000000f6f       0xfe E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
- .debug_line    0x000000000000106d       0xa0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_busy_sleep.o)
- .debug_line    0x000000000000110d      0x160 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_close.o)
- .debug_line    0x000000000000126d       0x61 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
- .debug_line    0x00000000000012ce       0xf3 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev.o)
- .debug_line    0x00000000000013c1       0xcf E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
- .debug_line    0x0000000000001490       0x51 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_errno.o)
- .debug_line    0x00000000000014e1       0xb3 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exception_entry.o)
- .debug_line    0x0000000000001594       0x71 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exit.o)
- .debug_line    0x0000000000001605       0x50 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
- .debug_line    0x0000000000001655       0xba E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
- .debug_line    0x000000000000170f      0x12e E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_io_redirect.o)
- .debug_line    0x000000000000183d      0x128 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_open.o)
- .debug_line    0x0000000000001965       0xae E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_release_fd.o)
- .debug_line    0x0000000000001a13       0x51 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
- .debug_line    0x0000000000001a64       0xb5 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_dev.o)
- .debug_line    0x0000000000001b19       0xd1 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_file.o)
- .debug_line    0x0000000000001bea       0xd4 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_get_fd.o)
- .debug_line    0x0000000000001cbe       0x81 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush.o)
- .debug_line    0x0000000000001d3f       0x5c d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
- .debug_line    0x0000000000001d9b      0x15d d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
- .debug_line    0x0000000000001ef8      0x159 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
- .debug_line    0x0000000000002051      0x102 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_line    0x000000000000005a      0x314 obj/default/src/spi.o
+ .debug_line    0x000000000000036e       0xeb E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x0000000000000459       0xdb E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x0000000000000534       0x6b E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x000000000000059f       0xaa E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x0000000000000649       0x50 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x0000000000000699       0x8e E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x0000000000000727       0x9e E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x00000000000007c5       0xa8 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_line    0x000000000000086d      0x170 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x00000000000009dd      0x112 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x0000000000000aef       0xfd E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x0000000000000bec       0xf4 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x0000000000000ce0       0xb7 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_line    0x0000000000000d97       0xe5 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+ .debug_line    0x0000000000000e7c       0xf6 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+ .debug_line    0x0000000000000f72       0xfe E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+ .debug_line    0x0000000000001070       0xa0 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_line    0x0000000000001110      0x160 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_line    0x0000000000001270       0x61 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x00000000000012d1       0xf3 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x00000000000013c4       0xcf E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x0000000000001493       0x51 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x00000000000014e4       0xb3 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x0000000000001597       0x71 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_exit.o)
+ .debug_line    0x0000000000001608       0x50 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000000000001658       0xba E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_line    0x0000000000001712      0x12e E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x0000000000001840      0x128 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_line    0x0000000000001968       0xae E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x0000000000001a16       0x51 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000001a67       0xb5 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x0000000000001b1c       0xd1 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x0000000000001bed       0xd4 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x0000000000001cc1       0x81 E:/master_WHU/voltage_control/02volt_ctrl_software/software/volt_ctrl_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x0000000000001d42       0x5c d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_line    0x0000000000001d9e      0x15d d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
+ .debug_line    0x0000000000001efb      0x159 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_line    0x0000000000002054      0x102 d:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
 
 .debug_frame    0x0000000000000000      0xa0c
  *(.debug_frame)

@@ -85,7 +85,7 @@ static void spi_rx_isr(void *isr_context)
 
 int main()
 {
-    // alt_printf("Hello from Nios II!\n");
+    //alt_printf("Hello from Nios II!\n");
 
     // DAC register
     // WR_AD5504_CTRL_SET_ALLDAC_H 0X5 + 12bit data
@@ -119,7 +119,7 @@ int main()
     // spi_rx_isr(NULL);
 
     // //DAC power-up
-    for (int i = 20; i < 142; i = i + 8)
+    for (int i = 18; i < 149; i = i + 8)
     {
         IOWR_ALTERA_AVALON_PIO_DATA(PIO_LDAC_N_BASE, 1);
         IOWR_ALTERA_AVALON_PIO_DATA(PIO_OE_BASE, oe_msk[(i - 6 * oe_cnt) / 2 - 1]);
@@ -132,9 +132,9 @@ int main()
     }
     IOWR_ALTERA_AVALON_PIO_DATA(PIO_OE_BASE, OE_ALL_ENABLE);
     IOWR_ALTERA_AVALON_PIO_DATA(PIO_LDAC_N_BASE, 0);
-    IOWR_ALTERA_AVALON_PIO_DATA(PIO_LED_BASE, 0);
+    IOWR_ALTERA_AVALON_PIO_DATA(PIO_LED_BASE, 1);
 
-    // alt_printf("DAC Power up \n");
+    //alt_printf("DAC Power up \n");
     while (IsSettingInfo)
         ;
 
@@ -144,11 +144,11 @@ int main()
         while (UartReceiveCnt < Datalength)
             ;
         IsSettingInfo = 1;
-        //alt_printf("datalength:  %x \n", Datalength);
-        for (int i = 0; i < UartReceiveCnt; i++)
-        {
-            // alt_printf("uart receive:  %x \n", rxdata[i]);
-        }
+        // alt_printf("datalength:  %x \n", Datalength);
+        // for (int i = 0; i < UartReceiveCnt; i++)
+        // {
+        //     alt_printf("uart receive:  %x \n", rxdata[i]);
+        // }
         WriteFileData();
         //alt_printf("spi_command_string_tx[28] = %x \n", spi_command_string_tx[28]);
         UartReceiveCnt = 0;
@@ -159,7 +159,7 @@ int main()
             {
                 break;
             }
-            for (int j = 20; j < 142; j = j + 8)
+            for (int j = 18; j < 149; j = j + 8)
             {
                 IOWR_ALTERA_AVALON_PIO_DATA(PIO_LDAC_N_BASE, 1);
                 IOWR_ALTERA_AVALON_PIO_DATA(PIO_OE_BASE, oe_msk[(j - 6 * oe_cnt1) / 2 - 1]);
@@ -185,9 +185,9 @@ int main()
             IOWR_ALTERA_AVALON_PIO_DATA(PIO_OE_BASE, OE_ALL_ENABLE);
             IOWR_ALTERA_AVALON_PIO_DATA(PIO_LDAC_N_BASE, 0);
             oe_cnt1 = 0;
-            usleep(380);
+            usleep(374);
 
-            for (int k = 20; k < 142; k = k + 8)
+            for (int k = 18; k < 149; k = k + 8)
             {
                 IOWR_ALTERA_AVALON_PIO_DATA(PIO_LDAC_N_BASE, 1);
                 IOWR_ALTERA_AVALON_PIO_DATA(PIO_OE_BASE, oe_msk[(k - 6 * oe_cnt2) / 2 - 1]);
@@ -201,7 +201,7 @@ int main()
             IOWR_ALTERA_AVALON_PIO_DATA(PIO_OE_BASE, OE_ALL_ENABLE);
             IOWR_ALTERA_AVALON_PIO_DATA(PIO_LDAC_N_BASE, 0);
             oe_cnt2 = 0;
-            usleep(99);
+            usleep(79);
         }
     }
 
@@ -359,149 +359,145 @@ void IRQ_UART_Interrupts()
 void WriteFileData()
 {
     //DAC10
-    spi_command_string_tx[20] = rxdata[0];
-    spi_command_string_tx[21] = rxdata[1];
-    spi_command_string_tx[22] = rxdata[2];
-    spi_command_string_tx[23] = rxdata[3];
-    spi_command_string_tx[24] = rxdata[4];
-    spi_command_string_tx[25] = rxdata[5];
-    spi_command_string_tx[26] = rxdata[6];
-    spi_command_string_tx[27] = rxdata[7];
-    //DAC11
-    spi_command_string_tx[28] = rxdata[8];
-    spi_command_string_tx[29] = rxdata[9];
-    spi_command_string_tx[30] = rxdata[10];
-    spi_command_string_tx[31] = rxdata[11];
-    spi_command_string_tx[32] = rxdata[12];
-    spi_command_string_tx[33] = rxdata[13];
-    spi_command_string_tx[34] = rxdata[14];
-    spi_command_string_tx[35] = rxdata[15];
-    //DAC12
-    spi_command_string_tx[36] = rxdata[16];
-    spi_command_string_tx[37] = rxdata[17];
-    spi_command_string_tx[38] = rxdata[18];
-    spi_command_string_tx[39] = rxdata[19];
-    spi_command_string_tx[40] = rxdata[20];
-    spi_command_string_tx[41] = rxdata[21];
-    spi_command_string_tx[42] = rxdata[22];
-    spi_command_string_tx[43] = rxdata[23];
-    //DAC13
-    spi_command_string_tx[44] = rxdata[24];
-    spi_command_string_tx[45] = rxdata[25];
-    spi_command_string_tx[46] = rxdata[26];
-    spi_command_string_tx[47] = rxdata[27];
-    spi_command_string_tx[48] = rxdata[28];
-    spi_command_string_tx[49] = rxdata[29];
-    spi_command_string_tx[50] = rxdata[30];
-    spi_command_string_tx[51] = rxdata[31];
-    //DAC14
-    spi_command_string_tx[52] = rxdata[32];
-    spi_command_string_tx[53] = rxdata[33];
-    spi_command_string_tx[54] = rxdata[34];
-    spi_command_string_tx[55] = rxdata[35];
-    spi_command_string_tx[56] = rxdata[36];
-    spi_command_string_tx[57] = rxdata[37];
-    spi_command_string_tx[58] = rxdata[38];
-    spi_command_string_tx[59] = rxdata[39];
-    //DAC15
-    spi_command_string_tx[60] = rxdata[40];
-    spi_command_string_tx[61] = rxdata[41];
-    spi_command_string_tx[62] = rxdata[42];
-    spi_command_string_tx[63] = rxdata[43];
-    spi_command_string_tx[64] = rxdata[44];
-    spi_command_string_tx[65] = rxdata[45];
-    spi_command_string_tx[66] = rxdata[46];
-    spi_command_string_tx[67] = rxdata[47];
-    //DAC16
-    spi_command_string_tx[68] = rxdata[48];
-    spi_command_string_tx[69] = rxdata[49];
-    spi_command_string_tx[70] = rxdata[50];
-    spi_command_string_tx[71] = rxdata[51];
-    spi_command_string_tx[72] = rxdata[52];
-    spi_command_string_tx[73] = rxdata[53];
-    spi_command_string_tx[74] = rxdata[54];
-    spi_command_string_tx[75] = rxdata[55];
-    //DAC17
-    spi_command_string_tx[76] = rxdata[56];
-    spi_command_string_tx[77] = rxdata[57];
-    spi_command_string_tx[78] = rxdata[58];
-    spi_command_string_tx[79] = rxdata[59];
-    spi_command_string_tx[80] = rxdata[60];
-    spi_command_string_tx[81] = rxdata[61];
-    spi_command_string_tx[82] = rxdata[62];
-    spi_command_string_tx[83] = rxdata[63];
-    //DAC18
-    spi_command_string_tx[84] = rxdata[64];
-    spi_command_string_tx[85] = rxdata[65];
-    spi_command_string_tx[86] = rxdata[66];
-    spi_command_string_tx[87] = rxdata[67];
-    spi_command_string_tx[88] = rxdata[68];
-    spi_command_string_tx[89] = rxdata[69];
-    spi_command_string_tx[90] = rxdata[70];
-    spi_command_string_tx[91] = rxdata[71];
-    //DAC19
-    spi_command_string_tx[92] = rxdata[72];
-    spi_command_string_tx[93] = rxdata[73];
-    spi_command_string_tx[94] = rxdata[74];
-    spi_command_string_tx[95] = rxdata[75];
-    spi_command_string_tx[96] = rxdata[76];
-    spi_command_string_tx[97] = rxdata[77];
-    spi_command_string_tx[98] = rxdata[78];
-    spi_command_string_tx[99] = rxdata[79];
-    //DAC20
-    spi_command_string_tx[100] = rxdata[80];
-    spi_command_string_tx[101] = rxdata[81];
-    spi_command_string_tx[102] = rxdata[82];
-    spi_command_string_tx[103] = rxdata[83];
-    spi_command_string_tx[104] = rxdata[84];
-    spi_command_string_tx[105] = rxdata[85];
-    spi_command_string_tx[106] = rxdata[86];
-    spi_command_string_tx[107] = rxdata[87];
-    //DAC21
-    spi_command_string_tx[108] = rxdata[88];
-    spi_command_string_tx[109] = rxdata[89];
-    spi_command_string_tx[110] = rxdata[90];
-    spi_command_string_tx[111] = rxdata[91];
-    spi_command_string_tx[112] = rxdata[92];
-    spi_command_string_tx[113] = rxdata[93];
-    spi_command_string_tx[114] = rxdata[94];
-    spi_command_string_tx[115] = rxdata[95];
-    //DAC22
-    spi_command_string_tx[116] = rxdata[96];
-    spi_command_string_tx[117] = rxdata[97];
-    spi_command_string_tx[118] = rxdata[98];
-    spi_command_string_tx[119] = rxdata[99];
-    spi_command_string_tx[120] = rxdata[100];
-    spi_command_string_tx[121] = rxdata[101];
-    spi_command_string_tx[122] = rxdata[102];
-    spi_command_string_tx[123] = rxdata[103];
-    //DAC23
-    spi_command_string_tx[124] = rxdata[104];
-    spi_command_string_tx[125] = rxdata[105];
-    spi_command_string_tx[126] = rxdata[106];
-    spi_command_string_tx[127] = rxdata[107];
-    spi_command_string_tx[128] = rxdata[108];
-    spi_command_string_tx[129] = rxdata[109];
-    spi_command_string_tx[130] = rxdata[110];
-    spi_command_string_tx[131] = rxdata[111];
-    //DAC24
-    spi_command_string_tx[132] = rxdata[112];
-    spi_command_string_tx[133] = rxdata[113];
-    spi_command_string_tx[134] = rxdata[114];
-    spi_command_string_tx[135] = rxdata[115];
-    spi_command_string_tx[136] = rxdata[116];
-    spi_command_string_tx[137] = rxdata[117];
-    spi_command_string_tx[138] = rxdata[118];
-    spi_command_string_tx[139] = rxdata[119];
-    //DAC25
-    spi_command_string_tx[140] = rxdata[120];
-    spi_command_string_tx[141] = rxdata[121];
-    spi_command_string_tx[142] = rxdata[122];
-    spi_command_string_tx[143] = rxdata[123];
-    spi_command_string_tx[144] = rxdata[124];
-    spi_command_string_tx[145] = rxdata[125];
-    spi_command_string_tx[146] = rxdata[126];
-    spi_command_string_tx[147] = rxdata[127];
+    spi_command_string_tx[18] = rxdata[0];
+    spi_command_string_tx[19] = rxdata[1];
+    spi_command_string_tx[20] = rxdata[2];
+    spi_command_string_tx[21] = rxdata[3];
+    spi_command_string_tx[22] = rxdata[4];
+    spi_command_string_tx[23] = rxdata[5];
+    spi_command_string_tx[24] = rxdata[6];
+    spi_command_string_tx[25] = rxdata[7];
+
+    spi_command_string_tx[26] = rxdata[8];
+    spi_command_string_tx[27] = rxdata[9];
+    spi_command_string_tx[28] = rxdata[10];
+    spi_command_string_tx[29] = rxdata[11];
+    spi_command_string_tx[30] = rxdata[12];
+    spi_command_string_tx[31] = rxdata[13];
+    spi_command_string_tx[32] = rxdata[14];
+    spi_command_string_tx[33] = rxdata[15];
+
+    spi_command_string_tx[34] = rxdata[16];
+    spi_command_string_tx[35] = rxdata[17];
+    spi_command_string_tx[36] = rxdata[18];
+    spi_command_string_tx[37] = rxdata[19];
+    spi_command_string_tx[38] = rxdata[20];
+    spi_command_string_tx[39] = rxdata[21];
+    spi_command_string_tx[40] = rxdata[22];
+    spi_command_string_tx[41] = rxdata[23];
+    spi_command_string_tx[42] = rxdata[24];
+    spi_command_string_tx[43] = rxdata[25];
+    spi_command_string_tx[44] = rxdata[26];
+    spi_command_string_tx[45] = rxdata[27];
+    spi_command_string_tx[46] = rxdata[28];
+    spi_command_string_tx[47] = rxdata[29];
+    spi_command_string_tx[48] = rxdata[30];
+    spi_command_string_tx[49] = rxdata[31];
+    spi_command_string_tx[50] = rxdata[32];
+    spi_command_string_tx[51] = rxdata[33];
+    spi_command_string_tx[52] = rxdata[34];
+    spi_command_string_tx[53] = rxdata[35];
+    spi_command_string_tx[54] = rxdata[36];
+    spi_command_string_tx[55] = rxdata[37];
+    spi_command_string_tx[56] = rxdata[38];
+    spi_command_string_tx[57] = rxdata[39];
+    spi_command_string_tx[58] = rxdata[40];
+    spi_command_string_tx[59] = rxdata[41];
+    spi_command_string_tx[60] = rxdata[42];
+    spi_command_string_tx[61] = rxdata[43];
+    spi_command_string_tx[62] = rxdata[44];
+    spi_command_string_tx[63] = rxdata[45];
+    spi_command_string_tx[64] = rxdata[46];
+    spi_command_string_tx[65] = rxdata[47];
+    spi_command_string_tx[66] = rxdata[48];
+    spi_command_string_tx[67] = rxdata[49];
+    spi_command_string_tx[68] = rxdata[50];
+    spi_command_string_tx[69] = rxdata[51];
+    spi_command_string_tx[70] = rxdata[52];
+    spi_command_string_tx[71] = rxdata[53];
+    spi_command_string_tx[72] = rxdata[54];
+    spi_command_string_tx[73] = rxdata[55];
+    spi_command_string_tx[74] = rxdata[56];
+    spi_command_string_tx[75] = rxdata[57];
+    spi_command_string_tx[76] = rxdata[58];
+    spi_command_string_tx[77] = rxdata[59];
+    spi_command_string_tx[78] = rxdata[60];
+    spi_command_string_tx[79] = rxdata[61];
+    spi_command_string_tx[80] = rxdata[62];
+    spi_command_string_tx[81] = rxdata[63];
+    spi_command_string_tx[82] = rxdata[64];
+    spi_command_string_tx[83] = rxdata[65];
+    spi_command_string_tx[84] = rxdata[66];
+    spi_command_string_tx[85] = rxdata[67];
+    spi_command_string_tx[86] = rxdata[68];
+    spi_command_string_tx[87] = rxdata[69];
+    spi_command_string_tx[88] = rxdata[70];
+    spi_command_string_tx[89] = rxdata[71];
+    spi_command_string_tx[90] = rxdata[72];
+    spi_command_string_tx[91] = rxdata[73];
+    spi_command_string_tx[92] = rxdata[74];
+    spi_command_string_tx[93] = rxdata[75];
+    spi_command_string_tx[94] = rxdata[76];
+    spi_command_string_tx[95] = rxdata[77];
+    spi_command_string_tx[96] = rxdata[78];
+    spi_command_string_tx[97] = rxdata[79];
+    spi_command_string_tx[98] = rxdata[80];
+    spi_command_string_tx[99] = rxdata[81];
+    spi_command_string_tx[100] = rxdata[82];
+    spi_command_string_tx[101] = rxdata[83];
+    spi_command_string_tx[102] = rxdata[84];
+    spi_command_string_tx[103] = rxdata[85];
+    spi_command_string_tx[104] = rxdata[86];
+    spi_command_string_tx[105] = rxdata[87];
+    spi_command_string_tx[106] = rxdata[88];
+    spi_command_string_tx[107] = rxdata[89];
+    spi_command_string_tx[108] = rxdata[90];
+    spi_command_string_tx[109] = rxdata[91];
+    spi_command_string_tx[110] = rxdata[92];
+    spi_command_string_tx[111] = rxdata[93];
+    spi_command_string_tx[112] = rxdata[94];
+    spi_command_string_tx[113] = rxdata[95];
+    spi_command_string_tx[114] = rxdata[96];
+    spi_command_string_tx[115] = rxdata[97];
+    spi_command_string_tx[116] = rxdata[98];
+    spi_command_string_tx[117] = rxdata[99];
+    spi_command_string_tx[118] = rxdata[100];
+    spi_command_string_tx[119] = rxdata[101];
+    spi_command_string_tx[120] = rxdata[102];
+    spi_command_string_tx[121] = rxdata[103];
+    spi_command_string_tx[122] = rxdata[104];
+    spi_command_string_tx[123] = rxdata[105];
+    spi_command_string_tx[124] = rxdata[106];
+    spi_command_string_tx[125] = rxdata[107];
+    spi_command_string_tx[126] = rxdata[108];
+    spi_command_string_tx[127] = rxdata[109];
+    spi_command_string_tx[128] = rxdata[110];
+    spi_command_string_tx[129] = rxdata[111];
+    spi_command_string_tx[130] = rxdata[112];
+    spi_command_string_tx[131] = rxdata[113];
+    spi_command_string_tx[132] = rxdata[114];
+    spi_command_string_tx[133] = rxdata[115];
+    spi_command_string_tx[134] = rxdata[116];
+    spi_command_string_tx[135] = rxdata[117];
+    spi_command_string_tx[136] = rxdata[118];
+    spi_command_string_tx[137] = rxdata[119];
+    spi_command_string_tx[138] = rxdata[120];
+    spi_command_string_tx[139] = rxdata[121];
+    spi_command_string_tx[140] = rxdata[122];
+    spi_command_string_tx[141] = rxdata[123];
+    spi_command_string_tx[142] = rxdata[124];
+    spi_command_string_tx[143] = rxdata[125];
+    spi_command_string_tx[144] = rxdata[126];
+    spi_command_string_tx[145] = rxdata[127];
+
+    spi_command_string_tx[146] = rxdata[128];
+    spi_command_string_tx[147] = rxdata[129];
+    spi_command_string_tx[148] = rxdata[130];
+    spi_command_string_tx[149] = rxdata[131];
+    spi_command_string_tx[150] = rxdata[132];
+    spi_command_string_tx[151] = rxdata[133];
+    spi_command_string_tx[152] = rxdata[134];
+    spi_command_string_tx[153] = rxdata[135];
 }
 
 // void WriteFileData()

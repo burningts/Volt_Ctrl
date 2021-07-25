@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios' in SOPC Builder design 'nios'
  * SOPC Builder design path: E:/master_WHU/voltage_control/02volt_ctrl_software/nios_ii/nios.sopcinfo
  *
- * Generated: Wed Jul 14 19:10:23 CST 2021
+ * Generated: Sun Jul 25 16:25:35 CST 2021
  */
 
 /*
@@ -413,7 +413,7 @@
 #define SYSID_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYSID_NAME "/dev/sysid"
 #define SYSID_SPAN 8
-#define SYSID_TIMESTAMP 1626260838
+#define SYSID_TIMESTAMP 1627201459
 #define SYSID_TYPE "altera_avalon_sysid_qsys"
 
 

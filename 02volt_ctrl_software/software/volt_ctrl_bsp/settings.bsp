@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>2021-7-14 19:46:05</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1626263165954</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>2021-7-25 16:25:46</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1627201546614</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>E:\master_WHU\voltage_control\02volt_ctrl_software\software\volt_ctrl_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>E:\master_WHU\voltage_control\02volt_ctrl_software\nios_ii\nios.sopcinfo</SopcDesignFile>

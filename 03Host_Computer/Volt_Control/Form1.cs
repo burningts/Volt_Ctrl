@@ -15,7 +15,7 @@ namespace Volt_Control
 {
     public partial class Form1 : Form
     {
-        byte DataLength = 128;
+        byte DataLength = 136;
         
         bool FileReadOver = true;
         bool IsSerialPortOpen = false;
@@ -132,7 +132,7 @@ namespace Volt_Control
             {
                 ZeroData[0] = DataLength;
                 WriteByteToSerialPort(ZeroData, 0, (DataLength + 1));
-                pictureBox1.BackgroundImage = Properties.Resources.WHU1;
+                pictureBox1.BackgroundImage = Properties.Resources.deg0;
             }
             else
             {
@@ -204,7 +204,7 @@ namespace Volt_Control
                     AutoReadByteData3[0] = DataLength;
                     AutoReadByteData4[0] = DataLength;
                     WriteByteToSerialPort(AutoReadByteData1, 0, (DataLength + 1));
-                    pictureBox1.BackgroundImage = Properties.Resources.WHU1;
+                    pictureBox1.BackgroundImage = Properties.Resources.deg0;
                     timer1.Start();
                     //MessageBox.Show("自动扫描已启动！");
                 }
@@ -222,25 +222,25 @@ namespace Volt_Control
             {
                 case (1): 
                     WriteByteToSerialPort(AutoReadByteData1, 0, (DataLength + 1));
-                    pictureBox1.BackgroundImage = Properties.Resources.WHU1;
+                    pictureBox1.BackgroundImage = Properties.Resources.deg0;
                     timer1.Start();
                     AutoScanFlag++;
                     break;
                 case (2): 
                     WriteByteToSerialPort(AutoReadByteData2, 0, (DataLength + 1));
-                    pictureBox1.BackgroundImage = Properties.Resources.WHU2;
+                    pictureBox1.BackgroundImage = Properties.Resources.deg30;
                     timer1.Start();
                     AutoScanFlag++;
                     break;
                 case (3):
                     WriteByteToSerialPort(AutoReadByteData3, 0, (DataLength + 1));
-                    pictureBox1.BackgroundImage = Properties.Resources.WHU3;
+                    pictureBox1.BackgroundImage = Properties.Resources.deg45;
                     timer1.Start();
                     AutoScanFlag++;
                     break;
                 case (4):
                     WriteByteToSerialPort(AutoReadByteData4, 0, (DataLength + 1));
-                    pictureBox1.BackgroundImage = Properties.Resources.WHU4;
+                    pictureBox1.BackgroundImage = Properties.Resources.deg60;
                     timer1.Start();
                     AutoScanFlag = 1;
                     break;
@@ -262,7 +262,7 @@ namespace Volt_Control
             {
                 ZeroData[0] = DataLength;
                 WriteByteToSerialPort(ZeroData, 0, (DataLength + 1));
-                pictureBox1.BackgroundImage = Properties.Resources.WHU1;
+                pictureBox1.BackgroundImage = Properties.Resources.deg0;
             }
             else
             {
@@ -377,16 +377,16 @@ namespace Volt_Control
                     switch(Direction)
                     {
                         case 0: ReadByteFromFile(ReadByteData, FilePath15_0);
-                            pictureBox1.BackgroundImage = Properties.Resources.WHU1;
+                            pictureBox1.BackgroundImage = Properties.Resources.deg0;
                             break;
                         case 30:ReadByteFromFile(ReadByteData, FilePath15_30);
-                            pictureBox1.BackgroundImage = Properties.Resources.WHU2;
+                            pictureBox1.BackgroundImage = Properties.Resources.deg30;
                             break;
                         case 45:ReadByteFromFile(ReadByteData, FilePath15_45);
-                            pictureBox1.BackgroundImage = Properties.Resources.WHU3;
+                            pictureBox1.BackgroundImage = Properties.Resources.deg45;
                             break;
                         case 60:ReadByteFromFile(ReadByteData, FilePath15_60);
-                            pictureBox1.BackgroundImage = Properties.Resources.WHU4;
+                            pictureBox1.BackgroundImage = Properties.Resources.deg60;
                             break;
                         default:
                             MessageBox.Show("未找到相应文件！");
@@ -397,12 +397,16 @@ namespace Volt_Control
                     switch (Direction)
                     {
                         case 0:ReadByteFromFile(ReadByteData, FilePath16_0);
+                            pictureBox1.BackgroundImage = Properties.Resources.deg0;
                             break;
                         case 30:ReadByteFromFile(ReadByteData, FilePath16_30);
+                            pictureBox1.BackgroundImage = Properties.Resources.deg30;
                             break;
                         case 45:ReadByteFromFile(ReadByteData, FilePath16_45);
+                            pictureBox1.BackgroundImage = Properties.Resources.deg45;
                             break;
                         case 60:ReadByteFromFile(ReadByteData, FilePath16_60);
+                            pictureBox1.BackgroundImage = Properties.Resources.deg60;
                             break;
                         default:
                             MessageBox.Show("未找到相应文件！");
@@ -413,13 +417,16 @@ namespace Volt_Control
                     switch (Direction)
                     {
                         case 0:ReadByteFromFile(ReadByteData, FilePath17_0);
-                            pictureBox1.BackgroundImage = Properties.Resources.WHU2;
+                            pictureBox1.BackgroundImage = Properties.Resources.deg0;
                             break;
                         case 30:ReadByteFromFile(ReadByteData, FilePath17_30);
+                            pictureBox1.BackgroundImage = Properties.Resources.deg30;
                             break;
                         case 45:ReadByteFromFile(ReadByteData, FilePath17_45);
+                            pictureBox1.BackgroundImage = Properties.Resources.deg45;
                             break;
                         case 60:ReadByteFromFile(ReadByteData, FilePath17_60);
+                            pictureBox1.BackgroundImage = Properties.Resources.deg60;
                             break;
                         default:
                             MessageBox.Show("未找到相应文件！");
@@ -482,290 +489,146 @@ namespace Volt_Control
 
         private void DataWriteArr()
         {
-            //17_0
-            //WriteByteData[0] = 0x13;//7.26
-            //WriteByteData[1] = 0xDF;
-            //WriteByteData[2] = 0x21;//3.62
-            //WriteByteData[3] = 0xEE;
-            //WriteByteData[4] = 0x3A;//18.86
-            //WriteByteData[5] = 0x0F;
-            //WriteByteData[6] = 0x4E;//26.48
-            //WriteByteData[7] = 0x1F;
 
-            //WriteByteData[8] = 0x13;//7.26
-            //WriteByteData[9] = 0xDF;
-            //WriteByteData[10] = 0x21;//3.62
-            //WriteByteData[11] = 0xEE;
-            //WriteByteData[12] = 0x32;//4.52
-            //WriteByteData[13] = 0x69;
-            //WriteByteData[14] = 0x43;//6.66
-            //WriteByteData[15] = 0x8D;
+            WriteByteData[0] = 0x14;
+            WriteByteData[1] = 0x26;
+            WriteByteData[2] = 0x22;    //3.78
+            WriteByteData[3] = 0x04;
+            WriteByteData[4] = 0x33;    //5.78
+            WriteByteData[5] = 0x15;
+            WriteByteData[6] = 0x44;    //7.78
+            WriteByteData[7] = 0x26;
 
-            //WriteByteData[16] = 0x13;//7.26
-            //WriteByteData[17] = 0xDF;
-            //WriteByteData[18] = 0x21;//3.62
-            //WriteByteData[19] = 0xEE;
-            //WriteByteData[20] = 0x3A;//18.86
-            //WriteByteData[21] = 0x0F;
-            //WriteByteData[22] = 0x4E;//26.48
-            //WriteByteData[23] = 0x1F;
+            WriteByteData[8] = 0x10;    //1.78
+            WriteByteData[9] = 0xF3;
+            WriteByteData[10] = 0x22;   //3.78
+            WriteByteData[11] = 0x04;
+            WriteByteData[12] = 0x33;   //5.78
+            WriteByteData[13] = 0x15;
+            WriteByteData[14] = 0x44;   //7.78
+            WriteByteData[15] = 0x26;
 
-            //WriteByteData[24] = 0x13;//7.26
-            //WriteByteData[25] = 0xDF;
-            //WriteByteData[26] = 0x21;//3.62
-            //WriteByteData[27] = 0xEE;
-            //WriteByteData[28] = 0x3A;//18.86
-            //WriteByteData[29] = 0x0F;
-            //WriteByteData[30] = 0x4E;//26.48
-            //WriteByteData[31] = 0x1F;
-
-            //WriteByteData[32] = 0x13;//7.26
-            //WriteByteData[33] = 0xDF;
-            //WriteByteData[34] = 0x21;//3.62
-            //WriteByteData[35] = 0xEE;
-            //WriteByteData[36] = 0x3A;//18.86
-            //WriteByteData[37] = 0x0F;
-            //WriteByteData[38] = 0x4E;//26.48
-            //WriteByteData[39] = 0x1F;
-
-            //WriteByteData[40] = 0x13;//7.26
-            //WriteByteData[41] = 0xDF;
-            //WriteByteData[42] = 0x21;//3.62
-            //WriteByteData[43] = 0xEE;
-            //WriteByteData[44] = 0x3A;//18.86
-            //WriteByteData[45] = 0x0F;
-            //WriteByteData[46] = 0x4E;//26.48
-            //WriteByteData[47] = 0x1F;
-
-            //WriteByteData[48] = 0x13;//7.26
-            //WriteByteData[49] = 0xDF;
-            //WriteByteData[50] = 0x21;//3.62
-            //WriteByteData[51] = 0xEE;
-            //WriteByteData[52] = 0x3A;//18.86
-            //WriteByteData[53] = 0x0F;
-            //WriteByteData[54] = 0x4E;//26.48
-            //WriteByteData[55] = 0x1F;
-
-            //WriteByteData[56] = 0x13;//7.26
-            //WriteByteData[57] = 0xDF;
-            //WriteByteData[58] = 0x21;//3.62
-            //WriteByteData[59] = 0xEE;
-            //WriteByteData[60] = 0x3A;//18.86
-            //WriteByteData[61] = 0x0F;
-            //WriteByteData[62] = 0x4E;//26.48
-            //WriteByteData[63] = 0x1F;
-
-            //WriteByteData[64] = 0x13;//7.26
-            //WriteByteData[65] = 0xDF;
-            //WriteByteData[66] = 0x21;//3.62
-            //WriteByteData[67] = 0xEE;
-            //WriteByteData[68] = 0x3A;//18.86
-            //WriteByteData[69] = 0x0F;
-            //WriteByteData[70] = 0x4E;//26.48
-            //WriteByteData[71] = 0x1F;
-
-            //WriteByteData[72] = 0x13;//7.26
-            //WriteByteData[73] = 0xDF;
-            //WriteByteData[74] = 0x21;//3.62
-            //WriteByteData[75] = 0xEE;
-            //WriteByteData[76] = 0x3A;//18.86
-            //WriteByteData[77] = 0x0F;
-            //WriteByteData[78] = 0x4E;//26.48
-            //WriteByteData[79] = 0x1F;
-
-            //WriteByteData[80] = 0x13;//7.26
-            //WriteByteData[81] = 0xDF;
-            //WriteByteData[82] = 0x21;//3.62
-            //WriteByteData[83] = 0xEE;
-            //WriteByteData[84] = 0x3A;//18.86
-            //WriteByteData[85] = 0x0F;
-            //WriteByteData[86] = 0x4E;//26.48
-            //WriteByteData[87] = 0x1F;
-
-            //WriteByteData[88] = 0x13;//7.26
-            //WriteByteData[89] = 0xDF;
-            //WriteByteData[90] = 0x21;//3.62
-            //WriteByteData[91] = 0xEE;
-            //WriteByteData[92] = 0x3A;//18.86
-            //WriteByteData[93] = 0x0F;
-            //WriteByteData[94] = 0x4E;//26.48
-            //WriteByteData[95] = 0x1F;
-
-            //WriteByteData[96] = 0x13;//7.26
-            //WriteByteData[97] = 0xDF;
-            //WriteByteData[98] = 0x21;//3.62
-            //WriteByteData[99] = 0xEE;
-            //WriteByteData[100] = 0x3A;//18.86
-            //WriteByteData[101] = 0x0F;
-            //WriteByteData[102] = 0x4E;//26.48
-            //WriteByteData[103] = 0x1F;
-
-            //WriteByteData[104] = 0x13;//7.26
-            //WriteByteData[105] = 0xDF;
-            //WriteByteData[106] = 0x21;//3.62
-            //WriteByteData[107] = 0xEE;
-            //WriteByteData[108] = 0x3A;//18.86
-            //WriteByteData[109] = 0x0F;
-            //WriteByteData[110] = 0x4E;//26.48
-            //WriteByteData[111] = 0x1F;
-
-            //WriteByteData[112] = 0x13;//7.26
-            //WriteByteData[113] = 0xDF;
-            //WriteByteData[114] = 0x21;//3.62
-            //WriteByteData[115] = 0xEE;
-            //WriteByteData[116] = 0x3A;//18.86
-            //WriteByteData[117] = 0x0F;
-            //WriteByteData[118] = 0x4E;//26.48
-            //WriteByteData[119] = 0x1F;
-
-            //WriteByteData[120] = 0x13;//7.26
-            //WriteByteData[121] = 0xDF;
-            //WriteByteData[122] = 0x21;//3.62
-            //WriteByteData[123] = 0xEE;
-            //WriteByteData[124] = 0x3A;//18.86
-            //WriteByteData[125] = 0x0F;
-            //WriteByteData[126] = 0x4E;//26.48
-            //WriteByteData[127] = 0x1F;
-
-            //15_30
-            WriteByteData[0] = 0x13;//7.26
-            WriteByteData[1] = 0xDF;
-            WriteByteData[2] = 0x21;//3.62
-            WriteByteData[3] = 0xEE;
-            WriteByteData[4] = 0x32;//4.52
-            WriteByteData[5] = 0x69;
-            WriteByteData[6] = 0x43;//6.66
-            WriteByteData[7] = 0x8D;
-
-            WriteByteData[8] = 0x10;//1.18
-            WriteByteData[9] = 0xA1;
-            WriteByteData[10] = 0x21;//3.06
-            WriteByteData[11] = 0xA2;
-            WriteByteData[12] = 0x32;//4.28
-            WriteByteData[13] = 0x48;
-            WriteByteData[14] = 0x43;//5.92
-            WriteByteData[15] = 0x28;
-
-            WriteByteData[16] = 0x13;//7.26
-            WriteByteData[17] = 0xDF;
-            WriteByteData[18] = 0x21;//3.62
-            WriteByteData[19] = 0xEE;
-            WriteByteData[20] = 0x32;//4.52
-            WriteByteData[21] = 0x69;
-            WriteByteData[22] = 0x43;//6.66
-            WriteByteData[23] = 0x8D;
-            WriteByteData[24] = 0x11;//2.18
-            WriteByteData[25] = 0x2A;
-            WriteByteData[26] = 0x22;//5.54
-            WriteByteData[27] = 0xF4;
-            WriteByteData[28] = 0x34;//8.28
-            WriteByteData[29] = 0x6A;
-            WriteByteData[30] = 0x42;//3.92
-            WriteByteData[31] = 0x17;
-            WriteByteData[32] = 0x13;//7.26
-            WriteByteData[33] = 0xDF;
-            WriteByteData[34] = 0x21;//3.62
-            WriteByteData[35] = 0xEE;
-            WriteByteData[36] = 0x32;//4.52
-            WriteByteData[37] = 0x69;
-            WriteByteData[38] = 0x43;//6.66
-            WriteByteData[39] = 0x8D;
-            WriteByteData[40] = 0x11;//2.18
-            WriteByteData[41] = 0x2A;
-            WriteByteData[42] = 0x22;//5.54
-            WriteByteData[43] = 0xF4;
-            WriteByteData[44] = 0x34;//8.28
-            WriteByteData[45] = 0x6A;
-            WriteByteData[46] = 0x42;//3.92
-            WriteByteData[47] = 0x17;
-            WriteByteData[48] = 0x13;//7.26
-            WriteByteData[49] = 0xDF;
-            WriteByteData[50] = 0x21;//3.62
-            WriteByteData[51] = 0xEE;
-            WriteByteData[52] = 0x32;//4.52
-            WriteByteData[53] = 0x69;
-            WriteByteData[54] = 0x43;//6.66
-            WriteByteData[55] = 0x8D;
-            WriteByteData[56] = 0x11;//2.18
-            WriteByteData[57] = 0x2A;
-            WriteByteData[58] = 0x22;//5.54
-            WriteByteData[59] = 0xF4;
-            WriteByteData[60] = 0x34;//8.28
-            WriteByteData[61] = 0x6A;
-            WriteByteData[62] = 0x42;//3.92
-            WriteByteData[63] = 0x17;
-            WriteByteData[64] = 0x13;//7.26
-            WriteByteData[65] = 0xDF;
-            WriteByteData[66] = 0x21;//3.62
-            WriteByteData[67] = 0xEE;
-            WriteByteData[68] = 0x32;//4.52
-            WriteByteData[69] = 0x69;
-            WriteByteData[70] = 0x43;//6.66
-            WriteByteData[71] = 0x8D;
-            WriteByteData[72] = 0x11;//2.18
-            WriteByteData[73] = 0x2A;
-            WriteByteData[74] = 0x22;//5.54
-            WriteByteData[75] = 0xF4;
-            WriteByteData[76] = 0x34;//8.28
-            WriteByteData[77] = 0x6A;
-            WriteByteData[78] = 0x42;//3.92
-            WriteByteData[79] = 0x17;
-            WriteByteData[80] = 0x13;//7.26
-            WriteByteData[81] = 0xDF;
-            WriteByteData[82] = 0x21;//3.62
-            WriteByteData[83] = 0xEE;
-            WriteByteData[84] = 0x32;//4.52
-            WriteByteData[85] = 0x69;
-            WriteByteData[86] = 0x43;//6.66
-            WriteByteData[87] = 0x8D;
-            WriteByteData[88] = 0x11;//2.18
-            WriteByteData[89] = 0x2A;
-            WriteByteData[90] = 0x22;//5.54
-            WriteByteData[91] = 0xF4;
-            WriteByteData[92] = 0x34;//8.28
-            WriteByteData[93] = 0x6A;
-            WriteByteData[94] = 0x42;//3.92
-            WriteByteData[95] = 0x17;
-            WriteByteData[96] = 0x13;//7.26
-            WriteByteData[97] = 0xDF;
-            WriteByteData[98] = 0x21;//3.62
-            WriteByteData[99] = 0xEE;
-            WriteByteData[100] = 0x32;//4.52
-            WriteByteData[101] = 0x69;
-            WriteByteData[102] = 0x43;//6.66
-            WriteByteData[103] = 0x8D;
-            WriteByteData[104] = 0x11;//2.18
-            WriteByteData[105] = 0x2A;
-            WriteByteData[106] = 0x22;//5.54
-            WriteByteData[107] = 0xF4;
-            WriteByteData[108] = 0x34;//8.28
-            WriteByteData[109] = 0x6A;
-            WriteByteData[110] = 0x42;//3.92
-            WriteByteData[111] = 0x17;
-            WriteByteData[112] = 0x13;//7.26
-            WriteByteData[113] = 0xDF;
-            WriteByteData[114] = 0x21;//3.62
-            WriteByteData[115] = 0xEE;
-            WriteByteData[116] = 0x32;//4.52
-            WriteByteData[117] = 0x69;
-            WriteByteData[118] = 0x43;//6.66
-            WriteByteData[119] = 0x8D;
-            //WriteByteData[120] = 0x11;//2.18
-            //WriteByteData[121] = 0x2A;
-            //WriteByteData[122] = 0x22;//5.54
-            //WriteByteData[123] = 0xF4;
-            //WriteByteData[124] = 0x34;//8.28
-            //WriteByteData[125] = 0x6A;
-            //WriteByteData[126] = 0x42;//3.92
-            //WriteByteData[127] = 0x17;
-            WriteByteData[120] = 0x13;
-            WriteByteData[121] = 0x9E;
-            WriteByteData[122] = 0x22;
+            WriteByteData[16] = 0x10;   //1.78
+            WriteByteData[17] = 0xF3;
+            WriteByteData[18] = 0x22;   //3.78
+            WriteByteData[19] = 0x04;
+            WriteByteData[20] = 0x33;   //5.78
+            WriteByteData[21] = 0x15;
+            WriteByteData[22] = 0x44;   //7.78
+            WriteByteData[23] = 0x26;
+            WriteByteData[24] = 0x10;   //1.78
+            WriteByteData[25] = 0xF3;
+            WriteByteData[26] = 0x22;   //3.78
+            WriteByteData[27] = 0x04;
+            WriteByteData[28] = 0x33;   //5.78
+            WriteByteData[29] = 0x15;
+            WriteByteData[30] = 0x44;   //7.78
+            WriteByteData[31] = 0x26;
+            WriteByteData[32] = 0x10;   //1.78
+            WriteByteData[33] = 0xF3;
+            WriteByteData[34] = 0x22;   //3.78
+            WriteByteData[35] = 0x04;
+            WriteByteData[36] = 0x33;   //5.78
+            WriteByteData[37] = 0x15;
+            WriteByteData[38] = 0x44;   //7.78
+            WriteByteData[39] = 0x26;
+            WriteByteData[40] = 0x10;   //1.78
+            WriteByteData[41] = 0xF3;
+            WriteByteData[42] = 0x22;   //3.78
+            WriteByteData[43] = 0x04;
+            WriteByteData[44] = 0x33;   //5.78
+            WriteByteData[45] = 0x15;
+            WriteByteData[46] = 0x44;   //7.78
+            WriteByteData[47] = 0x26;
+            WriteByteData[48] = 0x10;   //1.78
+            WriteByteData[49] = 0xF3;
+            WriteByteData[50] = 0x22;   //3.78
+            WriteByteData[51] = 0x04;
+            WriteByteData[52] = 0x33;   //5.78
+            WriteByteData[53] = 0x15;
+            WriteByteData[54] = 0x44;   //7.78
+            WriteByteData[55] = 0x26;
+            WriteByteData[56] = 0x10;   //1.78
+            WriteByteData[57] = 0xF3;
+            WriteByteData[58] = 0x22;   //3.78
+            WriteByteData[59] = 0x04;
+            WriteByteData[60] = 0x33;   //5.78
+            WriteByteData[61] = 0x15;
+            WriteByteData[62] = 0x44;   //7.78
+            WriteByteData[63] = 0x26;
+            WriteByteData[64] = 0x10;   //1.78
+            WriteByteData[65] = 0xF3;
+            WriteByteData[66] = 0x22;   //3.78
+            WriteByteData[67] = 0x04;
+            WriteByteData[68] = 0x33;   //5.78
+            WriteByteData[69] = 0x15;
+            WriteByteData[70] = 0x44;   //7.78
+            WriteByteData[71] = 0x26;
+            WriteByteData[72] = 0x10;   //1.78
+            WriteByteData[73] = 0xF3;
+            WriteByteData[74] = 0x22;   //3.78
+            WriteByteData[75] = 0x04;
+            WriteByteData[76] = 0x33;   //5.78
+            WriteByteData[77] = 0x15;
+            WriteByteData[78] = 0x44;   //7.78
+            WriteByteData[79] = 0x26;
+            WriteByteData[80] = 0x10;   //1.78
+            WriteByteData[81] = 0xF3;
+            WriteByteData[82] = 0x22;   //3.78
+            WriteByteData[83] = 0x04;
+            WriteByteData[84] = 0x33;   //5.78
+            WriteByteData[85] = 0x15;
+            WriteByteData[86] = 0x44;   //7.78
+            WriteByteData[87] = 0x26;
+            WriteByteData[88] = 0x10;   //1.78
+            WriteByteData[89] = 0xF3;
+            WriteByteData[90] = 0x22;   //3.78
+            WriteByteData[91] = 0x04;
+            WriteByteData[92] = 0x33;   //5.78
+            WriteByteData[93] = 0x15;
+            WriteByteData[94] = 0x44;   //7.78
+            WriteByteData[95] = 0x26;
+            WriteByteData[96] = 0x10;   //1.78
+            WriteByteData[97] = 0xF3;
+            WriteByteData[98] = 0x22;   //3.78
+            WriteByteData[99] = 0x04;
+            WriteByteData[100] = 0x33;  //5.78
+            WriteByteData[101] = 0x15;
+            WriteByteData[102] = 0x44;  //7.78
+            WriteByteData[103] = 0x26;
+            WriteByteData[104] = 0x10;  //1.78
+            WriteByteData[105] = 0xF3;
+            WriteByteData[106] = 0x22;  //3.78
+            WriteByteData[107] = 0x04;
+            WriteByteData[108] = 0x33;  //5.78
+            WriteByteData[109] = 0x15;
+            WriteByteData[110] = 0x44;  //7.78
+            WriteByteData[111] = 0x26;
+            WriteByteData[112] = 0x10;  //1.78
+            WriteByteData[113] = 0xF3;
+            WriteByteData[114] = 0x22;  //3.78
+            WriteByteData[115] = 0x04;
+            WriteByteData[116] = 0x33;  //5.78
+            WriteByteData[117] = 0x15;
+            WriteByteData[118] = 0x44;  //7.78
+            WriteByteData[119] = 0x26;
+            WriteByteData[120] = 0x10;  //1.78
+            WriteByteData[121] = 0xF3;
+            WriteByteData[122] = 0x22;  //3.78
             WriteByteData[123] = 0x04;
-            WriteByteData[124] = 0x32;
-            WriteByteData[125] = 0x8D;
-            WriteByteData[126] = 0x43;
-            WriteByteData[127] = 0x15;
+            WriteByteData[124] = 0x33;  //5.78
+            WriteByteData[125] = 0x15;
+            WriteByteData[126] = 0x44;  //7.78
+            WriteByteData[127] = 0x26;
+            WriteByteData[128] = 0x10;  //1.78
+            WriteByteData[129] = 0xF3;
+            WriteByteData[130] = 0x22;  //3.78
+            WriteByteData[131] = 0x04;
+            WriteByteData[132] = 0x33;  //5.78
+            WriteByteData[133] = 0x15;
+            WriteByteData[134] = 0x44;  //7.78
+            WriteByteData[135] = 0x26;
+
 
 
 
@@ -901,6 +764,15 @@ namespace Volt_Control
             ZeroData[126] = 0x00;
             ZeroData[127] = 0x40;
             ZeroData[128] = 0x00;
+            ZeroData[129] = 0x10;
+            ZeroData[130] = 0x00;
+            ZeroData[131] = 0x20;
+            ZeroData[132] = 0x00;
+            ZeroData[133] = 0x30;
+            ZeroData[134] = 0x00;
+            ZeroData[135] = 0x40;
+            ZeroData[136] = 0x00;
+
 
         }
 

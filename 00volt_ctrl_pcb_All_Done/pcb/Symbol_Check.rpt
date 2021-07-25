@@ -1,0 +1,29 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Unplaced Symbol Availability Check                               )
+(                                                                     )
+(    Drawing          : volt_ctrl.brd                                 )
+(    Software Version : 17.4P001                                      )
+(    Date/Time        : Mon Jun  7 13:26:42 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Current PSMPATH consists of:
+	E:/master_WHU/PCB_footprint/myFootprint
+	E:/master_WHU/PCB_footprint/LIB_Cadence/Allegro/symbols
+	E:/master_WHU/PCB_footprint/LIB_Cadence/Allegro/pads
+	.
+	symbols
+	..
+	../symbols
+	D:/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/symbols
+	D:/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols
+	D:/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols
+
+
+All Symbols Found
+
+Total symbols placed:      322 out of 322
+
+

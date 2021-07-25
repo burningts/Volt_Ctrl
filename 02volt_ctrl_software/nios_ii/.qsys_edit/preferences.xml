@@ -8,8 +8,7 @@
    <name preferredWidth="360" />
   </columns>
  </systemtable>
- <library
-   expandedCategories="Library/Basic Functions/On Chip Memory,Project,Library/Memory Interfaces and Controllers/Flash,Library/Basic Functions/Configuration and Programming,Library/Basic Functions,Library,Library/Memory Interfaces and Controllers" />
+ <library expandedCategories="Project,Library" />
  <window width="2576" height="1416" x="-8" y="-8" />
  <hdlexample language="VERILOG" />
  <generation path="E:/master_WHU/voltage_control/02volt_ctrl_software/nios_ii/" />

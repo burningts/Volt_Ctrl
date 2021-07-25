@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios' in SOPC Builder design 'nios'
  * SOPC Builder design path: E:/master_WHU/voltage_control/02volt_ctrl_software/nios_ii/nios.sopcinfo
  *
- * Generated: Wed Jul 14 19:43:35 CST 2021
+ * Generated: Sun Jul 25 16:25:35 CST 2021
  */
 
 /*

@@ -1,5 +1,5 @@
 Flow report for volt_ctrl
-Wed Jul 14 19:09:42 2021
+Sun Jul 25 16:26:40 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -40,15 +40,15 @@ refer to the applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Wed Jul 14 19:09:38 2021           ;
+; Flow Status                        ; Successful - Sun Jul 25 16:26:35 2021           ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                      ; volt_ctrl                                       ;
 ; Top-level Entity Name              ; volt_ctrl                                       ;
 ; Family                             ; Cyclone IV E                                    ;
 ; Device                             ; EP4CE10F17C8                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 4,807 / 10,320 ( 47 % )                         ;
-;     Total combinational functions  ; 4,075 / 10,320 ( 39 % )                         ;
+; Total logic elements               ; 4,779 / 10,320 ( 46 % )                         ;
+;     Total combinational functions  ; 4,071 / 10,320 ( 39 % )                         ;
 ;     Dedicated logic registers      ; 2,936 / 10,320 ( 28 % )                         ;
 ; Total registers                    ; 2936                                            ;
 ; Total pins                         ; 49 / 180 ( 27 % )                               ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 07/14/2021 19:08:29 ;
+; Start date & time ; 07/25/2021 16:25:24 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; volt_ctrl           ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+---------------------------------------------------------------------+---------------+-------------+------------------+
 ; Assignment Name                     ; Value                                                               ; Default Value ; Entity Name ; Section Id       ;
 +-------------------------------------+---------------------------------------------------------------------+---------------+-------------+------------------+
-; COMPILER_SIGNATURE_ID               ; 137106048798433.162626090928012                                     ; --            ; --          ; --               ;
+; COMPILER_SIGNATURE_ID               ; 1097389539388.162720152321668                                       ; --            ; --          ; --               ;
 ; ENABLE_SIGNALTAP                    ; On                                                                  ; --            ; --          ; --               ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                                  ; --            ; --          ; --               ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                                                   ; --            ; --          ; --               ;
@@ -98,7 +98,7 @@ refer to the applicable agreement for further details.
 ; SLD_FILE                            ; ../nios_ii/synthesis/nios.regmap                                    ; --            ; --          ; --               ;
 ; SLD_FILE                            ; ../nios_ii/synthesis/nios.debuginfo                                 ; --            ; --          ; --               ;
 ; SLD_FILE                            ; db/stp1_auto_stripped.stp                                           ; --            ; --          ; --               ;
-; SLD_INFO                            ; QSYS_NAME nios HAS_SOPCINFO 1 GENERATION_ID 1626260838              ; --            ; nios        ; --               ;
+; SLD_INFO                            ; QSYS_NAME nios HAS_SOPCINFO 1 GENERATION_ID 1627201459              ; --            ; nios        ; --               ;
 ; SLD_NODE_CREATOR_ID                 ; 110                                                                 ; --            ; --          ; auto_signaltap_0 ;
 ; SLD_NODE_ENTITY_NAME                ; sld_signaltap                                                       ; --            ; --          ; auto_signaltap_0 ;
 ; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_RAM_BLOCK_TYPE=AUTO                                             ; --            ; --          ; auto_signaltap_0 ;
@@ -137,11 +137,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:46     ; 1.0                     ; 5002 MB             ; 00:01:01                           ;
-; Fitter               ; 00:00:14     ; 1.2                     ; 5740 MB             ; 00:00:21                           ;
-; Assembler            ; 00:00:02     ; 1.0                     ; 4696 MB             ; 00:00:02                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.3                     ; 4847 MB             ; 00:00:04                           ;
-; Total                ; 00:01:05     ; --                      ; --                  ; 00:01:28                           ;
+; Analysis & Synthesis ; 00:00:49     ; 1.0                     ; 5011 MB             ; 00:01:05                           ;
+; Fitter               ; 00:00:14     ; 1.2                     ; 5741 MB             ; 00:00:21                           ;
+; Assembler            ; 00:00:02     ; 1.0                     ; 4698 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.4                     ; 4842 MB             ; 00:00:04                           ;
+; Total                ; 00:01:09     ; --                      ; --                  ; 00:01:32                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
