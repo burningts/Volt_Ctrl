@@ -1,7 +1,6 @@
 E:\master_WHU\voltage_control\03Host_Computer\Volt_Control\bin\Release\Volt Control.exe.config
 E:\master_WHU\voltage_control\03Host_Computer\Volt_Control\bin\Release\Volt Control.exe
 E:\master_WHU\voltage_control\03Host_Computer\Volt_Control\bin\Release\Volt Control.pdb
-E:\master_WHU\voltage_control\03Host_Computer\Volt_Control\obj\Release\Volt Control.csprojAssemblyReference.cache
 E:\master_WHU\voltage_control\03Host_Computer\Volt_Control\obj\Release\Volt_Control.Form1.resources
 E:\master_WHU\voltage_control\03Host_Computer\Volt_Control\obj\Release\Volt_Control.Properties.Resources.resources
 E:\master_WHU\voltage_control\03Host_Computer\Volt_Control\obj\Release\Volt Control.csproj.GenerateResource.cache

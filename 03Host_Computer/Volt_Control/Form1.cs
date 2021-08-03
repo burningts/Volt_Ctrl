@@ -22,26 +22,51 @@ namespace Volt_Control
         bool AutoScan = false;
         int AutoScanFlag = 2;
 
-        const string FilePath15_0 = "../../volt_data/15_0.dat";
-        const string FilePath15_30 = "../../volt_data/15_30.dat";
-        const string FilePath15_45 = "../../volt_data/15_45.dat";
-        const string FilePath15_60 = "../../volt_data/15_60.dat";
+        //Phi = 90°
+        const string FilePath15_90_0 = "../../volt_data/15_90_0.dat";
+        const string FilePath15_90_15 = "../../volt_data/15_90_15.dat";
+        const string FilePath15_90_30 = "../../volt_data/15_90_30.dat";
+        const string FilePath15_90_45 = "../../volt_data/15_90_45.dat";
+        const string FilePath15_90_60 = "../../volt_data/15_90_60.dat";
         
-        const string FilePath16_0 = "E:/master_WHU/voltage_control/03Host_Computer/Volt_Control/volt_data/16_0.dat";
-        const string FilePath16_30 = "E:/master_WHU/voltage_control/03Host_Computer/Volt_Control/volt_data/16_30.dat";
-        const string FilePath16_45 = "E:/master_WHU/voltage_control/03Host_Computer/Volt_Control/volt_data/16_45.dat";
-        const string FilePath16_60 = "E:/master_WHU/voltage_control/03Host_Computer/Volt_Control/volt_data/16_60.dat";
+        const string FilePath16_90_0 = "../../volt_data/16_90_0.dat";
+        const string FilePath16_90_15 = "../../volt_data/16_90_15.dat";
+        const string FilePath16_90_30 = "../../volt_data/16_90_30.dat";
+        const string FilePath16_90_45 = "../../volt_data/16_90_45.dat";
+        const string FilePath16_90_60 = "../../volt_data/16_90_60.dat";
         
-        const string FilePath17_0 = "E:/master_WHU/voltage_control/03Host_Computer/Volt_Control/volt_data/17_0.dat";
-        const string FilePath17_30 = "E:/master_WHU/voltage_control/03Host_Computer/Volt_Control/volt_data/17_30.dat";
-        const string FilePath17_45 = "E:/master_WHU/voltage_control/03Host_Computer/Volt_Control/volt_data/17_45.dat";
-        const string FilePath17_60 = "E:/master_WHU/voltage_control/03Host_Computer/Volt_Control/volt_data/17_60.dat";
+        const string FilePath17_90_0 = "../../volt_data/17_90_0.dat";
+        const string FilePath17_90_15 = "../../volt_data/17_90_15.dat";
+        const string FilePath17_90_30 = "../../volt_data/17_90_30.dat";
+        const string FilePath17_90_45 = "../../volt_data/17_90_45.dat";
+        const string FilePath17_90_60 = "../../volt_data/17_90_60.dat";
+
+        //Phi = 45°
+        const string FilePath15_45_0 = "../../volt_data/15_45_0.dat";
+        const string FilePath15_45_15 = "../../volt_data/15_45_15.dat";
+        const string FilePath15_45_30 = "../../volt_data/15_45_30.dat";
+        const string FilePath15_45_45 = "../../volt_data/15_45_45.dat";
+        const string FilePath15_45_60 = "../../volt_data/15_45_60.dat";
+
+        const string FilePath16_45_0 = "../../volt_data/16_45_0.dat";
+        const string FilePath16_45_15 = "../../volt_data/16_45_15.dat";
+        const string FilePath16_45_30 = "../../volt_data/16_45_30.dat";
+        const string FilePath16_45_45 = "../../volt_data/16_45_45.dat";
+        const string FilePath16_45_60 = "../../volt_data/16_45_60.dat";
+
+        const string FilePath17_45_0 = "../../volt_data/17_45_0.dat";
+        const string FilePath17_45_15 = "../../volt_data/17_45_15.dat";
+        const string FilePath17_45_30 = "../../volt_data/17_45_30.dat";
+        const string FilePath17_45_45 = "../../volt_data/17_45_45.dat";
+        const string FilePath17_45_60 = "../../volt_data/17_45_60.dat";
 
         byte[] ReadByteData = new byte[200];
         byte[] AutoReadByteData1 = new byte[200];
         byte[] AutoReadByteData2 = new byte[200];
         byte[] AutoReadByteData3 = new byte[200];
         byte[] AutoReadByteData4 = new byte[200];
+        byte[] AutoReadByteData5 = new byte[200];
+
 
 
         byte[] WriteByteData = new byte[200];
@@ -60,7 +85,8 @@ namespace Volt_Control
         {
             SearchAndAddSerialToComboBox(serialPort1, comboBox1);
             comboBox2.Text = "15";
-            comboBox3.Text = "0";
+            comboBox3.Text = "90";
+            comboBox4.Text = "0";
             textBox2.Text = "1";
         }
 
@@ -77,6 +103,7 @@ namespace Volt_Control
 
         }
 
+        //打开串口
         private void button1_Click(object sender, EventArgs e)
         {
             if (FileReadOver)
@@ -113,6 +140,7 @@ namespace Volt_Control
             
         }
 
+        //扫描串口
         private void button2_Click(object sender, EventArgs e)
         {
             SearchAndAddSerialToComboBox(serialPort1, comboBox1);       
@@ -140,6 +168,7 @@ namespace Volt_Control
             }
         }
 
+        //自动扫描
         private void button5_Click(object sender, EventArgs e)
         {
             
@@ -153,7 +182,7 @@ namespace Volt_Control
             }
         }
 
-
+        //启动
         private void button8_Click(object sender, EventArgs e)
         {
             if (!AutoScan)
@@ -203,6 +232,7 @@ namespace Volt_Control
                     AutoReadByteData2[0] = DataLength;
                     AutoReadByteData3[0] = DataLength;
                     AutoReadByteData4[0] = DataLength;
+                    AutoReadByteData5[0] = DataLength;
                     WriteByteToSerialPort(AutoReadByteData1, 0, (DataLength + 1));
                     pictureBox1.BackgroundImage = Properties.Resources.deg0;
                     timer1.Start();
@@ -228,27 +258,35 @@ namespace Volt_Control
                     break;
                 case (2): 
                     WriteByteToSerialPort(AutoReadByteData2, 0, (DataLength + 1));
-                    pictureBox1.BackgroundImage = Properties.Resources.deg30;
+                    pictureBox1.BackgroundImage = Properties.Resources.WHU1;
                     timer1.Start();
                     AutoScanFlag++;
                     break;
                 case (3):
                     WriteByteToSerialPort(AutoReadByteData3, 0, (DataLength + 1));
-                    pictureBox1.BackgroundImage = Properties.Resources.deg45;
+                    pictureBox1.BackgroundImage = Properties.Resources.deg30;
                     timer1.Start();
                     AutoScanFlag++;
                     break;
                 case (4):
                     WriteByteToSerialPort(AutoReadByteData4, 0, (DataLength + 1));
+                    pictureBox1.BackgroundImage = Properties.Resources.deg45;
+                    timer1.Start();
+                    AutoScanFlag++;
+                    break;
+                case (5):
+                    WriteByteToSerialPort(AutoReadByteData5, 0, (DataLength + 1));
                     pictureBox1.BackgroundImage = Properties.Resources.deg60;
                     timer1.Start();
                     AutoScanFlag = 1;
+                    break;
+                default:
                     break;
             }
         
         }
 
-
+        //停止
         private void button7_Click(object sender, EventArgs e)
         {
             try
@@ -288,9 +326,6 @@ namespace Volt_Control
             myReader.Close();
             myStream.Close();
         }
-
-
-
 
         private void button4_Click(object sender, EventArgs e)
         {
@@ -370,119 +405,294 @@ namespace Volt_Control
         private void CheckFreqAndDirection()
         {
             int Freq = System.Convert.ToInt32(comboBox2.Text);
-            int Direction = System.Convert.ToInt32(comboBox3.Text);
-            switch(Freq)
+            int Phi = System.Convert.ToInt32(comboBox3.Text);
+            int Theta = System.Convert.ToInt32(comboBox4.Text);
+
+            switch(Phi)
             {
-                case (15):
-                    switch(Direction)
+                case (90):
+                    switch (Freq)
                     {
-                        case 0: ReadByteFromFile(ReadByteData, FilePath15_0);
-                            pictureBox1.BackgroundImage = Properties.Resources.deg0;
+                        case (15):
+                            switch (Theta)
+                            {
+                                case 0:
+                                    ReadByteFromFile(ReadByteData, FilePath15_90_0);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg0;
+                                    break;
+                                case 15:
+                                    ReadByteFromFile(ReadByteData, FilePath15_90_15);
+                                    pictureBox1.BackgroundImage = Properties.Resources.WHU1;
+                                    break;
+                                case 30:
+                                    ReadByteFromFile(ReadByteData, FilePath15_90_30);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg30;
+                                    break;
+                                case 45:
+                                    ReadByteFromFile(ReadByteData, FilePath15_90_45);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg45;
+                                    break;
+                                case 60:
+                                    ReadByteFromFile(ReadByteData, FilePath15_90_60);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg60;
+                                    break;
+                                default:
+                                    MessageBox.Show("未找到相应文件！");
+                                    break;
+                            }
                             break;
-                        case 30:ReadByteFromFile(ReadByteData, FilePath15_30);
-                            pictureBox1.BackgroundImage = Properties.Resources.deg30;
+                        case (16):
+                            switch (Theta)
+                            {
+                                case 0:
+                                    ReadByteFromFile(ReadByteData, FilePath16_90_0);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg0;
+                                    break;
+                                case 15:
+                                    ReadByteFromFile(ReadByteData, FilePath16_90_15);
+                                    pictureBox1.BackgroundImage = Properties.Resources.WHU1;
+                                    break;
+                                case 30:
+                                    ReadByteFromFile(ReadByteData, FilePath16_90_30);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg30;
+                                    break;
+                                case 45:
+                                    ReadByteFromFile(ReadByteData, FilePath16_90_45);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg45;
+                                    break;
+                                case 60:
+                                    ReadByteFromFile(ReadByteData, FilePath16_90_60);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg60;
+                                    break;
+                                default:
+                                    MessageBox.Show("未找到相应文件！");
+                                    break;
+                            }
                             break;
-                        case 45:ReadByteFromFile(ReadByteData, FilePath15_45);
-                            pictureBox1.BackgroundImage = Properties.Resources.deg45;
-                            break;
-                        case 60:ReadByteFromFile(ReadByteData, FilePath15_60);
-                            pictureBox1.BackgroundImage = Properties.Resources.deg60;
+                        case (17):
+                            switch (Theta)
+                            {
+                                case 0:
+                                    ReadByteFromFile(ReadByteData, FilePath17_90_0);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg0;
+                                    break;
+                                case 15:
+                                    ReadByteFromFile(ReadByteData, FilePath17_90_15);
+                                    pictureBox1.BackgroundImage = Properties.Resources.WHU1;
+                                    break;
+                                case 30:
+                                    ReadByteFromFile(ReadByteData, FilePath17_90_30);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg30;
+                                    break;
+                                case 45:
+                                    ReadByteFromFile(ReadByteData, FilePath17_90_45);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg45;
+                                    break;
+                                case 60:
+                                    ReadByteFromFile(ReadByteData, FilePath17_90_60);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg60;
+                                    break;
+                                default:
+                                    MessageBox.Show("未找到相应文件！");
+                                    break;
+                            }
                             break;
                         default:
                             MessageBox.Show("未找到相应文件！");
                             break;
                     }
                     break;
-                case (16):
-                    switch (Direction)
+                case (45):
+                    switch (Freq)
                     {
-                        case 0:ReadByteFromFile(ReadByteData, FilePath16_0);
-                            pictureBox1.BackgroundImage = Properties.Resources.deg0;
+                        case (15):
+                            switch (Theta)
+                            {
+                                case 0:
+                                    ReadByteFromFile(ReadByteData, FilePath15_45_0);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg0;
+                                    break;
+                                case 15:
+                                    ReadByteFromFile(ReadByteData, FilePath15_45_15);
+                                    pictureBox1.BackgroundImage = Properties.Resources.WHU1;
+                                    break;
+                                case 30:
+                                    ReadByteFromFile(ReadByteData, FilePath15_45_30);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg30;
+                                    break;
+                                case 45:
+                                    ReadByteFromFile(ReadByteData, FilePath15_45_45);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg45;
+                                    break;
+                                case 60:
+                                    ReadByteFromFile(ReadByteData, FilePath15_45_60);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg60;
+                                    break;
+                                default:
+                                    MessageBox.Show("未找到相应文件！");
+                                    break;
+                            }
                             break;
-                        case 30:ReadByteFromFile(ReadByteData, FilePath16_30);
-                            pictureBox1.BackgroundImage = Properties.Resources.deg30;
+                        case (16):
+                            switch (Theta)
+                            {
+                                case 0:
+                                    ReadByteFromFile(ReadByteData, FilePath16_45_0);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg0;
+                                    break;
+                                case 15:
+                                    ReadByteFromFile(ReadByteData, FilePath16_45_15);
+                                    pictureBox1.BackgroundImage = Properties.Resources.WHU1;
+                                    break;
+                                case 30:
+                                    ReadByteFromFile(ReadByteData, FilePath16_45_30);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg30;
+                                    break;
+                                case 45:
+                                    ReadByteFromFile(ReadByteData, FilePath16_45_45);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg45;
+                                    break;
+                                case 60:
+                                    ReadByteFromFile(ReadByteData, FilePath16_45_60);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg60;
+                                    break;
+                                default:
+                                    MessageBox.Show("未找到相应文件！");
+                                    break;
+                            }
                             break;
-                        case 45:ReadByteFromFile(ReadByteData, FilePath16_45);
-                            pictureBox1.BackgroundImage = Properties.Resources.deg45;
-                            break;
-                        case 60:ReadByteFromFile(ReadByteData, FilePath16_60);
-                            pictureBox1.BackgroundImage = Properties.Resources.deg60;
+                        case (17):
+                            switch (Theta)
+                            {
+                                case 0:
+                                    ReadByteFromFile(ReadByteData, FilePath17_45_0);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg0;
+                                    break;
+                                case 15:
+                                    ReadByteFromFile(ReadByteData, FilePath17_45_15);
+                                    pictureBox1.BackgroundImage = Properties.Resources.WHU1;
+                                    break;
+                                case 30:
+                                    ReadByteFromFile(ReadByteData, FilePath17_45_30);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg30;
+                                    break;
+                                case 45:
+                                    ReadByteFromFile(ReadByteData, FilePath17_45_45);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg45;
+                                    break;
+                                case 60:
+                                    ReadByteFromFile(ReadByteData, FilePath17_45_60);
+                                    pictureBox1.BackgroundImage = Properties.Resources.deg60;
+                                    break;
+                                default:
+                                    MessageBox.Show("未找到相应文件！");
+                                    break;
+                            }
                             break;
                         default:
                             MessageBox.Show("未找到相应文件！");
                             break;
                     }
                     break;
-                case (17):
-                    switch (Direction)
-                    {
-                        case 0:ReadByteFromFile(ReadByteData, FilePath17_0);
-                            pictureBox1.BackgroundImage = Properties.Resources.deg0;
-                            break;
-                        case 30:ReadByteFromFile(ReadByteData, FilePath17_30);
-                            pictureBox1.BackgroundImage = Properties.Resources.deg30;
-                            break;
-                        case 45:ReadByteFromFile(ReadByteData, FilePath17_45);
-                            pictureBox1.BackgroundImage = Properties.Resources.deg45;
-                            break;
-                        case 60:ReadByteFromFile(ReadByteData, FilePath17_60);
-                            pictureBox1.BackgroundImage = Properties.Resources.deg60;
-                            break;
-                        default:
-                            MessageBox.Show("未找到相应文件！");
-                            break;
-                    }
+                default:
+                    MessageBox.Show("请输入有效φ值");
                     break;
-                default: MessageBox.Show("未找到相应文件！");
-                    break;
-
-            }
-
+            }        
         }
 
         private void AutoScanCheckFreq()
         {
-            int Freq = System.Convert.ToInt32(comboBox2.Text);            
-            switch (Freq)
+            int Freq = System.Convert.ToInt32(comboBox2.Text);
+            int Phi = System.Convert.ToInt32(comboBox3.Text);
+
+            switch (Phi)
             {
-                case (15):
+                case (90):
+                    switch (Freq)
+                    {
+                        case (15):
+                            ReadByteFromFile(AutoReadByteData1, FilePath15_90_0);
 
-                    ReadByteFromFile(AutoReadByteData1, FilePath15_0);
+                            ReadByteFromFile(AutoReadByteData2, FilePath15_90_15);
 
-                    ReadByteFromFile(AutoReadByteData2, FilePath15_30);
-                    
-                    ReadByteFromFile(AutoReadByteData3, FilePath15_45);
+                            ReadByteFromFile(AutoReadByteData3, FilePath15_90_30);
 
-                    ReadByteFromFile(AutoReadByteData4, FilePath15_60);
+                            ReadByteFromFile(AutoReadByteData4, FilePath15_90_45);
 
+                            ReadByteFromFile(AutoReadByteData5, FilePath15_90_60);
+                            break;
+                        case (16):
+                            ReadByteFromFile(AutoReadByteData1, FilePath16_90_0);
+
+                            ReadByteFromFile(AutoReadByteData2, FilePath16_90_15);
+
+                            ReadByteFromFile(AutoReadByteData3, FilePath16_90_30);
+
+                            ReadByteFromFile(AutoReadByteData4, FilePath16_90_45);
+
+                            ReadByteFromFile(AutoReadByteData5, FilePath16_90_60);
+
+                            break;
+                        case (17):
+                            ReadByteFromFile(AutoReadByteData1, FilePath17_90_0);
+
+                            ReadByteFromFile(AutoReadByteData2, FilePath17_90_15);
+
+                            ReadByteFromFile(AutoReadByteData3, FilePath17_90_30);
+
+                            ReadByteFromFile(AutoReadByteData4, FilePath17_90_45);
+
+                            ReadByteFromFile(AutoReadByteData5, FilePath17_90_60);
+                            break;
+                        default:
+                            MessageBox.Show("未找到相应文件！");
+                            break;
+                    }
                     break;
-                case (16):
-                   
-                    ReadByteFromFile(AutoReadByteData1, FilePath16_0);
+                case (45):
+                    switch (Freq)
+                    {
+                        case (15):
+                            ReadByteFromFile(AutoReadByteData1, FilePath15_45_0);
 
-                    ReadByteFromFile(AutoReadByteData2, FilePath16_30);
-   
-                    ReadByteFromFile(AutoReadByteData3, FilePath16_45);
-           
-                    ReadByteFromFile(AutoReadByteData4, FilePath16_60);
-       
-                    break;
+                            ReadByteFromFile(AutoReadByteData2, FilePath15_45_15);
 
-                case (17):
-                  
-                    ReadByteFromFile(AutoReadByteData1, FilePath17_0);
-                                            
-                    ReadByteFromFile(AutoReadByteData2, FilePath17_30);
-                          
-                    ReadByteFromFile(AutoReadByteData3, FilePath17_45);
-                            
-                    ReadByteFromFile(AutoReadByteData4, FilePath17_60);
-                           
-                    break;
-             
-                default:MessageBox.Show("未找到相应文件！");
-                    break;
+                            ReadByteFromFile(AutoReadByteData3, FilePath15_45_30);
 
+                            ReadByteFromFile(AutoReadByteData4, FilePath15_45_45);
+
+                            ReadByteFromFile(AutoReadByteData5, FilePath15_45_60);
+                            break;
+                        case (16):
+                            ReadByteFromFile(AutoReadByteData1, FilePath16_45_0);
+
+                            ReadByteFromFile(AutoReadByteData2, FilePath16_45_15);
+
+                            ReadByteFromFile(AutoReadByteData3, FilePath16_45_30);
+
+                            ReadByteFromFile(AutoReadByteData4, FilePath16_45_45);
+
+                            ReadByteFromFile(AutoReadByteData5, FilePath16_45_60);
+                            break;
+                        case (17):
+                            ReadByteFromFile(AutoReadByteData1, FilePath17_45_0);
+
+                            ReadByteFromFile(AutoReadByteData2, FilePath17_45_15);
+
+                            ReadByteFromFile(AutoReadByteData3, FilePath17_45_30);
+
+                            ReadByteFromFile(AutoReadByteData4, FilePath17_45_45);
+
+                            ReadByteFromFile(AutoReadByteData5, FilePath17_45_60);
+                            break;
+                        default:
+                            MessageBox.Show("未找到相应文件！");
+                            break;
+                    }
+                    break;
+                default:
+                    MessageBox.Show("请输入有效φ值");
+                    break;
             }
         }
 
@@ -490,8 +700,8 @@ namespace Volt_Control
         private void DataWriteArr()
         {
 
-            WriteByteData[0] = 0x14;
-            WriteByteData[1] = 0x26;
+            WriteByteData[0] = 0x11;
+            WriteByteData[1] = 0x7C;
             WriteByteData[2] = 0x22;    //3.78
             WriteByteData[3] = 0x04;
             WriteByteData[4] = 0x33;    //5.78
@@ -855,13 +1065,17 @@ namespace Volt_Control
         //length:读出字节长度
         private void ReadByteFromFile(byte[] Buffer, int offset, int length)
         {
-            FileStream TxtFile = new FileStream(FilePath17_0, FileMode.Open);
+            FileStream TxtFile = new FileStream(FilePath17_90_0, FileMode.Open);
             TxtFile.Seek(offset, SeekOrigin.Begin);
             TxtFile.Read(Buffer, 1, length);
             //TxtFile.Seek(6, SeekOrigin.Current);
             //TxtFile.Write(Buffer, 0, length);
         }
 
-       
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
