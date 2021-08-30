@@ -14,7 +14,7 @@ for i = 1:17
         DAC_data1 = (VoutArr(i,j) / Range) * 4096;
         DAC_data_hex1 = dec2hex(round(DAC_data1));
 
-        DAC_data2 = (Vout(i,j)) / Range) * 4096;
+        DAC_data2 = (Vout(i,j) / Range) * 4096;
         DAC_data_hex2 = dec2hex(round(DAC_data2));
 
         DAC_data3 = (Vout3 / Range) * 4096;
